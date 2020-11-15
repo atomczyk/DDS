@@ -1,0 +1,46 @@
+1. Jeden projekt dla 3 systemów
+
+2. Porządek: - do 01.09.2020 (wtorek 10.00)
+  2.1. wyodrębnić moduły wspólne dla 3 systemów
+        (language, generator, auxiliaryFormula, printing, data) - propozycje do wtorku
+  2.2. dokładne opisy funkcji (w stylu haddock) - Agata: Can&Dual, Szymon: synth
+        - każda funkcja jest opisana
+        - w j. angielskim
+        - nazwy funkcji
+        - algorytmy przy bardziej złożonych funkcjach
+  2.3. Wyrzucić zbędne/nieużywane funkcje - Agata: Can&Dual, Szymon: synth
+  2.4. Rozbicie na moduły - Agata: Can&Dual, Szymon: synth
+  2.5. Osobny plik z przykładami (importowany przez wszystkie systemy) - razem
+
+3. Plik testowy (hspec lub quickcheck) - student? Dawid?
+
+4. Moduł z drzewem decyzyjnym (app/main)
+    4.1. implementacja miar
+    4.2. komunikacja z programem
+    4.3. okienka - rozważyć zaangażowanie Andrzeja
+    4.4. wyświetlanie dowodów - compilowanie latex/qtree - Andrzej/Marcin
+
+5. Integracja z programem Aleksandra Kiryka
+
+Funkcjonalności programu
+- dostaje formułę i zwróci jej najkrótszy dowód w wybranym systemie
+- generuje pliki z wszystkimi/niektórymi dowodami
+- generuje opisy dowodów
+- porównuje dowody w 3 systemach dla tej samej formuły
+
+
+TODOS:
+
+1. dla każdej formuły minimalna tabela (liczba węzłów i liczba gałęzi, generujemy wszystkie)
+2. rezolucja powinna być nieklauzulowa 
+3. dodać informację jaka wyszła alfa i beta complexity
+4. miary w systemie kanonicznym: "długość i szerokość"
+5. miary w systemie dualnym: "część kanoniczna i ilość zastosowań rezolucji"
+
+Wygenerować 10 formuł - długość 15 i 4 różne zmienne
+
+
+Wygenerować: 600 formuł o własnościach (5 różnych zmiennych, długość 20)
+
+
+
