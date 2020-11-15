@@ -1,0 +1,919 @@
+formula, Decision Tree 
+ ~(~(~(~(~(~(~(p1))))))), False, Syntetyki
+~(~(~(~(~((p1) v (p1)))))), False, Dualny
+~(~(~(~(~((p1) v (p2)))))), False, Syntetyki
+~(~(~(~((p1) v (~(p1)))))), True, Kanoniczny
+~(~(~(~((p1) v (~(p2)))))), False, Syntetyki
+~(~(~(~((~(p1)) v (p1))))), True, Kanoniczny
+~(~(~(~((~(p1)) v (p2))))), False, Syntetyki
+~(~(~((p1) v (~(~(p1)))))), False, Dualny
+~(~(~((p1) v (~(~(p2)))))), False, Syntetyki
+~(~(~((p1) v ((p1) v (p1))))), False, Dualny
+~(~(~((p1) v ((p1) v (p2))))), False, Syntetyki
+~(~(~((p2) v ((p1) v (p1))))), False, Syntetyki
+~(~(~((p1) v ((p2) v (p1))))), False, Syntetyki
+~(~(~((p1) v ((p2) v (p3))))), False, Syntetyki
+~(~(~((~(p1)) v (~(p1))))), False, Dualny
+~(~(~((~(p1)) v (~(p2))))), False, Syntetyki
+~(~(~((~(~(p1))) v (p1)))), False, Dualny
+~(~(~((~(~(p1))) v (p2)))), False, Syntetyki
+~(~(~(((p1) v (p1)) v (p1)))), False, Dualny
+~(~(~(((p1) v (p1)) v (p2)))), False, Syntetyki
+~(~(~(((p2) v (p1)) v (p1)))), False, Syntetyki
+~(~(~(((p1) v (p2)) v (p1)))), False, Syntetyki
+~(~(~(((p1) v (p2)) v (p3)))), False, Syntetyki
+~(~((p1) v (~(~(~(p1)))))), True, Kanoniczny
+~(~((p1) v (~(~(~(p2)))))), False, Syntetyki
+~(~((p1) v (~((p1) v (p1))))), True, Kanoniczny
+~(~((p1) v (~((p1) v (p2))))), False, Syntetyki
+~(~((p2) v (~((p1) v (p1))))), False, Syntetyki
+~(~((p1) v (~((p2) v (p1))))), False, Syntetyki
+~(~((p1) v (~((p2) v (p3))))), False, Syntetyki
+~(~((p1) v ((p1) v (~(p1))))), True, Kanoniczny
+~(~((p1) v ((p1) v (~(p2))))), False, Syntetyki
+~(~((p2) v ((p1) v (~(p1))))), True, Syntetyki
+~(~((p1) v ((p2) v (~(p1))))), True, Syntetyki
+~(~((p1) v ((p2) v (~(p3))))), False, Syntetyki
+~(~((p1) v ((~(p1)) v (p1)))), True, Kanoniczny
+~(~((p1) v ((~(p1)) v (p2)))), True, Syntetyki
+~(~((p2) v ((~(p1)) v (p1)))), True, Syntetyki
+~(~((p1) v ((~(p2)) v (p1)))), False, Syntetyki
+~(~((p1) v ((~(p2)) v (p3)))), False, Syntetyki
+~(~((~(p1)) v (~(~(p1))))), True, Kanoniczny
+~(~((~(p1)) v (~(~(p2))))), False, Syntetyki
+~(~((~(p1)) v ((p1) v (p1)))), True, Kanoniczny
+~(~((~(p1)) v ((p1) v (p2)))), True, Syntetyki
+~(~((~(p2)) v ((p1) v (p1)))), False, Syntetyki
+~(~((~(p1)) v ((p2) v (p1)))), True, Syntetyki
+~(~((~(p1)) v ((p2) v (p3)))), False, Syntetyki
+~(~((~(~(p1))) v (~(p1)))), True, Kanoniczny
+~(~((~(~(p1))) v (~(p2)))), False, Syntetyki
+~(~(((p1) v (p1)) v (~(p1)))), True, Kanoniczny
+~(~(((p1) v (p1)) v (~(p2)))), False, Syntetyki
+~(~(((p2) v (p1)) v (~(p1)))), True, Syntetyki
+~(~(((p1) v (p2)) v (~(p1)))), True, Syntetyki
+~(~(((p1) v (p2)) v (~(p3)))), False, Syntetyki
+~(~((~(~(~(p1)))) v (p1))), True, Kanoniczny
+~(~((~(~(~(p1)))) v (p2))), False, Syntetyki
+~(~((~((p1) v (p1))) v (p1))), True, Kanoniczny
+~(~((~((p1) v (p1))) v (p2))), False, Syntetyki
+~(~((~((p2) v (p1))) v (p1))), False, Syntetyki
+~(~((~((p1) v (p2))) v (p1))), False, Syntetyki
+~(~((~((p1) v (p2))) v (p3))), False, Syntetyki
+~(~(((p1) v (~(p1))) v (p1))), True, Kanoniczny
+~(~(((p1) v (~(p1))) v (p2))), True, Syntetyki
+~(~(((p2) v (~(p1))) v (p1))), True, Syntetyki
+~(~(((p1) v (~(p2))) v (p1))), False, Syntetyki
+~(~(((p1) v (~(p2))) v (p3))), False, Syntetyki
+~(~(((~(p1)) v (p1)) v (p1))), True, Kanoniczny
+~(~(((~(p1)) v (p1)) v (p2))), True, Syntetyki
+~(~(((~(p2)) v (p1)) v (p1))), False, Syntetyki
+~(~(((~(p1)) v (p2)) v (p1))), True, Syntetyki
+~(~(((~(p1)) v (p2)) v (p3))), False, Syntetyki
+~((p1) v (~(~(~(~(p1)))))), False, Dualny
+~((p1) v (~(~(~(~(p2)))))), False, Syntetyki
+~((p1) v (~(~((p1) v (p1))))), False, Dualny
+~((p1) v (~(~((p1) v (p2))))), False, Syntetyki
+~((p2) v (~(~((p1) v (p1))))), False, Syntetyki
+~((p1) v (~(~((p2) v (p1))))), False, Syntetyki
+~((p1) v (~(~((p2) v (p3))))), False, Syntetyki
+~((p1) v (~((p1) v (~(p1))))), False, Kanoniczny
+~((p1) v (~((p1) v (~(p2))))), False, Syntetyki
+~((p2) v (~((p1) v (~(p1))))), False, Syntetyki
+~((p1) v (~((p2) v (~(p1))))), False, Syntetyki
+~((p1) v (~((p2) v (~(p3))))), False, Syntetyki
+~((p1) v (~((~(p1)) v (p1)))), False, Kanoniczny
+~((p1) v (~((~(p1)) v (p2)))), False, Syntetyki
+~((p2) v (~((~(p1)) v (p1)))), False, Syntetyki
+~((p1) v (~((~(p2)) v (p1)))), False, Syntetyki
+~((p1) v (~((~(p2)) v (p3)))), False, Syntetyki
+~((p1) v ((p1) v (~(~(p1))))), False, Dualny
+~((p1) v ((p1) v (~(~(p2))))), False, Syntetyki
+~((p2) v ((p1) v (~(~(p1))))), False, Syntetyki
+~((p1) v ((p2) v (~(~(p1))))), False, Syntetyki
+~((p1) v ((p2) v (~(~(p3))))), False, Syntetyki
+~((p1) v ((p1) v ((p1) v (p1)))), False, Dualny
+~((p1) v ((p1) v ((p1) v (p2)))), False, Dualny
+~((p2) v ((p1) v ((p1) v (p1)))), False, Dualny
+~((p1) v ((p2) v ((p1) v (p1)))), False, Dualny
+~((p1) v ((p1) v ((p2) v (p1)))), False, Dualny
+~((p1) v ((p1) v ((p2) v (p3)))), False, Syntetyki
+~((p2) v ((p1) v ((p1) v (p3)))), False, Syntetyki
+~((p2) v ((p3) v ((p1) v (p1)))), False, Syntetyki
+~((p1) v ((p2) v ((p3) v (p1)))), False, Syntetyki
+~((p1) v ((p2) v ((p1) v (p3)))), False, Syntetyki
+~((p2) v ((p1) v ((p3) v (p1)))), False, Syntetyki
+~((p1) v ((p1) v ((p2) v (p2)))), False, Dualny
+~((p2) v ((p1) v ((p1) v (p2)))), False, Dualny
+~((p2) v ((p1) v ((p2) v (p1)))), False, Dualny
+~((p1) v ((p2) v ((p3) v (p4)))), False, Syntetyki
+~((p1) v ((~(p1)) v (~(p1)))), False, Dualny
+~((p1) v ((~(p1)) v (~(p2)))), False, Syntetyki
+~((p2) v ((~(p1)) v (~(p1)))), False, Syntetyki
+~((p1) v ((~(p2)) v (~(p1)))), False, Syntetyki
+~((p1) v ((~(p2)) v (~(p3)))), False, Syntetyki
+~((p1) v ((~(~(p1))) v (p1))), False, Dualny
+~((p1) v ((~(~(p1))) v (p2))), False, Syntetyki
+~((p2) v ((~(~(p1))) v (p1))), False, Syntetyki
+~((p1) v ((~(~(p2))) v (p1))), False, Syntetyki
+~((p1) v ((~(~(p2))) v (p3))), False, Syntetyki
+~((p1) v (((p1) v (p1)) v (p1))), False, Dualny
+~((p1) v (((p1) v (p1)) v (p2))), False, Dualny
+~((p2) v (((p1) v (p1)) v (p1))), False, Dualny
+~((p1) v (((p2) v (p1)) v (p1))), False, Dualny
+~((p1) v (((p1) v (p2)) v (p1))), False, Dualny
+~((p1) v (((p1) v (p2)) v (p3))), False, Syntetyki
+~((p2) v (((p1) v (p1)) v (p3))), False, Syntetyki
+~((p2) v (((p3) v (p1)) v (p1))), False, Syntetyki
+~((p1) v (((p2) v (p3)) v (p1))), False, Syntetyki
+~((p1) v (((p2) v (p1)) v (p3))), False, Syntetyki
+~((p2) v (((p1) v (p3)) v (p1))), False, Syntetyki
+~((p1) v (((p1) v (p2)) v (p2))), False, Dualny
+~((p2) v (((p1) v (p1)) v (p2))), False, Dualny
+~((p2) v (((p1) v (p2)) v (p1))), False, Dualny
+~((p1) v (((p2) v (p3)) v (p4))), False, Syntetyki
+~((~(p1)) v (~(~(~(p1))))), False, Dualny
+~((~(p1)) v (~(~(~(p2))))), False, Syntetyki
+~((~(p1)) v (~((p1) v (p1)))), False, Kanoniczny
+~((~(p1)) v (~((p1) v (p2)))), False, Syntetyki
+~((~(p2)) v (~((p1) v (p1)))), False, Syntetyki
+~((~(p1)) v (~((p2) v (p1)))), False, Syntetyki
+~((~(p1)) v (~((p2) v (p3)))), False, Syntetyki
+~((~(p1)) v ((p1) v (~(p1)))), False, Dualny
+~((~(p1)) v ((p1) v (~(p2)))), False, Syntetyki
+~((~(p2)) v ((p1) v (~(p1)))), False, Syntetyki
+~((~(p1)) v ((p2) v (~(p1)))), False, Syntetyki
+~((~(p1)) v ((p2) v (~(p3)))), False, Syntetyki
+~((~(p1)) v ((~(p1)) v (p1))), False, Dualny
+~((~(p1)) v ((~(p1)) v (p2))), False, Syntetyki
+~((~(p2)) v ((~(p1)) v (p1))), False, Syntetyki
+~((~(p1)) v ((~(p2)) v (p1))), False, Syntetyki
+~((~(p1)) v ((~(p2)) v (p3))), False, Syntetyki
+~((~(~(p1))) v (~(~(p1)))), False, Dualny
+~((~(~(p1))) v (~(~(p2)))), False, Syntetyki
+~((~(~(p1))) v ((p1) v (p1))), False, Dualny
+~((~(~(p1))) v ((p1) v (p2))), False, Syntetyki
+~((~(~(p2))) v ((p1) v (p1))), False, Syntetyki
+~((~(~(p1))) v ((p2) v (p1))), False, Syntetyki
+~((~(~(p1))) v ((p2) v (p3))), False, Syntetyki
+~(((p1) v (p1)) v (~(~(p1)))), False, Dualny
+~(((p1) v (p1)) v (~(~(p2)))), False, Syntetyki
+~(((p2) v (p1)) v (~(~(p1)))), False, Syntetyki
+~(((p1) v (p2)) v (~(~(p1)))), False, Syntetyki
+~(((p1) v (p2)) v (~(~(p3)))), False, Syntetyki
+~(((p1) v (p1)) v ((p1) v (p1))), False, Dualny
+~(((p1) v (p1)) v ((p1) v (p2))), False, Dualny
+~(((p2) v (p1)) v ((p1) v (p1))), False, Dualny
+~(((p1) v (p2)) v ((p1) v (p1))), False, Dualny
+~(((p1) v (p1)) v ((p2) v (p1))), False, Dualny
+~(((p1) v (p1)) v ((p2) v (p3))), False, Syntetyki
+~(((p2) v (p1)) v ((p1) v (p3))), False, Syntetyki
+~(((p2) v (p3)) v ((p1) v (p1))), False, Syntetyki
+~(((p1) v (p2)) v ((p3) v (p1))), False, Syntetyki
+~(((p1) v (p2)) v ((p1) v (p3))), False, Syntetyki
+~(((p2) v (p1)) v ((p3) v (p1))), False, Syntetyki
+~(((p1) v (p1)) v ((p2) v (p2))), False, Dualny
+~(((p2) v (p1)) v ((p1) v (p2))), False, Dualny
+~(((p2) v (p1)) v ((p2) v (p1))), False, Dualny
+~(((p1) v (p2)) v ((p3) v (p4))), False, Syntetyki
+~((~(~(~(p1)))) v (~(p1))), False, Dualny
+~((~(~(~(p1)))) v (~(p2))), False, Syntetyki
+~((~((p1) v (p1))) v (~(p1))), False, Kanoniczny
+~((~((p1) v (p1))) v (~(p2))), False, Syntetyki
+~((~((p2) v (p1))) v (~(p1))), False, Syntetyki
+~((~((p1) v (p2))) v (~(p1))), False, Syntetyki
+~((~((p1) v (p2))) v (~(p3))), False, Syntetyki
+~(((p1) v (~(p1))) v (~(p1))), False, Dualny
+~(((p1) v (~(p1))) v (~(p2))), False, Syntetyki
+~(((p2) v (~(p1))) v (~(p1))), False, Syntetyki
+~(((p1) v (~(p2))) v (~(p1))), False, Syntetyki
+~(((p1) v (~(p2))) v (~(p3))), False, Syntetyki
+~(((~(p1)) v (p1)) v (~(p1))), False, Dualny
+~(((~(p1)) v (p1)) v (~(p2))), False, Syntetyki
+~(((~(p2)) v (p1)) v (~(p1))), False, Syntetyki
+~(((~(p1)) v (p2)) v (~(p1))), False, Syntetyki
+~(((~(p1)) v (p2)) v (~(p3))), False, Syntetyki
+~((~(~(~(~(p1))))) v (p1)), False, Dualny
+~((~(~(~(~(p1))))) v (p2)), False, Syntetyki
+~((~(~((p1) v (p1)))) v (p1)), False, Dualny
+~((~(~((p1) v (p1)))) v (p2)), False, Syntetyki
+~((~(~((p2) v (p1)))) v (p1)), False, Syntetyki
+~((~(~((p1) v (p2)))) v (p1)), False, Syntetyki
+~((~(~((p1) v (p2)))) v (p3)), False, Syntetyki
+~((~((p1) v (~(p1)))) v (p1)), False, Kanoniczny
+~((~((p1) v (~(p1)))) v (p2)), False, Syntetyki
+~((~((p2) v (~(p1)))) v (p1)), False, Syntetyki
+~((~((p1) v (~(p2)))) v (p1)), False, Syntetyki
+~((~((p1) v (~(p2)))) v (p3)), False, Syntetyki
+~((~((~(p1)) v (p1))) v (p1)), False, Kanoniczny
+~((~((~(p1)) v (p1))) v (p2)), False, Syntetyki
+~((~((~(p2)) v (p1))) v (p1)), False, Syntetyki
+~((~((~(p1)) v (p2))) v (p1)), False, Syntetyki
+~((~((~(p1)) v (p2))) v (p3)), False, Syntetyki
+~(((p1) v (~(~(p1)))) v (p1)), False, Dualny
+~(((p1) v (~(~(p1)))) v (p2)), False, Syntetyki
+~(((p2) v (~(~(p1)))) v (p1)), False, Syntetyki
+~(((p1) v (~(~(p2)))) v (p1)), False, Syntetyki
+~(((p1) v (~(~(p2)))) v (p3)), False, Syntetyki
+~(((p1) v ((p1) v (p1))) v (p1)), False, Dualny
+~(((p1) v ((p1) v (p1))) v (p2)), False, Dualny
+~(((p2) v ((p1) v (p1))) v (p1)), False, Dualny
+~(((p1) v ((p2) v (p1))) v (p1)), False, Dualny
+~(((p1) v ((p1) v (p2))) v (p1)), False, Dualny
+~(((p1) v ((p1) v (p2))) v (p3)), False, Syntetyki
+~(((p2) v ((p1) v (p1))) v (p3)), False, Syntetyki
+~(((p2) v ((p3) v (p1))) v (p1)), False, Syntetyki
+~(((p1) v ((p2) v (p3))) v (p1)), False, Syntetyki
+~(((p1) v ((p2) v (p1))) v (p3)), False, Syntetyki
+~(((p2) v ((p1) v (p3))) v (p1)), False, Syntetyki
+~(((p1) v ((p1) v (p2))) v (p2)), False, Dualny
+~(((p2) v ((p1) v (p1))) v (p2)), False, Dualny
+~(((p2) v ((p1) v (p2))) v (p1)), False, Dualny
+~(((p1) v ((p2) v (p3))) v (p4)), False, Syntetyki
+~(((~(p1)) v (~(p1))) v (p1)), False, Dualny
+~(((~(p1)) v (~(p1))) v (p2)), False, Syntetyki
+~(((~(p2)) v (~(p1))) v (p1)), False, Syntetyki
+~(((~(p1)) v (~(p2))) v (p1)), False, Syntetyki
+~(((~(p1)) v (~(p2))) v (p3)), False, Syntetyki
+~(((~(~(p1))) v (p1)) v (p1)), False, Dualny
+~(((~(~(p1))) v (p1)) v (p2)), False, Syntetyki
+~(((~(~(p2))) v (p1)) v (p1)), False, Syntetyki
+~(((~(~(p1))) v (p2)) v (p1)), False, Syntetyki
+~(((~(~(p1))) v (p2)) v (p3)), False, Syntetyki
+~((((p1) v (p1)) v (p1)) v (p1)), False, Dualny
+~((((p1) v (p1)) v (p1)) v (p2)), False, Dualny
+~((((p2) v (p1)) v (p1)) v (p1)), False, Dualny
+~((((p1) v (p2)) v (p1)) v (p1)), False, Dualny
+~((((p1) v (p1)) v (p2)) v (p1)), False, Dualny
+~((((p1) v (p1)) v (p2)) v (p3)), False, Syntetyki
+~((((p2) v (p1)) v (p1)) v (p3)), False, Syntetyki
+~((((p2) v (p3)) v (p1)) v (p1)), False, Syntetyki
+~((((p1) v (p2)) v (p3)) v (p1)), False, Syntetyki
+~((((p1) v (p2)) v (p1)) v (p3)), False, Syntetyki
+~((((p2) v (p1)) v (p3)) v (p1)), False, Syntetyki
+~((((p1) v (p1)) v (p2)) v (p2)), False, Dualny
+~((((p2) v (p1)) v (p1)) v (p2)), False, Dualny
+~((((p2) v (p1)) v (p2)) v (p1)), False, Dualny
+~((((p1) v (p2)) v (p3)) v (p4)), False, Syntetyki
+(p1) v (~(~(~(~(~(p1)))))), True, Kanoniczny
+(p1) v (~(~(~(~(~(p2)))))), False, Syntetyki
+(p1) v (~(~(~((p1) v (p1))))), True, Kanoniczny
+(p1) v (~(~(~((p1) v (p2))))), False, Syntetyki
+(p2) v (~(~(~((p1) v (p1))))), False, Syntetyki
+(p1) v (~(~(~((p2) v (p1))))), False, Syntetyki
+(p1) v (~(~(~((p2) v (p3))))), False, Syntetyki
+(p1) v (~(~((p1) v (~(p1))))), True, Kanoniczny
+(p1) v (~(~((p1) v (~(p2))))), False, Syntetyki
+(p2) v (~(~((p1) v (~(p1))))), True, Syntetyki
+(p1) v (~(~((p2) v (~(p1))))), True, Syntetyki
+(p1) v (~(~((p2) v (~(p3))))), False, Syntetyki
+(p1) v (~(~((~(p1)) v (p1)))), True, Kanoniczny
+(p1) v (~(~((~(p1)) v (p2)))), True, Syntetyki
+(p2) v (~(~((~(p1)) v (p1)))), True, Syntetyki
+(p1) v (~(~((~(p2)) v (p1)))), False, Syntetyki
+(p1) v (~(~((~(p2)) v (p3)))), False, Syntetyki
+(p1) v (~((p1) v (~(~(p1))))), True, Kanoniczny
+(p1) v (~((p1) v (~(~(p2))))), False, Syntetyki
+(p2) v (~((p1) v (~(~(p1))))), False, Syntetyki
+(p1) v (~((p2) v (~(~(p1))))), False, Syntetyki
+(p1) v (~((p2) v (~(~(p3))))), False, Syntetyki
+(p1) v (~((p1) v ((p1) v (p1)))), True, Dualny
+(p1) v (~((p1) v ((p1) v (p2)))), False, Dualny
+(p2) v (~((p1) v ((p1) v (p1)))), False, Dualny
+(p1) v (~((p2) v ((p1) v (p1)))), False, Dualny
+(p1) v (~((p1) v ((p2) v (p1)))), False, Dualny
+(p1) v (~((p1) v ((p2) v (p3)))), False, Syntetyki
+(p2) v (~((p1) v ((p1) v (p3)))), False, Syntetyki
+(p2) v (~((p3) v ((p1) v (p1)))), False, Syntetyki
+(p1) v (~((p2) v ((p3) v (p1)))), False, Syntetyki
+(p1) v (~((p2) v ((p1) v (p3)))), False, Syntetyki
+(p2) v (~((p1) v ((p3) v (p1)))), False, Syntetyki
+(p1) v (~((p1) v ((p2) v (p2)))), False, Dualny
+(p2) v (~((p1) v ((p1) v (p2)))), False, Dualny
+(p2) v (~((p1) v ((p2) v (p1)))), False, Dualny
+(p1) v (~((p2) v ((p3) v (p4)))), False, Syntetyki
+(p1) v (~((~(p1)) v (~(p1)))), False, Kanoniczny
+(p1) v (~((~(p1)) v (~(p2)))), False, Syntetyki
+(p2) v (~((~(p1)) v (~(p1)))), False, Syntetyki
+(p1) v (~((~(p2)) v (~(p1)))), False, Syntetyki
+(p1) v (~((~(p2)) v (~(p3)))), False, Syntetyki
+(p1) v (~((~(~(p1))) v (p1))), True, Kanoniczny
+(p1) v (~((~(~(p1))) v (p2))), False, Syntetyki
+(p2) v (~((~(~(p1))) v (p1))), False, Syntetyki
+(p1) v (~((~(~(p2))) v (p1))), False, Syntetyki
+(p1) v (~((~(~(p2))) v (p3))), False, Syntetyki
+(p1) v (~(((p1) v (p1)) v (p1))), True, Dualny
+(p1) v (~(((p1) v (p1)) v (p2))), False, Dualny
+(p2) v (~(((p1) v (p1)) v (p1))), False, Dualny
+(p1) v (~(((p2) v (p1)) v (p1))), False, Dualny
+(p1) v (~(((p1) v (p2)) v (p1))), False, Dualny
+(p1) v (~(((p1) v (p2)) v (p3))), False, Syntetyki
+(p2) v (~(((p1) v (p1)) v (p3))), False, Syntetyki
+(p2) v (~(((p3) v (p1)) v (p1))), False, Syntetyki
+(p1) v (~(((p2) v (p3)) v (p1))), False, Syntetyki
+(p1) v (~(((p2) v (p1)) v (p3))), False, Syntetyki
+(p2) v (~(((p1) v (p3)) v (p1))), False, Syntetyki
+(p1) v (~(((p1) v (p2)) v (p2))), False, Dualny
+(p2) v (~(((p1) v (p1)) v (p2))), False, Dualny
+(p2) v (~(((p1) v (p2)) v (p1))), False, Dualny
+(p1) v (~(((p2) v (p3)) v (p4))), False, Syntetyki
+(p1) v ((p1) v (~(~(~(p1))))), True, Kanoniczny
+(p1) v ((p1) v (~(~(~(p2))))), False, Syntetyki
+(p2) v ((p1) v (~(~(~(p1))))), True, Syntetyki
+(p1) v ((p2) v (~(~(~(p1))))), True, Syntetyki
+(p1) v ((p2) v (~(~(~(p3))))), False, Syntetyki
+(p1) v ((p1) v (~((p1) v (p1)))), True, Kanoniczny
+(p1) v ((p1) v (~((p1) v (p2)))), False, Kanoniczny
+(p2) v ((p1) v (~((p1) v (p1)))), True, Kanoniczny
+(p1) v ((p2) v (~((p1) v (p1)))), True, Kanoniczny
+(p1) v ((p1) v (~((p2) v (p1)))), False, Kanoniczny
+(p1) v ((p1) v (~((p2) v (p3)))), False, Syntetyki
+(p2) v ((p1) v (~((p1) v (p3)))), False, Syntetyki
+(p2) v ((p3) v (~((p1) v (p1)))), False, Syntetyki
+(p1) v ((p2) v (~((p3) v (p1)))), False, Syntetyki
+(p1) v ((p2) v (~((p1) v (p3)))), False, Syntetyki
+(p2) v ((p1) v (~((p3) v (p1)))), False, Syntetyki
+(p1) v ((p1) v (~((p2) v (p2)))), False, Kanoniczny
+(p2) v ((p1) v (~((p1) v (p2)))), True, Kanoniczny
+(p2) v ((p1) v (~((p2) v (p1)))), True, Kanoniczny
+(p1) v ((p2) v (~((p3) v (p4)))), False, Syntetyki
+(p1) v ((p1) v ((p1) v (~(p1)))), True, Kanoniczny
+(p1) v ((p1) v ((p1) v (~(p2)))), False, Kanoniczny
+(p2) v ((p1) v ((p1) v (~(p1)))), True, Kanoniczny
+(p1) v ((p2) v ((p1) v (~(p1)))), True, Kanoniczny
+(p1) v ((p1) v ((p2) v (~(p1)))), True, Kanoniczny
+(p1) v ((p1) v ((p2) v (~(p3)))), False, Syntetyki
+(p2) v ((p1) v ((p1) v (~(p3)))), False, Syntetyki
+(p2) v ((p3) v ((p1) v (~(p1)))), True, Syntetyki
+(p1) v ((p2) v ((p3) v (~(p1)))), True, Syntetyki
+(p1) v ((p2) v ((p1) v (~(p3)))), False, Syntetyki
+(p2) v ((p1) v ((p3) v (~(p1)))), True, Syntetyki
+(p1) v ((p1) v ((p2) v (~(p2)))), True, Kanoniczny
+(p2) v ((p1) v ((p1) v (~(p2)))), True, Kanoniczny
+(p2) v ((p1) v ((p2) v (~(p1)))), True, Kanoniczny
+(p1) v ((p2) v ((p3) v (~(p4)))), False, Syntetyki
+(p1) v ((p1) v ((~(p1)) v (p1))), True, Kanoniczny
+(p1) v ((p1) v ((~(p1)) v (p2))), True, Kanoniczny
+(p2) v ((p1) v ((~(p1)) v (p1))), True, Kanoniczny
+(p1) v ((p2) v ((~(p1)) v (p1))), True, Kanoniczny
+(p1) v ((p1) v ((~(p2)) v (p1))), False, Kanoniczny
+(p1) v ((p1) v ((~(p2)) v (p3))), False, Syntetyki
+(p2) v ((p1) v ((~(p1)) v (p3))), True, Syntetyki
+(p2) v ((p3) v ((~(p1)) v (p1))), True, Syntetyki
+(p1) v ((p2) v ((~(p3)) v (p1))), False, Syntetyki
+(p1) v ((p2) v ((~(p1)) v (p3))), True, Syntetyki
+(p2) v ((p1) v ((~(p3)) v (p1))), False, Syntetyki
+(p1) v ((p1) v ((~(p2)) v (p2))), True, Kanoniczny
+(p2) v ((p1) v ((~(p1)) v (p2))), True, Kanoniczny
+(p2) v ((p1) v ((~(p2)) v (p1))), True, Kanoniczny
+(p1) v ((p2) v ((~(p3)) v (p4))), False, Syntetyki
+(p1) v ((~(p1)) v (~(~(p1)))), True, Kanoniczny
+(p1) v ((~(p1)) v (~(~(p2)))), True, Syntetyki
+(p2) v ((~(p1)) v (~(~(p1)))), True, Syntetyki
+(p1) v ((~(p2)) v (~(~(p1)))), False, Syntetyki
+(p1) v ((~(p2)) v (~(~(p3)))), False, Syntetyki
+(p1) v ((~(p1)) v ((p1) v (p1))), True, Kanoniczny
+(p1) v ((~(p1)) v ((p1) v (p2))), True, Kanoniczny
+(p2) v ((~(p1)) v ((p1) v (p1))), True, Kanoniczny
+(p1) v ((~(p2)) v ((p1) v (p1))), False, Kanoniczny
+(p1) v ((~(p1)) v ((p2) v (p1))), True, Kanoniczny
+(p1) v ((~(p1)) v ((p2) v (p3))), True, Syntetyki
+(p2) v ((~(p1)) v ((p1) v (p3))), True, Syntetyki
+(p2) v ((~(p3)) v ((p1) v (p1))), False, Syntetyki
+(p1) v ((~(p2)) v ((p3) v (p1))), False, Syntetyki
+(p1) v ((~(p2)) v ((p1) v (p3))), False, Syntetyki
+(p2) v ((~(p1)) v ((p3) v (p1))), True, Syntetyki
+(p1) v ((~(p1)) v ((p2) v (p2))), True, Kanoniczny
+(p2) v ((~(p1)) v ((p1) v (p2))), True, Kanoniczny
+(p2) v ((~(p1)) v ((p2) v (p1))), True, Kanoniczny
+(p1) v ((~(p2)) v ((p3) v (p4))), False, Syntetyki
+(p1) v ((~(~(p1))) v (~(p1))), True, Kanoniczny
+(p1) v ((~(~(p1))) v (~(p2))), False, Syntetyki
+(p2) v ((~(~(p1))) v (~(p1))), True, Syntetyki
+(p1) v ((~(~(p2))) v (~(p1))), True, Syntetyki
+(p1) v ((~(~(p2))) v (~(p3))), False, Syntetyki
+(p1) v (((p1) v (p1)) v (~(p1))), True, Kanoniczny
+(p1) v (((p1) v (p1)) v (~(p2))), False, Kanoniczny
+(p2) v (((p1) v (p1)) v (~(p1))), True, Kanoniczny
+(p1) v (((p2) v (p1)) v (~(p1))), True, Kanoniczny
+(p1) v (((p1) v (p2)) v (~(p1))), True, Kanoniczny
+(p1) v (((p1) v (p2)) v (~(p3))), False, Syntetyki
+(p2) v (((p1) v (p1)) v (~(p3))), False, Syntetyki
+(p2) v (((p3) v (p1)) v (~(p1))), True, Syntetyki
+(p1) v (((p2) v (p3)) v (~(p1))), True, Syntetyki
+(p1) v (((p2) v (p1)) v (~(p3))), False, Syntetyki
+(p2) v (((p1) v (p3)) v (~(p1))), True, Syntetyki
+(p1) v (((p1) v (p2)) v (~(p2))), True, Kanoniczny
+(p2) v (((p1) v (p1)) v (~(p2))), True, Kanoniczny
+(p2) v (((p1) v (p2)) v (~(p1))), True, Kanoniczny
+(p1) v (((p2) v (p3)) v (~(p4))), False, Syntetyki
+(p1) v ((~(~(~(p1)))) v (p1)), True, Kanoniczny
+(p1) v ((~(~(~(p1)))) v (p2)), True, Syntetyki
+(p2) v ((~(~(~(p1)))) v (p1)), True, Syntetyki
+(p1) v ((~(~(~(p2)))) v (p1)), False, Syntetyki
+(p1) v ((~(~(~(p2)))) v (p3)), False, Syntetyki
+(p1) v ((~((p1) v (p1))) v (p1)), True, Kanoniczny
+(p1) v ((~((p1) v (p1))) v (p2)), True, Kanoniczny
+(p2) v ((~((p1) v (p1))) v (p1)), True, Kanoniczny
+(p1) v ((~((p2) v (p1))) v (p1)), False, Kanoniczny
+(p1) v ((~((p1) v (p2))) v (p1)), False, Kanoniczny
+(p1) v ((~((p1) v (p2))) v (p3)), False, Syntetyki
+(p2) v ((~((p1) v (p1))) v (p3)), False, Syntetyki
+(p2) v ((~((p3) v (p1))) v (p1)), False, Syntetyki
+(p1) v ((~((p2) v (p3))) v (p1)), False, Syntetyki
+(p1) v ((~((p2) v (p1))) v (p3)), False, Syntetyki
+(p2) v ((~((p1) v (p3))) v (p1)), False, Syntetyki
+(p1) v ((~((p1) v (p2))) v (p2)), True, Kanoniczny
+(p2) v ((~((p1) v (p1))) v (p2)), False, Kanoniczny
+(p2) v ((~((p1) v (p2))) v (p1)), True, Kanoniczny
+(p1) v ((~((p2) v (p3))) v (p4)), False, Syntetyki
+(p1) v (((p1) v (~(p1))) v (p1)), True, Kanoniczny
+(p1) v (((p1) v (~(p1))) v (p2)), True, Kanoniczny
+(p2) v (((p1) v (~(p1))) v (p1)), True, Kanoniczny
+(p1) v (((p2) v (~(p1))) v (p1)), True, Kanoniczny
+(p1) v (((p1) v (~(p2))) v (p1)), False, Kanoniczny
+(p1) v (((p1) v (~(p2))) v (p3)), False, Syntetyki
+(p2) v (((p1) v (~(p1))) v (p3)), True, Syntetyki
+(p2) v (((p3) v (~(p1))) v (p1)), True, Syntetyki
+(p1) v (((p2) v (~(p3))) v (p1)), False, Syntetyki
+(p1) v (((p2) v (~(p1))) v (p3)), True, Syntetyki
+(p2) v (((p1) v (~(p3))) v (p1)), False, Syntetyki
+(p1) v (((p1) v (~(p2))) v (p2)), True, Kanoniczny
+(p2) v (((p1) v (~(p1))) v (p2)), True, Kanoniczny
+(p2) v (((p1) v (~(p2))) v (p1)), True, Kanoniczny
+(p1) v (((p2) v (~(p3))) v (p4)), False, Syntetyki
+(p1) v (((~(p1)) v (p1)) v (p1)), True, Kanoniczny
+(p1) v (((~(p1)) v (p1)) v (p2)), True, Kanoniczny
+(p2) v (((~(p1)) v (p1)) v (p1)), True, Kanoniczny
+(p1) v (((~(p2)) v (p1)) v (p1)), False, Kanoniczny
+(p1) v (((~(p1)) v (p2)) v (p1)), True, Kanoniczny
+(p1) v (((~(p1)) v (p2)) v (p3)), True, Syntetyki
+(p2) v (((~(p1)) v (p1)) v (p3)), True, Syntetyki
+(p2) v (((~(p3)) v (p1)) v (p1)), False, Syntetyki
+(p1) v (((~(p2)) v (p3)) v (p1)), False, Syntetyki
+(p1) v (((~(p2)) v (p1)) v (p3)), False, Syntetyki
+(p2) v (((~(p1)) v (p3)) v (p1)), True, Syntetyki
+(p1) v (((~(p1)) v (p2)) v (p2)), True, Kanoniczny
+(p2) v (((~(p1)) v (p1)) v (p2)), True, Kanoniczny
+(p2) v (((~(p1)) v (p2)) v (p1)), True, Kanoniczny
+(p1) v (((~(p2)) v (p3)) v (p4)), False, Syntetyki
+(~(p1)) v (~(~(~(~(p1))))), True, Kanoniczny
+(~(p1)) v (~(~(~(~(p2))))), False, Syntetyki
+(~(p1)) v (~(~((p1) v (p1)))), True, Kanoniczny
+(~(p1)) v (~(~((p1) v (p2)))), True, Syntetyki
+(~(p2)) v (~(~((p1) v (p1)))), False, Syntetyki
+(~(p1)) v (~(~((p2) v (p1)))), True, Syntetyki
+(~(p1)) v (~(~((p2) v (p3)))), False, Syntetyki
+(~(p1)) v (~((p1) v (~(p1)))), False, Kanoniczny
+(~(p1)) v (~((p1) v (~(p2)))), False, Syntetyki
+(~(p2)) v (~((p1) v (~(p1)))), False, Syntetyki
+(~(p1)) v (~((p2) v (~(p1)))), False, Syntetyki
+(~(p1)) v (~((p2) v (~(p3)))), False, Syntetyki
+(~(p1)) v (~((~(p1)) v (p1))), False, Kanoniczny
+(~(p1)) v (~((~(p1)) v (p2))), False, Syntetyki
+(~(p2)) v (~((~(p1)) v (p1))), False, Syntetyki
+(~(p1)) v (~((~(p2)) v (p1))), False, Syntetyki
+(~(p1)) v (~((~(p2)) v (p3))), False, Syntetyki
+(~(p1)) v ((p1) v (~(~(p1)))), True, Kanoniczny
+(~(p1)) v ((p1) v (~(~(p2)))), True, Syntetyki
+(~(p2)) v ((p1) v (~(~(p1)))), False, Syntetyki
+(~(p1)) v ((p2) v (~(~(p1)))), True, Syntetyki
+(~(p1)) v ((p2) v (~(~(p3)))), False, Syntetyki
+(~(p1)) v ((p1) v ((p1) v (p1))), True, Kanoniczny
+(~(p1)) v ((p1) v ((p1) v (p2))), True, Kanoniczny
+(~(p2)) v ((p1) v ((p1) v (p1))), False, Kanoniczny
+(~(p1)) v ((p2) v ((p1) v (p1))), True, Kanoniczny
+(~(p1)) v ((p1) v ((p2) v (p1))), True, Kanoniczny
+(~(p1)) v ((p1) v ((p2) v (p3))), True, Syntetyki
+(~(p2)) v ((p1) v ((p1) v (p3))), False, Syntetyki
+(~(p2)) v ((p3) v ((p1) v (p1))), False, Syntetyki
+(~(p1)) v ((p2) v ((p3) v (p1))), True, Syntetyki
+(~(p1)) v ((p2) v ((p1) v (p3))), True, Syntetyki
+(~(p2)) v ((p1) v ((p3) v (p1))), False, Syntetyki
+(~(p1)) v ((p1) v ((p2) v (p2))), True, Kanoniczny
+(~(p2)) v ((p1) v ((p1) v (p2))), True, Kanoniczny
+(~(p2)) v ((p1) v ((p2) v (p1))), True, Kanoniczny
+(~(p1)) v ((p2) v ((p3) v (p4))), False, Syntetyki
+(~(p1)) v ((~(p1)) v (~(p1))), False, Kanoniczny
+(~(p1)) v ((~(p1)) v (~(p2))), False, Syntetyki
+(~(p2)) v ((~(p1)) v (~(p1))), False, Syntetyki
+(~(p1)) v ((~(p2)) v (~(p1))), False, Syntetyki
+(~(p1)) v ((~(p2)) v (~(p3))), False, Syntetyki
+(~(p1)) v ((~(~(p1))) v (p1)), True, Kanoniczny
+(~(p1)) v ((~(~(p1))) v (p2)), True, Syntetyki
+(~(p2)) v ((~(~(p1))) v (p1)), False, Syntetyki
+(~(p1)) v ((~(~(p2))) v (p1)), True, Syntetyki
+(~(p1)) v ((~(~(p2))) v (p3)), False, Syntetyki
+(~(p1)) v (((p1) v (p1)) v (p1)), True, Kanoniczny
+(~(p1)) v (((p1) v (p1)) v (p2)), True, Kanoniczny
+(~(p2)) v (((p1) v (p1)) v (p1)), False, Kanoniczny
+(~(p1)) v (((p2) v (p1)) v (p1)), True, Kanoniczny
+(~(p1)) v (((p1) v (p2)) v (p1)), True, Kanoniczny
+(~(p1)) v (((p1) v (p2)) v (p3)), True, Syntetyki
+(~(p2)) v (((p1) v (p1)) v (p3)), False, Syntetyki
+(~(p2)) v (((p3) v (p1)) v (p1)), False, Syntetyki
+(~(p1)) v (((p2) v (p3)) v (p1)), True, Syntetyki
+(~(p1)) v (((p2) v (p1)) v (p3)), True, Syntetyki
+(~(p2)) v (((p1) v (p3)) v (p1)), False, Syntetyki
+(~(p1)) v (((p1) v (p2)) v (p2)), True, Kanoniczny
+(~(p2)) v (((p1) v (p1)) v (p2)), True, Kanoniczny
+(~(p2)) v (((p1) v (p2)) v (p1)), True, Kanoniczny
+(~(p1)) v (((p2) v (p3)) v (p4)), False, Syntetyki
+(~(~(p1))) v (~(~(~(p1)))), True, Kanoniczny
+(~(~(p1))) v (~(~(~(p2)))), False, Syntetyki
+(~(~(p1))) v (~((p1) v (p1))), True, Kanoniczny
+(~(~(p1))) v (~((p1) v (p2))), False, Syntetyki
+(~(~(p2))) v (~((p1) v (p1))), False, Syntetyki
+(~(~(p1))) v (~((p2) v (p1))), False, Syntetyki
+(~(~(p1))) v (~((p2) v (p3))), False, Syntetyki
+(~(~(p1))) v ((p1) v (~(p1))), True, Kanoniczny
+(~(~(p1))) v ((p1) v (~(p2))), False, Syntetyki
+(~(~(p2))) v ((p1) v (~(p1))), True, Syntetyki
+(~(~(p1))) v ((p2) v (~(p1))), True, Syntetyki
+(~(~(p1))) v ((p2) v (~(p3))), False, Syntetyki
+(~(~(p1))) v ((~(p1)) v (p1)), True, Kanoniczny
+(~(~(p1))) v ((~(p1)) v (p2)), True, Syntetyki
+(~(~(p2))) v ((~(p1)) v (p1)), True, Syntetyki
+(~(~(p1))) v ((~(p2)) v (p1)), False, Syntetyki
+(~(~(p1))) v ((~(p2)) v (p3)), False, Syntetyki
+((p1) v (p1)) v (~(~(~(p1)))), True, Kanoniczny
+((p1) v (p1)) v (~(~(~(p2)))), False, Syntetyki
+((p2) v (p1)) v (~(~(~(p1)))), True, Syntetyki
+((p1) v (p2)) v (~(~(~(p1)))), True, Syntetyki
+((p1) v (p2)) v (~(~(~(p3)))), False, Syntetyki
+((p1) v (p1)) v (~((p1) v (p1))), True, Kanoniczny
+((p1) v (p1)) v (~((p1) v (p2))), False, Kanoniczny
+((p2) v (p1)) v (~((p1) v (p1))), True, Kanoniczny
+((p1) v (p2)) v (~((p1) v (p1))), True, Kanoniczny
+((p1) v (p1)) v (~((p2) v (p1))), False, Kanoniczny
+((p1) v (p1)) v (~((p2) v (p3))), False, Syntetyki
+((p2) v (p1)) v (~((p1) v (p3))), False, Syntetyki
+((p2) v (p3)) v (~((p1) v (p1))), False, Syntetyki
+((p1) v (p2)) v (~((p3) v (p1))), False, Syntetyki
+((p1) v (p2)) v (~((p1) v (p3))), False, Syntetyki
+((p2) v (p1)) v (~((p3) v (p1))), False, Syntetyki
+((p1) v (p1)) v (~((p2) v (p2))), False, Kanoniczny
+((p2) v (p1)) v (~((p1) v (p2))), True, Kanoniczny
+((p2) v (p1)) v (~((p2) v (p1))), True, Kanoniczny
+((p1) v (p2)) v (~((p3) v (p4))), False, Syntetyki
+((p1) v (p1)) v ((p1) v (~(p1))), True, Kanoniczny
+((p1) v (p1)) v ((p1) v (~(p2))), False, Kanoniczny
+((p2) v (p1)) v ((p1) v (~(p1))), True, Kanoniczny
+((p1) v (p2)) v ((p1) v (~(p1))), True, Kanoniczny
+((p1) v (p1)) v ((p2) v (~(p1))), True, Kanoniczny
+((p1) v (p1)) v ((p2) v (~(p3))), False, Syntetyki
+((p2) v (p1)) v ((p1) v (~(p3))), False, Syntetyki
+((p2) v (p3)) v ((p1) v (~(p1))), True, Syntetyki
+((p1) v (p2)) v ((p3) v (~(p1))), True, Syntetyki
+((p1) v (p2)) v ((p1) v (~(p3))), False, Syntetyki
+((p2) v (p1)) v ((p3) v (~(p1))), True, Syntetyki
+((p1) v (p1)) v ((p2) v (~(p2))), True, Kanoniczny
+((p2) v (p1)) v ((p1) v (~(p2))), True, Kanoniczny
+((p2) v (p1)) v ((p2) v (~(p1))), True, Kanoniczny
+((p1) v (p2)) v ((p3) v (~(p4))), False, Syntetyki
+((p1) v (p1)) v ((~(p1)) v (p1)), True, Kanoniczny
+((p1) v (p1)) v ((~(p1)) v (p2)), True, Kanoniczny
+((p2) v (p1)) v ((~(p1)) v (p1)), True, Kanoniczny
+((p1) v (p2)) v ((~(p1)) v (p1)), True, Kanoniczny
+((p1) v (p1)) v ((~(p2)) v (p1)), False, Kanoniczny
+((p1) v (p1)) v ((~(p2)) v (p3)), False, Syntetyki
+((p2) v (p1)) v ((~(p1)) v (p3)), True, Syntetyki
+((p2) v (p3)) v ((~(p1)) v (p1)), True, Syntetyki
+((p1) v (p2)) v ((~(p3)) v (p1)), False, Syntetyki
+((p1) v (p2)) v ((~(p1)) v (p3)), True, Syntetyki
+((p2) v (p1)) v ((~(p3)) v (p1)), False, Syntetyki
+((p1) v (p1)) v ((~(p2)) v (p2)), True, Kanoniczny
+((p2) v (p1)) v ((~(p1)) v (p2)), True, Kanoniczny
+((p2) v (p1)) v ((~(p2)) v (p1)), True, Kanoniczny
+((p1) v (p2)) v ((~(p3)) v (p4)), False, Syntetyki
+(~(~(~(p1)))) v (~(~(p1))), True, Kanoniczny
+(~(~(~(p1)))) v (~(~(p2))), False, Syntetyki
+(~(~(~(p1)))) v ((p1) v (p1)), True, Kanoniczny
+(~(~(~(p1)))) v ((p1) v (p2)), True, Syntetyki
+(~(~(~(p2)))) v ((p1) v (p1)), False, Syntetyki
+(~(~(~(p1)))) v ((p2) v (p1)), True, Syntetyki
+(~(~(~(p1)))) v ((p2) v (p3)), False, Syntetyki
+(~((p1) v (p1))) v (~(~(p1))), True, Kanoniczny
+(~((p1) v (p1))) v (~(~(p2))), False, Syntetyki
+(~((p2) v (p1))) v (~(~(p1))), False, Syntetyki
+(~((p1) v (p2))) v (~(~(p1))), False, Syntetyki
+(~((p1) v (p2))) v (~(~(p3))), False, Syntetyki
+(~((p1) v (p1))) v ((p1) v (p1)), True, Kanoniczny
+(~((p1) v (p1))) v ((p1) v (p2)), True, Kanoniczny
+(~((p2) v (p1))) v ((p1) v (p1)), False, Kanoniczny
+(~((p1) v (p2))) v ((p1) v (p1)), False, Kanoniczny
+(~((p1) v (p1))) v ((p2) v (p1)), True, Kanoniczny
+(~((p1) v (p1))) v ((p2) v (p3)), False, Syntetyki
+(~((p2) v (p1))) v ((p1) v (p3)), False, Syntetyki
+(~((p2) v (p3))) v ((p1) v (p1)), False, Syntetyki
+(~((p1) v (p2))) v ((p3) v (p1)), False, Syntetyki
+(~((p1) v (p2))) v ((p1) v (p3)), False, Syntetyki
+(~((p2) v (p1))) v ((p3) v (p1)), False, Syntetyki
+(~((p1) v (p1))) v ((p2) v (p2)), False, Kanoniczny
+(~((p2) v (p1))) v ((p1) v (p2)), True, Kanoniczny
+(~((p2) v (p1))) v ((p2) v (p1)), True, Kanoniczny
+(~((p1) v (p2))) v ((p3) v (p4)), False, Syntetyki
+((p1) v (~(p1))) v (~(~(p1))), True, Kanoniczny
+((p1) v (~(p1))) v (~(~(p2))), True, Syntetyki
+((p2) v (~(p1))) v (~(~(p1))), True, Syntetyki
+((p1) v (~(p2))) v (~(~(p1))), False, Syntetyki
+((p1) v (~(p2))) v (~(~(p3))), False, Syntetyki
+((p1) v (~(p1))) v ((p1) v (p1)), True, Kanoniczny
+((p1) v (~(p1))) v ((p1) v (p2)), True, Kanoniczny
+((p2) v (~(p1))) v ((p1) v (p1)), True, Kanoniczny
+((p1) v (~(p2))) v ((p1) v (p1)), False, Kanoniczny
+((p1) v (~(p1))) v ((p2) v (p1)), True, Kanoniczny
+((p1) v (~(p1))) v ((p2) v (p3)), True, Syntetyki
+((p2) v (~(p1))) v ((p1) v (p3)), True, Syntetyki
+((p2) v (~(p3))) v ((p1) v (p1)), False, Syntetyki
+((p1) v (~(p2))) v ((p3) v (p1)), False, Syntetyki
+((p1) v (~(p2))) v ((p1) v (p3)), False, Syntetyki
+((p2) v (~(p1))) v ((p3) v (p1)), True, Syntetyki
+((p1) v (~(p1))) v ((p2) v (p2)), True, Kanoniczny
+((p2) v (~(p1))) v ((p1) v (p2)), True, Kanoniczny
+((p2) v (~(p1))) v ((p2) v (p1)), True, Kanoniczny
+((p1) v (~(p2))) v ((p3) v (p4)), False, Syntetyki
+((~(p1)) v (p1)) v (~(~(p1))), True, Kanoniczny
+((~(p1)) v (p1)) v (~(~(p2))), True, Syntetyki
+((~(p2)) v (p1)) v (~(~(p1))), False, Syntetyki
+((~(p1)) v (p2)) v (~(~(p1))), True, Syntetyki
+((~(p1)) v (p2)) v (~(~(p3))), False, Syntetyki
+((~(p1)) v (p1)) v ((p1) v (p1)), True, Kanoniczny
+((~(p1)) v (p1)) v ((p1) v (p2)), True, Kanoniczny
+((~(p2)) v (p1)) v ((p1) v (p1)), False, Kanoniczny
+((~(p1)) v (p2)) v ((p1) v (p1)), True, Kanoniczny
+((~(p1)) v (p1)) v ((p2) v (p1)), True, Kanoniczny
+((~(p1)) v (p1)) v ((p2) v (p3)), True, Syntetyki
+((~(p2)) v (p1)) v ((p1) v (p3)), False, Syntetyki
+((~(p2)) v (p3)) v ((p1) v (p1)), False, Syntetyki
+((~(p1)) v (p2)) v ((p3) v (p1)), True, Syntetyki
+((~(p1)) v (p2)) v ((p1) v (p3)), True, Syntetyki
+((~(p2)) v (p1)) v ((p3) v (p1)), False, Syntetyki
+((~(p1)) v (p1)) v ((p2) v (p2)), True, Kanoniczny
+((~(p2)) v (p1)) v ((p1) v (p2)), True, Kanoniczny
+((~(p2)) v (p1)) v ((p2) v (p1)), True, Kanoniczny
+((~(p1)) v (p2)) v ((p3) v (p4)), False, Syntetyki
+(~(~(~(~(p1))))) v (~(p1)), True, Kanoniczny
+(~(~(~(~(p1))))) v (~(p2)), False, Syntetyki
+(~(~((p1) v (p1)))) v (~(p1)), True, Kanoniczny
+(~(~((p1) v (p1)))) v (~(p2)), False, Syntetyki
+(~(~((p2) v (p1)))) v (~(p1)), True, Syntetyki
+(~(~((p1) v (p2)))) v (~(p1)), True, Syntetyki
+(~(~((p1) v (p2)))) v (~(p3)), False, Syntetyki
+(~((p1) v (~(p1)))) v (~(p1)), False, Kanoniczny
+(~((p1) v (~(p1)))) v (~(p2)), False, Syntetyki
+(~((p2) v (~(p1)))) v (~(p1)), False, Syntetyki
+(~((p1) v (~(p2)))) v (~(p1)), False, Syntetyki
+(~((p1) v (~(p2)))) v (~(p3)), False, Syntetyki
+(~((~(p1)) v (p1))) v (~(p1)), False, Kanoniczny
+(~((~(p1)) v (p1))) v (~(p2)), False, Syntetyki
+(~((~(p2)) v (p1))) v (~(p1)), False, Syntetyki
+(~((~(p1)) v (p2))) v (~(p1)), False, Syntetyki
+(~((~(p1)) v (p2))) v (~(p3)), False, Syntetyki
+((p1) v (~(~(p1)))) v (~(p1)), True, Kanoniczny
+((p1) v (~(~(p1)))) v (~(p2)), False, Syntetyki
+((p2) v (~(~(p1)))) v (~(p1)), True, Syntetyki
+((p1) v (~(~(p2)))) v (~(p1)), True, Syntetyki
+((p1) v (~(~(p2)))) v (~(p3)), False, Syntetyki
+((p1) v ((p1) v (p1))) v (~(p1)), True, Kanoniczny
+((p1) v ((p1) v (p1))) v (~(p2)), False, Kanoniczny
+((p2) v ((p1) v (p1))) v (~(p1)), True, Kanoniczny
+((p1) v ((p2) v (p1))) v (~(p1)), True, Kanoniczny
+((p1) v ((p1) v (p2))) v (~(p1)), True, Kanoniczny
+((p1) v ((p1) v (p2))) v (~(p3)), False, Syntetyki
+((p2) v ((p1) v (p1))) v (~(p3)), False, Syntetyki
+((p2) v ((p3) v (p1))) v (~(p1)), True, Syntetyki
+((p1) v ((p2) v (p3))) v (~(p1)), True, Syntetyki
+((p1) v ((p2) v (p1))) v (~(p3)), False, Syntetyki
+((p2) v ((p1) v (p3))) v (~(p1)), True, Syntetyki
+((p1) v ((p1) v (p2))) v (~(p2)), True, Kanoniczny
+((p2) v ((p1) v (p1))) v (~(p2)), True, Kanoniczny
+((p2) v ((p1) v (p2))) v (~(p1)), True, Kanoniczny
+((p1) v ((p2) v (p3))) v (~(p4)), False, Syntetyki
+((~(p1)) v (~(p1))) v (~(p1)), False, Kanoniczny
+((~(p1)) v (~(p1))) v (~(p2)), False, Syntetyki
+((~(p2)) v (~(p1))) v (~(p1)), False, Syntetyki
+((~(p1)) v (~(p2))) v (~(p1)), False, Syntetyki
+((~(p1)) v (~(p2))) v (~(p3)), False, Syntetyki
+((~(~(p1))) v (p1)) v (~(p1)), True, Kanoniczny
+((~(~(p1))) v (p1)) v (~(p2)), False, Syntetyki
+((~(~(p2))) v (p1)) v (~(p1)), True, Syntetyki
+((~(~(p1))) v (p2)) v (~(p1)), True, Syntetyki
+((~(~(p1))) v (p2)) v (~(p3)), False, Syntetyki
+(((p1) v (p1)) v (p1)) v (~(p1)), True, Kanoniczny
+(((p1) v (p1)) v (p1)) v (~(p2)), False, Kanoniczny
+(((p2) v (p1)) v (p1)) v (~(p1)), True, Kanoniczny
+(((p1) v (p2)) v (p1)) v (~(p1)), True, Kanoniczny
+(((p1) v (p1)) v (p2)) v (~(p1)), True, Kanoniczny
+(((p1) v (p1)) v (p2)) v (~(p3)), False, Syntetyki
+(((p2) v (p1)) v (p1)) v (~(p3)), False, Syntetyki
+(((p2) v (p3)) v (p1)) v (~(p1)), True, Syntetyki
+(((p1) v (p2)) v (p3)) v (~(p1)), True, Syntetyki
+(((p1) v (p2)) v (p1)) v (~(p3)), False, Syntetyki
+(((p2) v (p1)) v (p3)) v (~(p1)), True, Syntetyki
+(((p1) v (p1)) v (p2)) v (~(p2)), True, Kanoniczny
+(((p2) v (p1)) v (p1)) v (~(p2)), True, Kanoniczny
+(((p2) v (p1)) v (p2)) v (~(p1)), True, Kanoniczny
+(((p1) v (p2)) v (p3)) v (~(p4)), False, Syntetyki
+(~(~(~(~(~(p1)))))) v (p1), True, Kanoniczny
+(~(~(~(~(~(p1)))))) v (p2), False, Syntetyki
+(~(~(~((p1) v (p1))))) v (p1), True, Kanoniczny
+(~(~(~((p1) v (p1))))) v (p2), False, Syntetyki
+(~(~(~((p2) v (p1))))) v (p1), False, Syntetyki
+(~(~(~((p1) v (p2))))) v (p1), False, Syntetyki
+(~(~(~((p1) v (p2))))) v (p3), False, Syntetyki
+(~(~((p1) v (~(p1))))) v (p1), True, Kanoniczny
+(~(~((p1) v (~(p1))))) v (p2), True, Syntetyki
+(~(~((p2) v (~(p1))))) v (p1), True, Syntetyki
+(~(~((p1) v (~(p2))))) v (p1), False, Syntetyki
+(~(~((p1) v (~(p2))))) v (p3), False, Syntetyki
+(~(~((~(p1)) v (p1)))) v (p1), True, Kanoniczny
+(~(~((~(p1)) v (p1)))) v (p2), True, Syntetyki
+(~(~((~(p2)) v (p1)))) v (p1), False, Syntetyki
+(~(~((~(p1)) v (p2)))) v (p1), True, Syntetyki
+(~(~((~(p1)) v (p2)))) v (p3), False, Syntetyki
+(~((p1) v (~(~(p1))))) v (p1), True, Kanoniczny
+(~((p1) v (~(~(p1))))) v (p2), False, Syntetyki
+(~((p2) v (~(~(p1))))) v (p1), False, Syntetyki
+(~((p1) v (~(~(p2))))) v (p1), False, Syntetyki
+(~((p1) v (~(~(p2))))) v (p3), False, Syntetyki
+(~((p1) v ((p1) v (p1)))) v (p1), True, Dualny
+(~((p1) v ((p1) v (p1)))) v (p2), False, Dualny
+(~((p2) v ((p1) v (p1)))) v (p1), False, Dualny
+(~((p1) v ((p2) v (p1)))) v (p1), False, Dualny
+(~((p1) v ((p1) v (p2)))) v (p1), False, Dualny
+(~((p1) v ((p1) v (p2)))) v (p3), False, Syntetyki
+(~((p2) v ((p1) v (p1)))) v (p3), False, Syntetyki
+(~((p2) v ((p3) v (p1)))) v (p1), False, Syntetyki
+(~((p1) v ((p2) v (p3)))) v (p1), False, Syntetyki
+(~((p1) v ((p2) v (p1)))) v (p3), False, Syntetyki
+(~((p2) v ((p1) v (p3)))) v (p1), False, Syntetyki
+(~((p1) v ((p1) v (p2)))) v (p2), False, Dualny
+(~((p2) v ((p1) v (p1)))) v (p2), False, Dualny
+(~((p2) v ((p1) v (p2)))) v (p1), False, Dualny
+(~((p1) v ((p2) v (p3)))) v (p4), False, Syntetyki
+(~((~(p1)) v (~(p1)))) v (p1), False, Kanoniczny
+(~((~(p1)) v (~(p1)))) v (p2), False, Syntetyki
+(~((~(p2)) v (~(p1)))) v (p1), False, Syntetyki
+(~((~(p1)) v (~(p2)))) v (p1), False, Syntetyki
+(~((~(p1)) v (~(p2)))) v (p3), False, Syntetyki
+(~((~(~(p1))) v (p1))) v (p1), True, Kanoniczny
+(~((~(~(p1))) v (p1))) v (p2), False, Syntetyki
+(~((~(~(p2))) v (p1))) v (p1), False, Syntetyki
+(~((~(~(p1))) v (p2))) v (p1), False, Syntetyki
+(~((~(~(p1))) v (p2))) v (p3), False, Syntetyki
+(~(((p1) v (p1)) v (p1))) v (p1), True, Dualny
+(~(((p1) v (p1)) v (p1))) v (p2), False, Dualny
+(~(((p2) v (p1)) v (p1))) v (p1), False, Dualny
+(~(((p1) v (p2)) v (p1))) v (p1), False, Dualny
+(~(((p1) v (p1)) v (p2))) v (p1), False, Dualny
+(~(((p1) v (p1)) v (p2))) v (p3), False, Syntetyki
+(~(((p2) v (p1)) v (p1))) v (p3), False, Syntetyki
+(~(((p2) v (p3)) v (p1))) v (p1), False, Syntetyki
+(~(((p1) v (p2)) v (p3))) v (p1), False, Syntetyki
+(~(((p1) v (p2)) v (p1))) v (p3), False, Syntetyki
+(~(((p2) v (p1)) v (p3))) v (p1), False, Syntetyki
+(~(((p1) v (p1)) v (p2))) v (p2), False, Dualny
+(~(((p2) v (p1)) v (p1))) v (p2), False, Dualny
+(~(((p2) v (p1)) v (p2))) v (p1), False, Dualny
+(~(((p1) v (p2)) v (p3))) v (p4), False, Syntetyki
+((p1) v (~(~(~(p1))))) v (p1), True, Kanoniczny
+((p1) v (~(~(~(p1))))) v (p2), True, Syntetyki
+((p2) v (~(~(~(p1))))) v (p1), True, Syntetyki
+((p1) v (~(~(~(p2))))) v (p1), False, Syntetyki
+((p1) v (~(~(~(p2))))) v (p3), False, Syntetyki
+((p1) v (~((p1) v (p1)))) v (p1), True, Kanoniczny
+((p1) v (~((p1) v (p1)))) v (p2), True, Kanoniczny
+((p2) v (~((p1) v (p1)))) v (p1), True, Kanoniczny
+((p1) v (~((p2) v (p1)))) v (p1), False, Kanoniczny
+((p1) v (~((p1) v (p2)))) v (p1), False, Kanoniczny
+((p1) v (~((p1) v (p2)))) v (p3), False, Syntetyki
+((p2) v (~((p1) v (p1)))) v (p3), False, Syntetyki
+((p2) v (~((p3) v (p1)))) v (p1), False, Syntetyki
+((p1) v (~((p2) v (p3)))) v (p1), False, Syntetyki
+((p1) v (~((p2) v (p1)))) v (p3), False, Syntetyki
+((p2) v (~((p1) v (p3)))) v (p1), False, Syntetyki
+((p1) v (~((p1) v (p2)))) v (p2), True, Kanoniczny
+((p2) v (~((p1) v (p1)))) v (p2), False, Kanoniczny
+((p2) v (~((p1) v (p2)))) v (p1), True, Kanoniczny
+((p1) v (~((p2) v (p3)))) v (p4), False, Syntetyki
+((p1) v ((p1) v (~(p1)))) v (p1), True, Kanoniczny
+((p1) v ((p1) v (~(p1)))) v (p2), True, Kanoniczny
+((p2) v ((p1) v (~(p1)))) v (p1), True, Kanoniczny
+((p1) v ((p2) v (~(p1)))) v (p1), True, Kanoniczny
+((p1) v ((p1) v (~(p2)))) v (p1), False, Kanoniczny
+((p1) v ((p1) v (~(p2)))) v (p3), False, Syntetyki
+((p2) v ((p1) v (~(p1)))) v (p3), True, Syntetyki
+((p2) v ((p3) v (~(p1)))) v (p1), True, Syntetyki
+((p1) v ((p2) v (~(p3)))) v (p1), False, Syntetyki
+((p1) v ((p2) v (~(p1)))) v (p3), True, Syntetyki
+((p2) v ((p1) v (~(p3)))) v (p1), False, Syntetyki
+((p1) v ((p1) v (~(p2)))) v (p2), True, Kanoniczny
+((p2) v ((p1) v (~(p1)))) v (p2), True, Kanoniczny
+((p2) v ((p1) v (~(p2)))) v (p1), True, Kanoniczny
+((p1) v ((p2) v (~(p3)))) v (p4), False, Syntetyki
+((p1) v ((~(p1)) v (p1))) v (p1), True, Kanoniczny
+((p1) v ((~(p1)) v (p1))) v (p2), True, Kanoniczny
+((p2) v ((~(p1)) v (p1))) v (p1), True, Kanoniczny
+((p1) v ((~(p2)) v (p1))) v (p1), False, Kanoniczny
+((p1) v ((~(p1)) v (p2))) v (p1), True, Kanoniczny
+((p1) v ((~(p1)) v (p2))) v (p3), True, Syntetyki
+((p2) v ((~(p1)) v (p1))) v (p3), True, Syntetyki
+((p2) v ((~(p3)) v (p1))) v (p1), False, Syntetyki
+((p1) v ((~(p2)) v (p3))) v (p1), False, Syntetyki
+((p1) v ((~(p2)) v (p1))) v (p3), False, Syntetyki
+((p2) v ((~(p1)) v (p3))) v (p1), True, Syntetyki
+((p1) v ((~(p1)) v (p2))) v (p2), True, Kanoniczny
+((p2) v ((~(p1)) v (p1))) v (p2), True, Kanoniczny
+((p2) v ((~(p1)) v (p2))) v (p1), True, Kanoniczny
+((p1) v ((~(p2)) v (p3))) v (p4), False, Syntetyki
+((~(p1)) v (~(~(p1)))) v (p1), True, Kanoniczny
+((~(p1)) v (~(~(p1)))) v (p2), True, Syntetyki
+((~(p2)) v (~(~(p1)))) v (p1), False, Syntetyki
+((~(p1)) v (~(~(p2)))) v (p1), True, Syntetyki
+((~(p1)) v (~(~(p2)))) v (p3), False, Syntetyki
+((~(p1)) v ((p1) v (p1))) v (p1), True, Kanoniczny
+((~(p1)) v ((p1) v (p1))) v (p2), True, Kanoniczny
+((~(p2)) v ((p1) v (p1))) v (p1), False, Kanoniczny
+((~(p1)) v ((p2) v (p1))) v (p1), True, Kanoniczny
+((~(p1)) v ((p1) v (p2))) v (p1), True, Kanoniczny
+((~(p1)) v ((p1) v (p2))) v (p3), True, Syntetyki
+((~(p2)) v ((p1) v (p1))) v (p3), False, Syntetyki
+((~(p2)) v ((p3) v (p1))) v (p1), False, Syntetyki
+((~(p1)) v ((p2) v (p3))) v (p1), True, Syntetyki
+((~(p1)) v ((p2) v (p1))) v (p3), True, Syntetyki
+((~(p2)) v ((p1) v (p3))) v (p1), False, Syntetyki
+((~(p1)) v ((p1) v (p2))) v (p2), True, Kanoniczny
+((~(p2)) v ((p1) v (p1))) v (p2), True, Kanoniczny
+((~(p2)) v ((p1) v (p2))) v (p1), True, Kanoniczny
+((~(p1)) v ((p2) v (p3))) v (p4), False, Syntetyki
+((~(~(p1))) v (~(p1))) v (p1), True, Kanoniczny
+((~(~(p1))) v (~(p1))) v (p2), True, Syntetyki
+((~(~(p2))) v (~(p1))) v (p1), True, Syntetyki
+((~(~(p1))) v (~(p2))) v (p1), False, Syntetyki
+((~(~(p1))) v (~(p2))) v (p3), False, Syntetyki
+(((p1) v (p1)) v (~(p1))) v (p1), True, Kanoniczny
+(((p1) v (p1)) v (~(p1))) v (p2), True, Kanoniczny
+(((p2) v (p1)) v (~(p1))) v (p1), True, Kanoniczny
+(((p1) v (p2)) v (~(p1))) v (p1), True, Kanoniczny
+(((p1) v (p1)) v (~(p2))) v (p1), False, Kanoniczny
+(((p1) v (p1)) v (~(p2))) v (p3), False, Syntetyki
+(((p2) v (p1)) v (~(p1))) v (p3), True, Syntetyki
+(((p2) v (p3)) v (~(p1))) v (p1), True, Syntetyki
+(((p1) v (p2)) v (~(p3))) v (p1), False, Syntetyki
+(((p1) v (p2)) v (~(p1))) v (p3), True, Syntetyki
+(((p2) v (p1)) v (~(p3))) v (p1), False, Syntetyki
+(((p1) v (p1)) v (~(p2))) v (p2), True, Kanoniczny
+(((p2) v (p1)) v (~(p1))) v (p2), True, Kanoniczny
+(((p2) v (p1)) v (~(p2))) v (p1), True, Kanoniczny
+(((p1) v (p2)) v (~(p3))) v (p4), False, Syntetyki
+((~(~(~(p1)))) v (p1)) v (p1), True, Kanoniczny
+((~(~(~(p1)))) v (p1)) v (p2), True, Syntetyki
+((~(~(~(p2)))) v (p1)) v (p1), False, Syntetyki
+((~(~(~(p1)))) v (p2)) v (p1), True, Syntetyki
+((~(~(~(p1)))) v (p2)) v (p3), False, Syntetyki
+((~((p1) v (p1))) v (p1)) v (p1), True, Kanoniczny
+((~((p1) v (p1))) v (p1)) v (p2), True, Kanoniczny
+((~((p2) v (p1))) v (p1)) v (p1), False, Kanoniczny
+((~((p1) v (p2))) v (p1)) v (p1), False, Kanoniczny
+((~((p1) v (p1))) v (p2)) v (p1), True, Kanoniczny
+((~((p1) v (p1))) v (p2)) v (p3), False, Syntetyki
+((~((p2) v (p1))) v (p1)) v (p3), False, Syntetyki
+((~((p2) v (p3))) v (p1)) v (p1), False, Syntetyki
+((~((p1) v (p2))) v (p3)) v (p1), False, Syntetyki
+((~((p1) v (p2))) v (p1)) v (p3), False, Syntetyki
+((~((p2) v (p1))) v (p3)) v (p1), False, Syntetyki
+((~((p1) v (p1))) v (p2)) v (p2), False, Kanoniczny
+((~((p2) v (p1))) v (p1)) v (p2), True, Kanoniczny
+((~((p2) v (p1))) v (p2)) v (p1), True, Kanoniczny
+((~((p1) v (p2))) v (p3)) v (p4), False, Syntetyki
+(((p1) v (~(p1))) v (p1)) v (p1), True, Kanoniczny
+(((p1) v (~(p1))) v (p1)) v (p2), True, Kanoniczny
+(((p2) v (~(p1))) v (p1)) v (p1), True, Kanoniczny
+(((p1) v (~(p2))) v (p1)) v (p1), False, Kanoniczny
+(((p1) v (~(p1))) v (p2)) v (p1), True, Kanoniczny
+(((p1) v (~(p1))) v (p2)) v (p3), True, Syntetyki
+(((p2) v (~(p1))) v (p1)) v (p3), True, Syntetyki
+(((p2) v (~(p3))) v (p1)) v (p1), False, Syntetyki
+(((p1) v (~(p2))) v (p3)) v (p1), False, Syntetyki
+(((p1) v (~(p2))) v (p1)) v (p3), False, Syntetyki
+(((p2) v (~(p1))) v (p3)) v (p1), True, Syntetyki
+(((p1) v (~(p1))) v (p2)) v (p2), True, Kanoniczny
+(((p2) v (~(p1))) v (p1)) v (p2), True, Kanoniczny
+(((p2) v (~(p1))) v (p2)) v (p1), True, Kanoniczny
+(((p1) v (~(p2))) v (p3)) v (p4), False, Syntetyki
+(((~(p1)) v (p1)) v (p1)) v (p1), True, Kanoniczny
+(((~(p1)) v (p1)) v (p1)) v (p2), True, Kanoniczny
+(((~(p2)) v (p1)) v (p1)) v (p1), False, Kanoniczny
+(((~(p1)) v (p2)) v (p1)) v (p1), True, Kanoniczny
+(((~(p1)) v (p1)) v (p2)) v (p1), True, Kanoniczny
+(((~(p1)) v (p1)) v (p2)) v (p3), True, Syntetyki
+(((~(p2)) v (p1)) v (p1)) v (p3), False, Syntetyki
+(((~(p2)) v (p3)) v (p1)) v (p1), False, Syntetyki
+(((~(p1)) v (p2)) v (p3)) v (p1), True, Syntetyki
+(((~(p1)) v (p2)) v (p1)) v (p3), True, Syntetyki
+(((~(p2)) v (p1)) v (p3)) v (p1), False, Syntetyki
+(((~(p1)) v (p1)) v (p2)) v (p2), True, Kanoniczny
+(((~(p2)) v (p1)) v (p1)) v (p2), True, Kanoniczny
+(((~(p2)) v (p1)) v (p2)) v (p1), True, Kanoniczny
+(((~(p1)) v (p2)) v (p3)) v (p4), False, Syntetyki

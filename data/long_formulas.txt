@@ -1,0 +1,21 @@
+formula, is_tautology, DT-method, FMI, alpha, beta, synth-nodes, synth-branches, can-nodes, can-branches, dual-nodes*, dual-resolution
+p -> (q = ((((p v q) = (p = q)) v p) v p)), False, Syntetyki, 0.25, 30, 208, 17, 3, 19, 12, 20, 57
+
+((p = p) -> ((p & q) = (~~p = q))) & q, False, Syntetyki, 0.2857143, 41, 20, 21, 3, 24, 13, 14, 21
+
+~((((p v p) & (~~p = q)) & p) = ~q), False, Syntetyki, 0.33333334, 45, 12, 28, 4, 14, 8, 17, 58
+
+(((p & ((q = q) v p)) = (q = q)) & p) -> p, True, Syntetyki, 0.25, 49, 24, 9, 2, 17, 12, 14, 1
+
+~((p & (q = q)) -> (((q v p) & p) & ~p)), False, Syntetyki, 0.2857143, 5, 12, 20, 3, 9, 5, 12, 28
+
+~(~(p v (~~q = q)) & ~(p v ~q)), True, Syntetyki, 0.4, 2, 7, 15, 2, 9, 2, 9, 1
+
+p -> (p v (p v ~(~((q & q) v p) = q))), True, Syntetyki, 0.2857143, 9, 7, 9, 2, 9, 4, 10, 2
+
+((p v (((p v p) & (p & q)) -> q)) & q) v q, False, Syntetyki, 0.25, 3, 6, 13, 2, 8, 3, 8, 0
+
+(((p -> (p v ~~q)) = q) = q) & (p & p), False, Syntetyki, 0.2857143, 14, 45, 19, 3, 18, 8, 18, 28
+
+((p & p) = q) = (~q = (~q & (p -> q))), False, Syntetyki, 0.2857143, 51, 120, 29, 4, 54, 28, 41, 60
+
