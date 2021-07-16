@@ -28,14 +28,17 @@ dependencies:
 - cassava
 - random
 - random-shuffle
+- time
 
 library:
   source-dirs:
-    - src/can_specific
-    - src/synth_specific
-    - src/dual_specific
-    - src/general
-
+    - src/CPL/can_specific
+    - src/CPL/synth_specific
+    - src/CPL/dual_specific
+    - src/CPL/general
+    - src/CPL/ke_specific
+    - src/MBC
+    - src/NFL
 executables:
   DDS-exe:
     main:                Main.hs

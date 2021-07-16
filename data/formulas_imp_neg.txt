@@ -1,0 +1,1001 @@
+formula, is_taut
+p v (q -> ((((p -> r) & (p v s)) -> p) v q)), True
+p v (~q & (r -> (q & (p & (~s & r))))), False
+(p & ~~(p v ~(q -> r))) -> ~(s & p), False
+~((p & (q & r)) -> ((s & (q v ~s)) -> r)), False
+(~~p -> ~(q & p)) v ~((r v s) v r), False
+(p v (((~q v p) & q) & q)) & ~(r & s), False
+~(((p & (q -> r)) -> ~p) v ((p & p) v s)), False
+((p -> ((q v p) & r)) & (r & (s & q))) v r, False
+p & ((q v ~(~(r v p) -> r)) v (r & s)), False
+(~p & (q -> ~(((q -> r) & r) -> s))) -> r, False
+((p & q) v ~p) -> (((r -> ~p) -> s) & r), False
+~(~p & (q & (((r & s) v ~~p) v p))), False
+(p v (q & ((q v q) & q))) -> (r & (s & r)), False
+~(((p -> (q & (q -> r))) & ~(p -> s)) v r), False
+(p & ((~q -> q) v (r & p))) -> (~p v s), False
+((((p v ~q) & r) v q) -> s) v (~q -> s), False
+~~~(p & ((~q v r) -> ~~s)) & p, False
+p & ~((q & p) v (p & (r -> (s v ~s)))), False
+(~(p -> (q & ~(r -> r))) & (q -> s)) v q, False
+p -> (~(q -> (r -> (p -> (~r & s)))) -> r), True
+((p -> ~(q v q)) & ((r -> ~s) -> q)) -> r, False
+(p & ~(((q & (r v s)) v p) & ~s)) -> s, True
+~((p & ((~p & ~q) -> ~r)) -> s) & r, False
+(p & (((q v p) -> ~r) v ~p)) v (s -> r), False
+(((p & ((q v (q -> r)) -> r)) & s) -> q) v p, True
+~(p & (q v (r & (r -> (p & s))))) & ~q, False
+(~p & (~q v r)) & (s -> ((s & q) & r)), False
+(~p v (((q & q) -> (r v ~q)) v s)) & q, False
+(p v q) & ((p & (q v ((q v r) -> s))) -> p), False
+(((p & ((p v q) v ~p)) -> r) -> ~s) -> r, False
+((p v (q & (r -> s))) -> (s & s)) & (q -> p), False
+~(p -> ((q v r) v (s v ~((r v p) & p)))), False
+((((p & p) v (q -> q)) v ~r) -> r) v ~s, False
+~(p v p) & (~(~q -> p) -> (~r v s)), False
+((p & q) -> r) & ~(q v ((s & ~s) & p)), False
+((p v (q & ((r v p) -> r))) v (p -> r)) v s, True
+(p -> ((q v r) & ((q & r) v (q v s)))) v p, True
+p -> (((q & (r v s)) -> (r -> (q & q))) v p), True
+p v ((q & r) v (s -> ((q -> q) -> (p -> q)))), True
+p & (q v (q & ((q v (r v (s & s))) & p))), False
+(p & (q v (p & ((r & q) & p)))) & (s & r), False
+p v ~((q & ~p) -> (r & (~~s & p))), False
+~(~p v p) v (((p v q) v r) & (s -> r)), False
+(((p & q) & (r & s)) & ((p & p) -> r)) -> q, True
+(p v (q -> r)) & (((s -> q) & (r -> q)) & q), False
+(p -> (((q -> ((r -> r) v p)) & s) v p)) v s, True
+p & ~(((p v q) & (p -> ~r)) v (p & s)), False
+((p v ~(q & ~r)) -> q) v (p & (p & s)), False
+p v ((q -> r) & (((q -> r) -> (s -> r)) v q)), False
+(p v (((q v ~r) v q) -> ~(s -> s))) & s, False
+p -> (((p -> (p -> (q & r))) v (s -> s)) v q), True
+((p -> (p v (~q v q))) v (~q & r)) -> s, False
+((p -> ((q -> r) & (r & r))) v (s & r)) v q, False
+(p & q) v ((r v (r & (p & s))) & (q v p)), False
+~(p & q) -> (r v ((~(p & s) v p) & s)), False
+(p -> q) & (((r v q) -> p) & (s -> (p -> p))), False
+(~p v ~((((q -> q) -> p) & q) & r)) v s, False
+(((~p v (p -> (q -> p))) -> r) & ~s) v r, False
+(p -> (q -> p)) & (((p -> r) -> (q & r)) v s), False
+(p v q) & ~((r v (q v p)) v (~s v s)), False
+((p -> (q -> p)) v q) -> ((r v s) & (r v p)), False
+~(p & q) -> ((r & s) -> (s & ~(s v p))), False
+(p & p) v ~((q v ((r v s) v ~s)) v p), False
+~~p v ((p v q) -> ((r & (r & s)) v s)), False
+(p v p) v (((q v r) v (p -> (q & q))) -> s), False
+((~p & (p -> (~(q v p) -> r))) -> s) -> r, False
+(p v (q -> (r -> (q & p)))) -> ((s v q) & q), False
+~(p -> (~q v (((p & r) -> (s & r)) v q))), False
+~(p & (((q -> (p & r)) -> s) -> ~~~s)), False
+(p & ((q & r) v ~~s)) & (r & (p -> q)), False
+((p -> (q -> q)) v q) -> ((r -> (s v q)) & p), False
+~((~(p -> (q -> r)) v p) & (p v (s v q))), False
+p v ((q -> ((((r v r) & s) -> p) -> r)) -> s), False
+~((p -> q) v (((r -> ~r) v s) -> s)) & r, False
+((p -> q) -> ((((q & p) -> r) v r) -> q)) -> s, False
+((p v (q & (p & r))) -> (s & ~~p)) & p, False
+p -> (q v ((((q v r) & s) v p) & (p & q))), False
+((((p -> (q v q)) & ~p) v r) -> r) v ~s, False
+~((((p v q) & ~q) v (r v (s v s))) v s), False
+~((~~p v (q -> q)) v ~(r & (s -> p))), False
+(p v p) -> ((((q & r) v (p & s)) v r) & r), False
+(p & (q v r)) v ((q v q) & ((s v p) & r)), False
+~~(p v q) -> (((r v (q -> r)) -> r) -> s), False
+p & (q v ((q v r) -> (~~(s & q) v q))), False
+(p v (((q v p) -> r) & (p v r))) v (s v s), False
+~(p -> ((p -> q) -> (r -> ~s))) & (s -> q), False
+(p v p) v ((q v (r & q)) & (s -> (q v r))), False
+(((((p & q) & r) v p) -> s) -> (p v p)) v p, False
+((p & p) v ~(q v ~q)) v ((p v r) -> s), False
+((p -> (q & p)) & r) v ((~q v ~q) & s), False
+((((p v (q v r)) -> (p -> s)) & q) v r) v s, False
+p & ((p v (q -> r)) v ~((~q & s) -> s)), False
+p v ((((q & r) v (p & s)) v (s -> r)) & p), False
+~~(((p -> (q v (q v r))) v (s & q)) & q), False
+p -> (q v (r v ((p & (q & s)) v (r & s)))), False
+(p & (((q v ~r) v q) -> p)) v ~(r v s), False
+((~(p -> q) v q) & r) & ~(p v (s -> r)), False
+p v (((q & (q v (r & r))) -> r) -> (s v r)), False
+(~((p -> q) & r) & (~s v r)) -> (s -> r), True
+(p -> q) v ~(p & ((r & p) & (q v ~s))), False
+(~p -> ~(q v r)) v ((s -> s) -> (r & r)), False
+((p & ((q v r) v p)) v q) -> ((s & r) -> r), True
+(~p & ((p v ~(q -> ~r)) -> s)) v ~r, False
+~((p & ~((q v r) & ((p v r) v r))) & s), False
+((p & (q -> r)) v q) & (~(s -> p) -> ~q), False
+p v (q -> ((r & (r -> (s -> s))) & (s -> p))), False
+(~(p -> ((q & r) v ~s)) -> (s -> p)) & p, False
+((p & ((q & (p & r)) -> (q v r))) v p) & s, False
+p v ((q -> r) v ((r -> (p -> q)) -> (s & r))), False
+(~((p v ~q) -> p) -> (p & r)) -> (s -> p), False
+((p v q) & r) v (~~(p v (s -> q)) -> s), False
+(p -> q) -> ((p & ((r & (s & r)) & s)) -> s), True
+(p v ~((~(q v r) -> (s v r)) & p)) -> q, False
+(p v ~~(q & (((r -> s) -> r) -> p))) -> s, False
+(((p -> (q -> r)) -> (s & s)) v s) & (p -> r), False
+~(p v (q v (r -> ((s -> ~(s & r)) -> s)))), False
+~(p & (q v (~~q -> q))) -> (r -> ~s), False
+~((p v q) & ((p v r) & (~s -> (r -> p)))), False
+((p v ((q v (p -> p)) v (r v s))) -> q) -> p, False
+p -> (p & ((q & ~r) & ~((p v p) & s))), False
+p & ((q v p) & (r v (((s v p) v p) v s))), False
+(p -> (q v ((q v r) -> ((r & r) v r)))) v s, True
+(p v (q v ~~r)) & (p & ((r v s) v q)), False
+~((p & ~q) v r) & ((s v ~p) & ~p), False
+(((p & (q & ((r & p) -> s))) -> p) & r) -> q, False
+p v (q v (r -> (((q & (p v s)) & r) & r))), False
+(p & ~(~q & p)) v ((r -> (p v s)) v q), False
+((p -> q) v (r -> ((q & p) -> q))) -> (s & q), False
+p -> (((q -> ~(~r -> ~~s)) -> q) v p), True
+((~(p & q) & p) & q) & ~(r & (s -> s)), False
+~((p -> q) v ~(((r & (p & s)) -> s) & r)), False
+(p & p) -> ((q -> ((r & s) -> p)) -> (s & s)), False
+((p v ~(q -> q)) -> ~(r & s)) -> (s v r), False
+p v ((~q -> (((p -> ~r) & s) v r)) v p), False
+p & (q & (r -> (s & (~(~q -> p) -> r)))), False
+((p -> ((q -> p) v r)) & (s v p)) & (s v r), False
+~(~(p v ((q & r) & r)) -> r) & (q v s), False
+(p & (((q & q) & r) & (p -> (s & s)))) & s, False
+~(p & ((q v p) -> ~(((r -> r) & s) v q))), False
+~((p & ((q & ~q) v (r v q))) & s) v s, True
+((p v (q -> q)) -> ((~q -> r) & ~s)) -> p, False
+(~(p -> p) & (q & ~((p & r) -> q))) & s, False
+(~((p -> q) -> r) & (~(p v s) v p)) v q, False
+(p -> (q -> (r -> (s & q)))) & ((q -> s) v s), False
+~((p & q) & (~p v (r & (~s v ~r)))), False
+(p & ((((p -> q) v p) v r) & r)) v (s & q), False
+~~(((p -> q) -> p) & ((r -> (s v p)) & q)), False
+(p -> q) -> ((((q -> p) v r) & (s v r)) v r), False
+(((p v q) v (~p & r)) -> ~(s v s)) & r, False
+p -> (q & ((r -> (q & ~~(r -> s))) -> r)), False
+p v ~(q v (r -> ~(((r -> q) -> s) & r))), False
+(p v (p & q)) -> (r & (s v ((q -> p) -> p))), False
+(p -> (~~(q & r) & (r v ~~s))) v p, True
+~(((p -> (p -> q)) v (r & (~p -> s))) v s), False
+p -> (((p -> q) -> r) v (p v ((s v p) v p))), True
+(((p & ~(q v ~q)) -> q) v (r & s)) & p, False
+(((p v (q v r)) & ((p v q) & r)) -> p) -> s, False
+~p v ((q -> (~q -> (r -> (p v p)))) v s), True
+p v ((((((q v p) & p) & r) v p) -> s) -> r), False
+~((p v q) -> (r v (s -> q))) -> (~q -> s), True
+(p v q) -> ((r & ~s) v ~((q -> p) & p)), False
+(p v (~(~p & q) -> ((p v r) & s))) & s, False
+(~p -> ~q) & ((~~r -> r) -> (s v p)), False
+(((p & ((q -> r) & ~s)) v q) v ~p) & s, False
+p -> (q & ((r & ((p & (q & s)) v p)) -> q)), False
+((((p v q) -> r) & q) -> (p & (p & q))) & s, False
+(p -> ((q & r) -> ((s -> r) v r))) & (r -> r), True
+p -> (((p -> (q & r)) & (q v (s -> r))) v r), False
+((p & (q & r)) v (r v r)) v (q v (s v q)), False
+(p -> p) & ((((p v q) v p) & (p v r)) & s), False
+p -> (q v ((p -> ((r -> r) & s)) v (s -> p))), True
+(((p v q) & (r -> ((q v p) -> p))) & q) v s, False
+((p & q) -> r) -> ((s v q) -> (q -> (r -> q))), True
+((p v q) & (r & ~(s v ~s))) -> (r v q), True
+p v (~q v (r & (p -> ((s & ~r) & p)))), False
+(p v q) & (r -> (~~(r & (p v s)) -> s)), False
+(p -> ~(~q -> (p v ((r & p) & q)))) & s, False
+(~(p -> (~q & r)) & s) -> (r v (q -> q)), True
+~(((p -> (q v ~p)) v r) & ~~(s v r)), False
+((((p & p) -> q) & p) -> r) & (s -> (s v p)), False
+p & ((~q v r) & (s -> (p -> (q & ~r)))), False
+(((p & q) -> (q & r)) v (p & s)) & (p v p), False
+~p & ((q v ~r) & ((r v (s & q)) v q)), False
+p -> (~(((q v (q v ~r)) & p) v s) -> p), True
+p & (~(((q -> (r v r)) -> r) -> s) v ~p), False
+p & (q v (~((q & ~~r) & ~s) v p)), False
+~(p v (q & ((((~q & r) -> r) -> r) & s))), False
+p -> (q v (~~(q v (r v s)) v (r v s))), False
+p & (((q v (((r v r) & s) v q)) -> p) -> r), False
+(p -> ~(~q v (r v ((p v q) -> s)))) v q, False
+~((((p & q) & r) & ((p & s) & s)) -> ~s), False
+((((p & ~q) -> r) & ~q) v r) & (r & s), False
+(((p v (q v r)) -> p) & q) & (q v (r & s)), False
+(p & q) v ((r & (~~(r -> p) & s)) & q), False
+p & (q v (r -> ~((q v r) & ~(s v r)))), False
+((p v ~q) & (r v (~r -> s))) & (r & p), False
+(p v q) & ~((q -> q) v ~(r & (q -> s))), False
+~((p & (((q v (p & r)) -> q) & ~r)) v s), False
+((p & q) -> (r v p)) v ((p -> p) -> (s v r)), True
+(((p v q) -> r) -> (((s & q) & p) -> r)) -> p, False
+p v ~((q v r) & ~((p & ~~s) & q)), False
+(p & q) v (r v (q v (q & ((p -> q) -> s)))), False
+p -> ((q -> ((p -> p) v ((p & r) & s))) -> p), True
+~(((~p & q) -> q) -> (~(~r -> s) v r)), False
+(p & ((q -> (((r -> q) & s) -> s)) -> q)) v s, False
+((p -> ((q -> q) v r)) -> (p & (s & p))) v p, False
+((~(p -> q) v r) -> (p v p)) v (s v ~r), False
+(p v (q -> r)) & (p -> (r -> ((q -> r) -> s))), False
+((p -> (p v q)) & (r & (~q v ~s))) -> p, False
+p v ~((q -> (q -> r)) -> (~p & (s & s))), False
+(p v q) v ((r & r) & (p & (q & (p & s)))), False
+(((~~p & p) & p) -> (q -> (r v s))) & q, False
+p -> ((q & ~~((r v q) -> r)) -> (s -> q)), True
+(p v ((p v ~(q & ~(r & q))) -> s)) v p, False
+~((~(p v q) -> ~~q) & r) & ~~s, False
+~((p v (q -> r)) & p) & (~q & (s -> q)), False
+~p & ~(q -> ((r v ((s -> q) & s)) -> r)), False
+(p -> ((((q -> r) & s) v (s v q)) -> q)) -> q, False
+(p -> ((q & (p v r)) -> ~s)) -> (r & ~r), False
+(p -> (q & ~(r v p))) v (s & (~r v r)), False
+p -> (((((p & q) -> p) -> r) -> s) -> (r v s)), False
+(~~p & ((q v p) & (r -> r))) -> (p & s), False
+~(((p & q) -> ~r) v (s & (s -> s))) -> s, False
+((p v ((q v (p -> (q v q))) -> p)) v r) & s, False
+~(~(p -> q) v ((q & ((r v s) v p)) v q)), False
+(p v (q v r)) & ~((r & (~q -> s)) & r), False
+(p -> (q v (~r -> ~s))) v (p v (q & r)), True
+p & (((q -> r) v (s & (s & (s v r)))) -> q), False
+((p & (~(~q & q) -> r)) -> (s -> p)) & r, False
+(~~p & (q -> ((p & (r & s)) v r))) -> q, False
+(~(p v ((q & r) -> q)) -> s) -> (~q v s), False
+((p -> ~~(p v (p -> q))) & p) & (r & s), False
+p & (((q & r) & (s -> (~q -> ~p))) & s), False
+(((p -> (q v r)) -> q) & (q & p)) & (s v s), False
+(p & (q -> ((q v (~p v ~r)) -> s))) & p, False
+p -> ((p & q) -> (p -> (r & ((s -> p) -> q)))), False
+~(((p & q) v r) v ((q v (r -> s)) & ~s)), False
+((p & (q -> ~p)) v q) -> ~((r -> s) v s), False
+((p v q) -> ~p) v (((r & p) v ~s) v p), True
+p v (p v ~((q & (~r -> (r -> r))) v s)), False
+(~((p -> ~q) -> ~~r) & (s -> s)) & q, False
+p -> (q v ((r -> (r -> (q & ~~r))) v s)), False
+~(p & ((q v ~r) v ((p & r) v (s & p)))), False
+p & (q -> (((p -> (r -> ~r)) v ~p) v s)), False
+p & (~(q v (r & ~(p -> (q & s)))) & p), False
+~p -> (((q & (r v q)) v r) -> (q & ~s)), False
+p & ((q v (~r -> (~(q -> r) -> s))) & q), False
+(p & (~(~q v r) -> ((s & p) v s))) & r, False
+(p -> ~q) v ((~q v (q -> (r & s))) -> r), True
+~((((p -> q) -> (p & q)) -> r) v (s v ~p)), False
+(p -> ((q v (r -> p)) v (q v s))) & (r & s), False
+p -> ((((q -> r) v r) & ((r v p) -> q)) v s), False
+~p -> (~~~((q -> q) -> r) v (q & s)), False
+p -> (p & ~(q -> (~~(r v q) & ~s))), False
+(~(p & (~q & r)) -> s) -> (q & (p -> q)), False
+p v ~~(q -> (((r & s) -> ~~p) -> p)), False
+~(((~(p & ((p -> q) v r)) & s) & r) v r), False
+p & ~((q & (r v ~s)) & ~(s v ~p)), False
+(p v p) -> (q & ((q v (r -> s)) & (r & p))), False
+p v ((q & (((q v r) v (q v s)) -> p)) & s), False
+p -> ~~~((q -> (r v s)) v (~s v p)), False
+(p v ~((~q & q) & ((r & s) v s))) v p, True
+~(p -> (~(q -> q) & ((r -> (q & s)) & r))), False
+(p v (p -> p)) -> (~q & ((r v q) -> ~s)), False
+((~(p v q) & r) -> (p -> p)) v (r -> ~s), True
+(p v ((q v p) v (~r -> ~s))) & (s -> r), False
+(((p & ((p & q) -> (r & q))) v r) v s) & r, False
+(((((p & (q -> r)) & p) & p) -> s) & s) -> q, False
+~p v ((q v (r v (~q -> (r & s)))) -> q), False
+p v (~(q v (~(p -> (r -> r)) -> s)) & p), False
+p -> (~((q v ((q & r) & p)) & ~p) & s), False
+p & ((p -> ((q & (p & r)) & s)) -> (r v q)), False
+p -> ((q -> (~p & (r -> ~s))) -> (r -> s)), False
+p v ((q & ((((r & p) -> r) & s) & r)) & q), False
+(((p & q) & r) v r) & (~s -> ~(r v q)), False
+~(p & ((p & q) v (~(p -> p) -> r))) -> s, False
+(p & (~q -> q)) & (q & (~(r & p) & s)), False
+(~(((p -> p) & q) v (~p v r)) v s) v p, False
+((p v q) v (q v ((r v (s & s)) v r))) v s, False
+(p v ((q & (~p v q)) & ~(p v r))) & s, False
+p & ~~(q -> (((r -> s) -> (s -> s)) -> q)), False
+(p -> q) -> (r v ((r -> r) & (r v (s & r)))), False
+p & ((q v r) -> ~((q -> ~(s v q)) & q)), False
+(((~p -> q) & ((q -> r) -> ~s)) -> p) & s, False
+p v (q v ((r & q) v ~(~s -> (q v s)))), False
+p -> ((q -> (r & q)) v (r & ((s & q) v p))), False
+((p & (p & p)) v ((~~q v r) -> p)) v s, False
+((p -> ((~q v p) v p)) & (r -> s)) -> ~q, False
+(~p -> (q v ~(r v ((q -> s) -> r)))) v q, False
+(((p & q) v (r v (s & (q v q)))) -> p) & p, False
+~~(p -> (~~(q & r) -> (q v (p & s)))), True
+(~p & ~~(((q v r) & s) & r)) & ~r, False
+~(p v (~(q -> r) -> ~~(q & (s -> r)))), False
+(~((p v (q -> (r & r))) -> ~p) -> s) & p, False
+~~(p v ~(~q & ((r & q) & r))) & s, False
+(((((p v q) v r) v (q -> s)) v s) v q) -> r, False
+(p -> (q -> (~~r v s))) & ((p & p) -> q), False
+((p -> ((q & r) & (p & (r v p)))) & s) & q, False
+(~p v (((q v q) v r) & (~q v p))) & s, False
+((((p & q) -> r) v s) & p) -> (p -> (r v s)), False
+(p & ((q v r) v ((~~s & q) -> s))) v s, False
+(((p v q) -> ((r -> s) v (r & p))) v q) -> p, False
+~(p v (p -> ~(p & q))) & (~r -> ~s), False
+p -> ~(q v (p & ((r & ~(q -> s)) & s))), False
+~(~(p v q) v ((r -> ~(~q & q)) -> s)), False
+((p -> (~(~q & q) v r)) v (q v s)) -> r, False
+~(((p v q) v (~(~q v r) & p)) & ~s), False
+(~p v (p & ((q -> r) -> ~(p & p)))) v s, False
+p -> ~((q v (r v ~p)) & (s & (s -> r))), False
+p v ~(q -> ((r & (p -> (q -> q))) -> ~s)), False
+~((((p -> q) v r) -> (p v s)) & (r v ~r)), False
+p & ((q v r) v (r -> ((q & p) & (s & p)))), False
+(p -> ((q -> r) & (r -> (p & (s & s))))) -> r, False
+(p & (((p -> q) v r) & (s -> (p v p)))) v r, False
+~p & (q -> ((r v p) -> ~((r v q) & s))), False
+(((((p -> q) & q) v r) v s) -> p) v ~~r, False
+~~p v (q -> ((r & (q & (r v s))) -> q)), True
+(p v ((q & r) v r)) -> ((r & (q v r)) -> s), False
+(p v (p -> q)) v ((r & ((s -> s) v r)) & s), True
+((p -> q) v ((r v ((q & r) v p)) & s)) v p, True
+(p -> q) v (~~r -> (r & (s -> (p -> p)))), True
+(~((p v ~(~~q -> r)) -> p) & s) -> p, False
+p v (((q -> q) & (q v ((r -> q) & s))) v q), False
+p & (((((q v (r & p)) v s) & r) v r) v q), False
+~~(p -> q) & (r -> ((s & (r -> q)) -> q)), False
+(p -> (q v r)) -> (s v ((s & (q v s)) v q)), False
+(p -> (p & q)) & ((r v (s v r)) & (s -> q)), False
+~((~(p v q) -> r) & q) -> (p v ~~s), False
+p -> (((q -> ~((r v r) v s)) & p) & ~p), False
+(p -> (((p v q) -> (r & ~p)) -> ~r)) & s, False
+((p & (~q & r)) v s) & (r v (~s -> q)), False
+(p & ~((q & (q & p)) v (r v ~s))) -> s, True
+~(~((p -> q) & ~(r & s)) -> (~s v q)), False
+(((p & (~~q v r)) v p) & s) -> (q v s), True
+(p v ~q) -> (p v ((~p -> r) v (s & p))), False
+(p & (((q v (p & p)) -> r) v (s v s))) & q, False
+~~((p -> ~~(p & ((q v r) & s))) v s), False
+(((p -> p) & p) & q) v ((q & (r v q)) -> s), False
+p v ((q & ~r) v (s -> ~((s v s) v q))), False
+~(((~p -> q) & (r v r)) v (p v p)) v s, False
+p & (~(q v ~((r & p) & s)) -> (p v r)), False
+(p & q) v (((r v q) & (p v q)) & (s v q)), False
+p -> (q -> (r -> ((s v ((r v p) -> r)) & r))), True
+p -> (((q -> ((q v ~r) v ~p)) & s) & s), False
+p v (((~(~~~p v q) -> r) -> s) -> r), False
+((p v q) -> r) v (s & (r -> ((s & p) & r))), False
+((p -> (q -> p)) v r) & (((p & r) & r) v s), False
+(~~p v p) & (((q -> r) & ~s) -> ~r), False
+~((((~p v p) -> q) & ((q -> r) v s)) & s), False
+~(((~((p -> q) -> r) v p) & r) & (r -> s)), False
+~(p -> ((q v (r v ~(s & (q & p)))) -> p)), False
+(~p v (q -> p)) -> (q & ((~r -> q) -> s)), False
+(((p v q) v r) v (p v (r & (q & s)))) -> q, False
+(~(p & ~(q & ((q -> q) v p))) -> r) -> s, False
+(p v ((p & ((q -> r) -> (p v q))) v r)) -> s, False
+p -> ((p & (((q -> r) -> (p -> r)) & s)) & s), False
+(p -> ((~q & ((r & ~q) & q)) v r)) -> s, False
+(p -> ~q) v (~q v ~((r v s) -> ~p)), False
+~~((p -> p) v p) -> (q & (r & (q v s))), False
+~(((p -> ~q) v (r & q)) & (q -> s)) -> q, True
+~~(p v (p -> (((q & (r v r)) -> s) -> s))), True
+p & (q -> (r -> (~(r -> p) & ~(s v p)))), False
+(p v ~((q v ~~q) v (p & r))) -> ~s, False
+p -> (~q -> (~q & ((r -> q) -> (r v s)))), False
+(((p & q) v (p & (p & r))) v s) v ~~p, False
+(((((p & q) & r) v p) & r) -> q) -> (r & s), False
+(((p -> p) -> q) -> (r -> p)) -> ((s v p) -> p), False
+(((p v p) -> p) & ((p v q) -> r)) & (s -> q), False
+~(p -> q) -> ~((r -> p) & (s -> (p v q))), False
+((p v (q & q)) -> (r & (s v ~~s))) -> p, False
+((p -> q) & r) v (~(q & ~(s v q)) & q), False
+(p & q) & ~(r -> ((r -> (q & r)) -> ~s)), False
+(~(((p -> (q -> ~r)) -> s) v s) -> r) -> p, False
+p & (((q -> (r & r)) v ((q & s) -> q)) & q), False
+((p v (p -> q)) -> ~r) & (r -> ~(p -> s)), False
+~~p -> (((p v (~~q -> r)) & s) -> p), True
+(p -> (((p & q) v (~r & r)) v ~s)) -> q, False
+p -> (q & ((p -> (p & ((r v r) -> s))) & p)), False
+(~((p v q) -> (~p -> p)) & (p v r)) -> s, False
+(((p -> p) v ~q) -> ~(r & p)) & (s & s), False
+(p & (q -> r)) v ((p v ~~q) -> (s v p)), False
+(p -> ~q) v (r -> ~(s & (q v (q v p)))), False
+((p & q) -> ((p & (p -> (r -> s))) -> r)) v q, True
+p v (~(q -> (p v q)) -> ((~r v s) & q)), True
+(p v (((q v q) v ((r & r) & s)) & s)) -> q, False
+((((p v (q -> (r & p))) & q) v r) v s) -> p, False
+(~((p -> q) -> q) -> ~(p -> (r -> q))) & s, False
+((p v p) & q) -> ((r -> s) & ((p -> r) v q)), False
+p v ((~((p -> q) & (p & ~r)) & s) -> q), False
+~(p v ((q -> ~~r) & ~((r & s) v s))), False
+~~(((p v ~p) v q) & ((r -> ~s) & r)), False
+~p -> ((q v (p -> ~~(q -> ~r))) v s), True
+~(((p v q) v ~(r v p)) -> p) v (s -> p), False
+(((~((p & p) -> q) -> r) -> s) & p) -> ~r, False
+~(p v (((q -> r) -> (~r -> r)) v s)) -> q, False
+(p & (p -> ~(((~q v r) & q) -> q))) v s, False
+~(((p v (~q -> ((r -> r) & r))) v p) -> s), False
+p -> (q & ((((p & p) -> (r -> r)) v q) -> s)), False
+p -> ((q & ((r -> (~p -> ~r)) & s)) -> q), True
+~(~(p -> (q v ((r v q) v s))) v ~~s), False
+(p & ~(~((q -> r) v (p & s)) & p)) v p, False
+p v ((q -> (q v (r & p))) -> ~(~s v s)), False
+~(p v p) & (~(q v (r v (r & s))) v p), False
+~(p v ((q & (~~r v ~s)) v s)) & s, False
+p & ((q v (~(q v r) -> ~p)) -> (r & s)), False
+(p -> ((q -> q) & (~p & ~(r & s)))) -> p, False
+~p v (q & ~(r v ~(s & ~(s v s)))), False
+~((~(p -> p) -> (p -> ~q)) & r) -> ~s, False
+((p -> q) v ((r -> (s & (q v q))) v q)) & s, False
+(p v q) & ((((r v ~~r) -> q) -> s) -> q), False
+~(p v ~(((q v p) v ((r & p) & s)) & q)), False
+((p & q) -> (q & (((r -> s) & p) -> q))) -> r, False
+(p & q) -> (r & (s -> (((s v p) & r) -> q))), False
+(((p -> (q & r)) & p) v (s & q)) -> (q & p), False
+(~(p v (q -> r)) -> (q v q)) -> (s -> ~q), False
+(((p v q) & r) -> ~~s) -> (q v ~~q), False
+~(((p -> (q v r)) v ((s & r) -> ~p)) -> q), False
+((p v (q & (r & s))) v ((p -> p) -> q)) -> s, False
+~(((p & q) -> ~(q v r)) -> ((s -> p) & p)), False
+~(p v (q v ~((~q v ~p) -> (r & s)))), False
+((p -> q) & ((p & (r -> q)) v (s & p))) v p, False
+((p v q) & r) v (((s & (s -> s)) & s) -> p), False
+(p v q) v (r -> ((q & q) -> (q & ~~s))), True
+(p v q) v ((~q v ~r) & (s -> (p & q))), False
+(((p v p) -> (q & r)) -> p) -> ((q -> s) & r), False
+(p -> (~((q & ~r) & (q v s)) v r)) v r, False
+((p & q) -> (r v (~p & (r v ~s)))) & q, False
+(p & ((q & r) & (p -> ~~s))) v (r & q), False
+((~p & ~(q -> r)) & (q v s)) & ~~s, False
+((p v (q -> (r & s))) & r) & (q -> (p & q)), False
+p -> ((p -> ~(~(q & r) -> (r & p))) -> s), False
+~p & (q & (p & (((p & ~r) & s) -> r))), False
+p & (~((q v r) v ((s -> q) -> ~r)) v q), False
+(p -> (q v (~((p v r) & ~s) v r))) & s, False
+p & ((p -> ~(p -> q)) & (~(p -> r) -> s)), False
+(~p v ((q -> r) & (q v p))) & ~~~s, False
+(p & (p v ((q & r) v p))) v (s v (r & s)), False
+(~p v ((p -> (q v (~p v r))) -> q)) & s, False
+(~p -> (q -> ((r -> (q & q)) & s))) -> ~s, False
+~p v (q & (r & ((s v (~q v p)) -> q))), False
+(p -> q) v (((~q & (r -> s)) -> q) v ~s), False
+~(((((p & q) -> r) v p) -> ~q) -> (p & s)), False
+(~~p -> (((q -> q) -> r) -> s)) & (s & s), False
+~~((p & (p -> (~q v r))) & ~(s -> p)), False
+~~(((p -> (q -> r)) & p) -> ~~s) v q, False
+(~p v q) & (r & (((s v s) -> ~s) v p)), False
+(p v (p & ((((p & q) -> q) & q) & r))) v s, False
+~((~p -> ~(~q -> (r & p))) & (r -> s)), False
+(((p & (p & p)) & q) v (q -> (r -> s))) -> p, False
+(p & (((q -> (p & r)) v q) -> (q -> r))) -> s, False
+p v (q v (r & (~p v ~(s -> (r & q))))), False
+~(~~(p v q) v ((q v (r -> s)) -> ~p)), False
+~~(((p v (q & r)) v q) -> q) -> (s & p), False
+p v ((~(q -> ((r & p) & r)) & s) -> ~q), False
+~(p -> q) v (~r & ((p -> s) v (p v s))), False
+(((p & q) -> ~~r) & s) & ~(~q & q), False
+((p -> (((q -> r) -> r) -> s)) -> p) v (s v r), False
+p v ((q -> (((r v (s -> r)) & r) & r)) -> r), False
+p & ((q -> (~p -> ~(r -> s))) v (q -> s)), False
+~(p -> (q & ~(r v (r -> ((s -> r) v r))))), False
+~~(p & (q v (r v r))) & (s -> (s v p)), False
+(p & (q & (r -> (s v (s v p))))) v (p & r), False
+(p -> (q -> ((q -> r) & (s v p)))) v (r v r), False
+(p -> q) -> ((((p v (r v s)) -> r) -> q) & p), False
+p v (q v ~(((~p -> p) -> r) v ~~s)), False
+p v ((~~q v ((r & s) v p)) & (s v p)), False
+p v (((q -> q) -> (r -> ((p -> p) -> q))) & s), False
+((~(p v p) -> ((~p -> q) v r)) v s) & q, False
+p -> ((~~q v (r & ~s)) & (q & ~s)), False
+p -> ((~~(q & ~r) -> ~(q -> s)) -> s), False
+(p v (q -> ~q)) v ((r & ~r) -> (p -> s)), True
+p -> (((~p -> (~q & p)) & q) -> (r v s)), False
+(p & (q v r)) v (((r v r) -> (s -> p)) -> s), False
+p v (~q v ~(~~((r & r) -> s) & r)), False
+p -> (~q -> ((~r v q) -> ((q & s) v p))), True
+(~((p -> (~~p -> q)) v r) v q) -> ~s, False
+(p & q) v (((r -> (p -> (s -> q))) -> q) & r), False
+(p v (p -> (p & ~q))) -> (r v ~~~s), False
+(p -> (q & ((~q & (r v s)) v ~q))) -> p, False
+(p -> (((q & r) v s) & (r -> q))) & (s -> p), False
+p v (q & ((r -> ((r & (s & s)) v p)) -> q)), False
+~((p v q) -> (p & r)) v (~q -> (s -> r)), False
+((p -> (p & (q -> (r & p)))) & (s & r)) v p, False
+((((p -> q) -> q) & ~r) & p) & (~r -> s), False
+(p -> q) v (r & (p -> ((p -> q) -> (r & s)))), False
+~(((p & (~~~p -> (q & r))) -> s) v s), False
+(((p v q) v r) v p) v ~((q v q) v ~s), False
+(p & ~p) -> (((q -> p) v p) -> (r & ~s)), True
+~((~p -> (p v (q v r))) v (s -> (p v q))), False
+(p v (q & r)) -> (~~(~~q -> r) v s), False
+~(p v (q -> (((r v s) v s) & (r & ~q)))), False
+~(((~(((p v q) -> p) & r) & s) & s) v s), False
+(p v ((q -> (r -> ((s v s) v s))) v s)) & p, False
+~(p v ~q) v ((r & (q v s)) v (r -> s)), False
+p v (((~~q -> (r v p)) -> s) & (s v q)), False
+(p & (q -> r)) -> ((q -> (p -> p)) -> (q & s)), False
+((p -> ~~((q -> p) v (p v q))) v r) v s, True
+~p v ((((p & q) -> (~r v s)) -> p) & q), False
+p -> (~(p & ((~~~q & r) -> s)) -> s), False
+((((p & (q & r)) & ~s) v p) & ~p) v s, False
+(((p v q) & ~~r) -> q) & (s & (q v p)), False
+((p -> q) -> r) & ~((p -> (p v ~s)) -> s), False
+(((p v q) v (p -> (p & r))) & r) -> (p v s), False
+(p -> ~(((~q -> (p & r)) & q) -> s)) & q, False
+(p v ((p & q) -> (~r -> s))) & ~(r -> p), False
+((((p & q) -> r) & (q & (r & p))) -> s) & r, False
+p v (((~~(q -> (p -> q)) v r) & s) & q), False
+p -> (p v (~(q -> r) -> (q v ~(s & q)))), True
+((p & p) v ~(q -> (r & s))) -> ~(r v s), False
+(p & q) -> ((r -> ((~r v q) & ~s)) & p), False
+~(((((p -> (q & r)) & p) v s) & s) -> ~r), False
+(~p & p) & (((p -> q) & (r -> s)) v ~q), False
+p -> (~((q -> r) v (~q & (q & s))) v q), False
+p v ((~q v ~q) & (q v (r & (s & s)))), False
+(p -> ~((((q v ~r) & p) & r) & p)) & s, False
+((p -> p) & ~~(q -> r)) -> (s v (p v p)), False
+~~(p -> q) & (r -> (q -> (s & (s v s)))), False
+(((~p v q) & q) v ~r) & ((s v s) v s), False
+p v ((q -> p) v ((r -> p) & ((q -> s) & q))), False
+~(((p v ~~q) & r) & (~q & (s & q))), True
+(p v (q v ((r v ((r -> r) v q)) v q))) & s, False
+(p v ~(~q v (r & ((s v p) & s)))) & s, False
+(p -> (~((q v (r -> ~q)) -> r) & s)) -> p, False
+p & ((q & r) v (~(p v s) -> ~(r & p))), False
+~~((p & q) v (p -> (((r v s) -> s) v p))), True
+(~(p & q) v ~(p & (r -> (s -> p)))) & r, False
+~(~(p & p) v (((q -> p) -> r) -> p)) & s, False
+(~(p & q) & (~(r v (q v p)) v q)) -> s, False
+p & ((q -> (r & (((q v r) v r) & s))) v r), False
+(p v ((q v (r v p)) -> s)) v (s v (r v q)), True
+p v ((q v ((r & r) v p)) v ~(~s & r)), True
+~(p v ((~q & r) v ((s -> s) v (r -> p)))), False
+(~~(~(p -> p) v p) v q) -> (r & ~s), False
+p -> (~((~q & r) v q) & (s -> (r v r))), False
+(((p & (q & r)) v q) & q) -> (s v (p v q)), True
+(((p -> q) v (r & (q -> (s & p)))) v r) v p, True
+((p -> (q & r)) -> ~~~(s v s)) & ~s, False
+~(p v (((p v ~q) -> p) -> (~r -> ~s))), False
+(p v q) & (((~r -> s) & (s & ~r)) -> s), False
+~((~((p v q) v r) & s) v (~p -> ~p)), False
+(p -> q) & ((((r v r) & (q & s)) -> r) & p), False
+((p & p) v (p & ((q v q) v (r & s)))) v p, False
+~(((p v (p & ~q)) & p) v (r -> (q v s))), False
+(p -> p) -> ((q -> (~r v s)) -> (~p -> p)), False
+(((p & q) -> (r v s)) & ((r v p) -> q)) & s, False
+p & ((q & ((r -> r) -> ~(~r & r))) & s), False
+p v (q v ((((p v p) & p) & r) v (s -> p))), False
+~(p & ((((q v (p -> q)) & ~r) -> q) -> s)), False
+~(((p & (p & ((p & q) & r))) -> s) -> ~r), False
+(p v (q -> ~((q & r) -> ~~~s))) v s, False
+p -> (q & ~(q & ((r v s) v ~(r v q)))), False
+(p v (p v (p & (p & q)))) -> ((r & s) -> s), True
+p -> (q -> ~(((~r -> q) -> s) v ~~q)), False
+p & (~((q v q) & ((r -> ~r) v s)) -> p), False
+((p & q) -> (((q v q) v (q -> r)) v s)) & s, False
+(p & (((q -> p) v (q v r)) -> (s -> q))) v p, False
+(p -> (q v ((p v (r & (s v p))) -> s))) -> p, False
+(~p v q) & (~p v (((r -> s) v s) & r)), False
+((p & (q v ~(r & r))) & s) -> (~s & p), False
+p & ((((q -> (r v s)) v s) v r) -> (p & s)), False
+~p v (q v (~(~~q -> (r & s)) -> r)), True
+(p v p) v ((~q & r) & ~(s & (s v r))), False
+p & ((q -> ((r -> (s -> q)) v ~~r)) & q), False
+p & ~~(q -> (p -> (r v ~(q v ~s)))), False
+p -> (~p & ((q -> (q -> (r v ~s))) v s)), False
+p v ((q v (r & (r -> (q -> s)))) -> (r & p)), False
+~(((p & (q & p)) -> (q & ~(r & q))) & s), False
+p v (q -> ((p -> ((r & p) -> (q & q))) v s)), True
+((((p v q) v (r v (r -> q))) & s) -> q) -> p, False
+~((p v q) -> (r v q)) & ((~s v p) -> p), False
+((p & (q & r)) & r) v ((r & (s & s)) -> p), False
+p v (q -> (r v ((p v (s -> (r -> s))) & p))), False
+p & ~(((~~p -> q) -> (r -> ~s)) -> s), False
+((p & q) -> r) v (q v (p & ((q -> s) -> p))), True
+(~p v q) & (~r v ((p -> ~~r) & s)), False
+p -> ~(q & ~(r v ((s -> (s v r)) & r))), False
+~p & ((q v (q & ~(r & (p v s)))) v r), False
+(p v (q -> r)) -> ((s -> (p & r)) -> (q & r)), False
+~~p & (((q & r) v (r & ~~r)) v s), False
+~((p -> (p -> q)) & ~((r v s) & s)) & p, False
+((p & q) -> ((~r -> p) v q)) -> ~(s -> p), False
+((p v (q & r)) v ((q -> (p -> s)) & q)) -> q, False
+((~(p v q) & (r -> p)) -> r) v (s v ~r), True
+((p -> ((q -> r) v q)) & p) & (s -> ~~p), False
+~(p -> (((q -> r) -> (s v ~(s -> s))) & q)), False
+p v (((~q -> r) & q) -> ((r & s) v ~q)), False
+p v ((q -> (p -> p)) v (q & (r -> (s v q)))), True
+((p v q) -> ((r v s) v (s & r))) -> ~~r, False
+~((p v q) & r) v ~(~q -> (~r v s)), False
+~(p & (q & (r v (s -> p)))) -> (r & ~r), False
+~((p -> (~q & (((r -> p) v q) & q))) -> s), False
+(p & ((~q v (r & s)) & ~(s v p))) -> s, True
+((~~p v (q -> p)) v q) -> ((r -> q) v s), False
+~~((((p v q) & (r v r)) -> ~~s) -> r), False
+((~p v ~((q -> (q -> r)) & s)) & s) -> r, False
+((~p & ~((q -> ~r) & q)) & ~s) -> p, False
+((p & ~(q & (~(p & r) v s))) -> p) v q, True
+(p v q) v (((~~r & r) -> r) -> (s & q)), False
+(p v (((q -> (r -> q)) -> p) v s)) -> (s -> p), False
+p v ((p v ~(q v ((r v s) & ~p))) & q), False
+(p & ((q v (r v q)) v ((q & q) v r))) & s, False
+p v (q -> (r -> (~s & (~r v (p -> q))))), False
+(p v (q -> ~(~(q & r) -> s))) -> (s -> p), False
+((p v p) v q) & (p & ((r v (p & p)) v s)), False
+(p -> (q v (r -> (r -> (s v p))))) v (q v q), True
+((~p -> (q -> ~q)) -> p) & ((p v r) & s), False
+(p v (((q -> q) v r) & s)) -> (r & (r v q)), False
+((p v (p & q)) & (~(~r -> s) v p)) v p, False
+(p v q) v ~((~r v q) -> (s -> (r v s))), False
+~(p -> ~((q v (p v r)) v p)) -> (s -> s), True
+((p & p) & (~~q -> (r v (s & s)))) & p, False
+~((p -> ~p) v (q & (q & r))) & (s -> q), False
+((((p & ((q v p) -> q)) & r) -> s) & s) -> r, False
+p -> (q v ((q v ((p -> r) v (s & r))) v s)), False
+p v (p & (q -> (~r v (s v ~(r v p))))), False
+((p -> q) & (r -> ((r & r) -> q))) & (r -> s), False
+(p & ~~q) -> ((((r -> p) & s) & r) v p), True
+~(p & ~(((~~(p & q) & q) & r) v s)), False
+~(~(p -> ((q v (r v (s -> s))) & p)) & r), True
+p v (((~(q & p) v ~~r) & ~s) & q), False
+p -> (q & (((r -> (p -> ~r)) & r) -> ~s)), False
+~((((p -> q) v r) -> r) -> ~(~~s -> r)), False
+~((p -> ((q -> r) -> s)) & r) v (~q v s), False
+p v (q v ((r -> q) v (q v (~~s -> p)))), False
+(p v ((q -> r) v ((p -> (s v s)) -> p))) v r, False
+(~p v q) -> (((~r -> p) & p) v (q & s)), False
+(p -> q) -> (((r v ~(~r -> s)) -> s) v p), False
+p -> (~(q -> (r v (~s & q))) -> (p -> q)), True
+(((p & ~q) v r) -> (~s -> (s -> p))) & p, False
+(~p v q) v ((((r & ~s) v p) & p) v s), True
+(((~p -> (q v q)) v p) & ~r) v (q & s), False
+~(p & q) & ~(r v ((q & q) & (p -> s))), False
+(p v (p v (q -> (r v ((q v r) v p))))) & s, False
+~(p -> (~(~p -> q) -> (p -> (r & ~s)))), False
+(~((p -> (q -> (~r & s))) & p) v r) v q, False
+(((p -> (q v r)) -> r) v p) v ~~(s v p), False
+(~p v p) v (~(q & r) -> (~p -> ~s)), True
+~p v ((q v q) -> ((r -> (p -> ~s)) & s)), False
+p v (q -> (q -> ~~((p & (r -> s)) v q))), True
+(((~p -> q) -> ~r) & q) v ((s -> s) v s), True
+p & ((p -> ((q -> q) v r)) v (r v (p -> s))), False
+(p -> (~q v ((r -> (r -> ~p)) v s))) & p, False
+p v (q v ((q -> ((r & p) -> ~s)) & ~r)), False
+(((((p -> p) -> p) -> q) v (p & r)) v s) v p, True
+((p -> ~q) & ~((r & p) & (r -> q))) -> s, False
+(p & ((q -> (r -> r)) v p)) v ((p & s) & r), False
+(p v (~(q v ~r) -> (r -> p))) v (q v s), False
+~((p & ((q v (r & (s -> p))) -> ~r)) -> p), False
+~p v ((q v (r v (s v p))) -> (~q & q)), False
+p & ~((~(q & r) -> ~(p v s)) & ~r), False
+p -> ~(~q v (r & (s v ~(r v ~r)))), False
+(p & q) -> ((p v p) v ((r & p) & (s -> s))), True
+((p & (((p & p) v q) & r)) -> (s & p)) & p, False
+p & ((q & q) v (~((r & p) & s) & ~r)), False
+p & (((q & r) v (s -> ((s v r) v r))) v r), False
+(p v ((q & r) & s)) & (p & (~r v ~r)), False
+p & (((q & p) -> r) v ((s v (q -> s)) -> s)), False
+(p & (p -> (q -> ((r -> s) & (p & p))))) -> q, False
+(p v (~q & r)) v ~((s v p) -> (p -> p)), False
+~((p -> ((q v q) -> (r & (r -> ~q)))) & s), False
+~(p v (((q -> p) -> (r -> (s & ~r))) -> r)), False
+((p -> q) v (r & ~~(s & p))) -> (p -> s), False
+((p & q) -> (~(r v (r & ~p)) -> q)) -> s, False
+~(((p & (((q -> r) & ~s) -> q)) & s) & r), False
+~~p v ((p v (((q v r) v r) & s)) -> p), False
+(p & (q -> (r & p))) -> (p & (~s -> ~q)), False
+~(~p & (((q v (r -> s)) -> q) -> (q v s))), False
+~(((~(p v (q & r)) -> p) v (s v s)) v r), False
+(~((p & ~q) v (r v s)) -> (q v s)) v q, False
+(p -> q) -> (((r -> r) v (~~p & s)) & p), False
+~(((p -> (p & ~q)) -> (q & r)) v (s -> r)), False
+~(~(((p v (q & q)) & r) -> s) -> (r v r)), False
+~~((p -> q) v p) -> (r & ((r & s) v r)), False
+p & ((q & (((r v r) v q) v (s -> r))) v p), False
+((p -> q) & (p v (~(r v s) v q))) & ~s, False
+p v (((~(~q & p) -> p) -> (r & s)) -> r), False
+(p v (q v q)) & ((p v (q v (r -> s))) v r), False
+~(((p & (~q v r)) -> (s -> r)) -> (p v p)), False
+(p -> (p v ((q & r) v (q v (s -> r))))) & r, False
+p v ~((((q & r) v (p & ~s)) v p) & q), False
+~~~p & (q & (((r & s) & ~r) -> r)), False
+p v (((((q & (p & r)) & q) v s) & s) -> s), True
+((p -> (q v ~((p & ~r) -> r))) v s) & s, False
+((p -> (p -> ((p & q) & r))) & (q -> s)) & s, False
+p -> ((((q & (r v s)) v s) & r) -> (q & r)), False
+(p v ((q & r) -> ((q & p) & s))) & (q v r), False
+((p -> (p v q)) v ~p) v ((~r v s) v r), True
+~p -> ((p v ~(q & (r v (p -> p)))) & s), False
+((p & (q v ~(r -> (p v ~q)))) v p) & s, False
+(p v q) & (~(r & ((~s -> r) -> r)) -> r), False
+((p & (p v (p -> q))) & q) -> ((r -> s) & r), False
+(p -> (p & (q & (p -> (r -> s))))) -> (r & p), False
+(p & (((q -> r) -> (q v r)) & (r -> q))) v s, False
+((~p -> (q v ~q)) -> ((r -> q) -> s)) v p, False
+~(((((p & q) & (r -> q)) -> r) v ~s) -> q), False
+p & (((q v r) v s) -> (((r & q) & s) & p)), False
+((p & ~q) & r) -> (s & ((r v p) v ~s)), False
+(~p & q) -> (q & ((r -> (s & s)) & ~r)), False
+p & ~(~(q v (r -> (s v (q & p)))) & s), False
+p -> (((q -> ((r v s) v (q -> p))) -> q) & p), False
+(p & (q v r)) v (((p & s) -> (p v q)) -> p), False
+p v (((q -> (p v (q -> r))) & s) & (p -> r)), False
+(p -> (~(q v ~(r & ~q)) v s)) v ~p, False
+(p & q) v ((r & q) -> (s v (s & (s & p)))), False
+(~(p -> (q & r)) -> ((q -> ~s) -> p)) v s, True
+(p & ((p & (p & q)) v (r v s))) -> (r v s), False
+~(~p & ((((q & r) & r) -> q) & s)) & p, False
+p & (q & ((q v r) & ((s -> r) & (s -> q)))), False
+(p & p) -> (q & (((r & q) & s) & (r & q))), False
+((p v ((((q v r) -> p) v s) -> s)) v s) v p, False
+(((p & q) v ((r -> s) -> r)) -> p) & (p & r), False
+p v ~(((q v r) v ~(r -> (q v s))) v p), False
+~((p & (q & r)) -> ((s & p) v p)) -> ~q, True
+(p v q) & (r & (s & (p v ((s & p) -> s)))), False
+~(p v (p v (q & (r & (r -> p))))) -> ~s, False
+(((p -> (q v (q -> (p v p)))) v r) v s) -> p, False
+p & (((q v p) & r) v (s & ((q & s) v q))), False
+~p -> ~((q -> ((r -> (q v s)) & r)) & r), False
+((p -> p) -> q) -> ~(r v ((r & ~s) -> p)), False
+(p -> (p & q)) & (~r v ~((s v q) v q)), False
+(p v p) -> (((q & r) & ~~q) v (s -> s)), True
+~(p & (p v (q & (r & r)))) v (p v ~s), True
+(p -> q) -> ((~p -> (~r & (q v s))) -> p), False
+((p v (q v ~p)) v (r -> q)) -> ~(s -> s), False
+(((p -> q) -> (~~r & p)) & (p & r)) -> s, False
+~(p & ((~((q v p) -> r) v (s v p)) -> s)), False
+p -> ((q -> ((~r v s) v s)) & (r & ~s)), False
+(~p & (((~q v r) -> s) & r)) -> (s v q), True
+(~((p v (q -> r)) -> (s -> s)) -> p) & ~s, False
+(~p -> (~q & ((q -> (r v s)) v s))) -> p, False
+p v ~~((q v (((r -> q) -> p) & s)) v q), False
+~(~p -> (~(q & ((r v ~s) -> p)) & q)), False
+~p & (q v ~(r -> (~r & (p -> ~s)))), False
+(((p & p) & ((p -> (q v r)) v p)) v s) -> r, False
+p v ((q v ~(~r -> s)) v (p & (r & p))), False
+~((((p -> ~(q & q)) -> (r & s)) & r) & r), False
+~p v (((~(q v r) v (q v r)) -> s) v q), False
+((((p v p) & ~q) -> ~p) & (r v q)) v s, False
+(p & (((((q & q) -> r) -> q) v s) v p)) v p, False
+(~(p & p) -> (p v q)) & (r v (r -> ~s)), False
+(p -> ((q v p) -> p)) v ((r & (s & p)) v p), True
+((p & q) v r) -> (r -> (p & ~(~p & s))), False
+(p v q) v (((((q v p) & p) -> r) & s) v p), False
+((p -> q) v p) & ((((p v r) & q) -> r) & s), False
+(p & ~q) -> ~((p -> r) -> ((q -> p) & s)), False
+(((~~~~p -> q) -> ~~q) & r) v s, False
+~(p -> (((q -> q) -> r) v (q v s))) & ~s, False
+p & (((q v ((r -> p) & s)) -> s) -> (q & s)), False
+p & ((~~q & r) -> (s & (q -> (r v q)))), False
+p & ~(q & ((r & (p -> p)) & ~(s -> r))), False
+p & ((q & (~~((r -> p) -> s) -> s)) -> s), False
+p -> ((((p -> q) & (r -> s)) & p) -> (r -> q)), True
+~((p -> p) v (((q & (r -> s)) -> r) v ~s)), False
+((((~(p & p) & q) & q) v ~r) v s) -> q, False
+p -> (q v (q -> (((p & r) v (s v r)) v s))), True
+(p -> (q v (p -> (r & ((s v r) -> s))))) & q, False
+~(((((p & q) v r) v s) -> (p & q)) & ~s), False
+(p & ~(p -> ((~(q -> r) v r) v q))) & s, False
+~~(p v ((q -> (r v q)) & q)) & (s v q), False
+~(p v ((q & r) v (~p v ((s & r) v r)))), False
+(p & (~p & (q & r))) -> (s & ~(q & s)), True
+((p v (((q v (p v r)) v s) -> r)) -> r) -> p, False
+~(p & (q -> (~((p & (p v r)) v s) -> s))), False
+(p & (p & ~((q -> (q v r)) & ~s))) -> q, False
+p v (p v (q -> (p -> (~(r v q) -> ~s)))), True
+(((p v q) v r) & p) & ((q -> (r & r)) -> s), False
+(p & q) -> (((r -> ~s) & (r -> ~s)) & r), False
+((p & q) & q) & (r -> (r v (~s v ~p))), False
+~~(((p -> (q & ~r)) -> q) v (r -> ~s)), False
+p -> (((p -> ((q & (p -> r)) v r)) v q) v s), False
+(p & ((q & q) -> (r -> ((p v p) -> s)))) & s, False
+p v (q v ((((r v p) & s) -> s) & ~~p)), False
+~((p v (~(q -> r) v s)) -> r) & (q v q), False
+p -> (p -> ((q & ((r & (p & r)) & s)) v q)), False
+~(p v ~(~(~(q -> q) & r) v ~~s)), False
+(p -> ((((q & (q v q)) -> r) v r) v s)) v s, False
+~p v (((q -> ~p) v r) -> (p -> (r -> s))), False
+(p v (q -> (r & ((p & r) v q)))) -> (s & q), False
+~((p -> (q -> (p v r))) v (~s v (s v q))), False
+(p -> ((q & q) v (~(r v s) -> q))) -> ~q, False
+((p & q) & ((r -> p) -> s)) & ((q & s) v s), False
+p -> (~q -> (~((r & q) -> (s & q)) & q)), False
+p & ((q & p) v ((r & r) v ((s v s) -> s))), False
+p v ((q -> ((r & (r & r)) -> (q & s))) v q), True
+(~p -> q) v (((~(r & p) & p) & s) & p), False
+~((p -> (((q v r) v ~s) & p)) & (r v r)), False
+(p & q) v ((r -> ((~r v s) & ~s)) & p), False
+(((p v q) v ~r) & q) & ~(s v (r & q)), False
+~(p v (q v (~(r & ~~s) -> (s v p)))), False
+(~((p -> p) v q) & ~(q & (r -> p))) v s, False
+(p v ~((q & r) -> q)) -> (r & (s & ~p)), False
+p v ((q & ((r v p) & r)) -> (q -> (p v s))), False
+(((p -> (q v p)) -> (r v s)) -> ~~r) & r, False
+(p -> q) -> (r v (~((s -> p) v ~r) v p)), False
+(p v q) v ~(~r v (~q v (~s -> p))), False
+p v (((((p v p) & q) v (p v r)) v p) & s), False
+((p v ~q) v (r v r)) v (p v (r & ~s)), False
+((((p v p) -> q) v q) v (r & q)) v ~~s, False
+~((~((p & q) v q) v r) -> (p -> (s -> s))), False
+~(p -> ((~(~~q v r) -> (q -> q)) v s)), False
+((p & ~q) & (~~r v ~(q & r))) & s, False
+(p & (q v r)) & (s & ~((r & r) & ~s)), False
+p -> (((~~q v r) & q) v (~s v ~s)), False
+(~p & ((~(p -> q) & q) & (r -> r))) -> s, True
+(((p v (~p v ~~q)) v ~r) v q) v s, True
+((p -> (q & r)) v ((r & r) v s)) -> (q & q), False
+(p & ((q v r) -> (s -> ((q & s) -> p)))) -> r, False
+~(~p -> (q -> ((r v ((r v p) -> q)) v s))), False
+((p -> (((q v q) & (q -> p)) & r)) -> s) -> r, False
+~((p v (p v q)) & (~(q & r) v (p & s))), False
+((~~(p v (p v (q v r))) v p) & s) & q, False
+~(((((p v q) v p) & r) v s) & (p v ~q)), False
+p & (((q v ((p v r) & (s & q))) -> p) & p), False
+(p & ((q v ~(r & r)) & p)) -> ~(s -> r), False
+~(p -> ~((p & q) v ~r)) -> (r & ~s), False
+~((p & q) v q) v (r -> ((~s & s) v p)), False
+p -> ((((q -> r) v s) -> (p v q)) v (r -> r)), True
+(~(p -> (((q & q) & r) -> ~p)) -> s) -> q, False
+(((~p v q) -> (r v (s -> ~q))) & s) -> s, True
+~(((~p & q) -> (p -> r)) -> (r -> (p v s))), False
+((p & q) & (q & ((~r v r) -> ~s))) & p, False
+~(p -> ((p -> ((q v (~r v s)) -> q)) -> r)), False
+p -> (((p & p) -> q) & ((r v s) & ~~p)), False
+p v (((p -> ~~q) v r) v (s & ~~s)), True
+(~(~p -> q) -> (r & ((p -> r) & s))) v p, False
+(p v ((q & (q & r)) -> s)) & ((p v q) & p), False
+(p & ~(((q -> (r v p)) -> s) v r)) -> ~s, True
+(((p v q) v (r & s)) & ((q v s) -> q)) -> r, False
+((p -> (q -> ((q -> (r & s)) v s))) -> p) v r, False
+((p -> (q & q)) & ((q v r) & s)) & (p -> s), False
+(((p & q) -> (r v p)) -> (r -> s)) -> (r v s), False
+(p & ((q v q) v (q & ((r & r) -> s)))) -> q, True
+p -> ((((~(~q & r) -> s) -> r) v q) & p), False
+p v ((~q & ~((r & (s -> p)) -> r)) -> r), True
+(p & q) v (q & (((r -> (r v r)) & s) v q)), False
+~((((p v q) v (q & r)) v ~s) -> (s & s)), False
+(p & ((q v ~(~(p -> q) & q)) & r)) v s, False
+p v (~((~q & ~(r & s)) & ~r) & s), False
+(~(p & (p & ((~q -> q) v q))) v r) v s, False
+(p -> ((q & r) v ~((~r v s) v q))) -> q, False
+(p & ((q -> (p -> r)) v (r v q))) v (s -> r), False
+(p -> ((q & r) -> (p v r))) & ((q v s) & r), False
+p -> ((~~q v r) -> ((p v (r -> s)) -> p)), True
+((p v q) v ((p & (r & q)) v s)) & (q v r), False
+(((p & q) & (r v ((q & p) v r))) & q) -> s, False
+((p & ((q & r) & (q -> r))) -> s) v (r v r), True
+~(~((p -> (q -> q)) v ((r v q) v s)) v s), False
+((~p v (q v r)) -> p) & ((~s & s) & s), False
+(((p & q) v (r & (p v r))) v (r -> s)) & r, False
+p v ~(q & ~((r -> ((q & r) v s)) v r)), True
+p -> ~(~(q -> p) -> (r & ((s & q) v r))), False
+p & ~(((q v p) v ~r) & (s & (r & s))), False
+((p & (q & ~r)) v q) -> (s & (s -> ~r)), False
+p & (~(p & (q & r)) v ((q -> ~q) -> s)), False
+p -> (q v (r -> (~~(q & r) v (q & s)))), False
+(~p -> ((q -> r) -> s)) & ~(r & (q v r)), False
+p v ((p -> ((q -> (r v ~~q)) -> s)) -> r), False
+((~~p & (q v r)) & (s -> (r v p))) -> p, True
+((((p v q) v r) & s) -> (q -> r)) -> (r v s), False
+((p -> ((~q v r) & s)) v ~(p -> s)) v s, True
+(p & (q -> (r v ((p -> (p & s)) -> p)))) & r, False
+p & (~q v ((~~r -> ~(s v q)) v p)), False
+(p v q) & (((~(r v p) v ~s) & s) -> r), False
+~(((p v q) v (r & r)) & ~s) & (s -> q), False
+~(((((p -> p) v q) v ~r) & s) & r) & q, False
+p -> (q v (r v (s v ~((~s & r) & p)))), True
+~(p -> (~q v (~r -> ((s -> ~q) v p)))), False
+(((p -> q) & p) -> q) & ((r v (s -> q)) v r), False
+p & (p & (~((q v q) & ~(r -> s)) & p)), False
+~((~p & q) v (~(r v p) -> ~q)) & s, False
+(((p v p) & q) & ((p v (p -> q)) v r)) & s, False
+p -> ((p v (q -> ~~(p & r))) v ~~s), True
+(p & (q v ((~r & q) v p))) & (s v ~r), False
+((~~(~p v q) v (r v q)) & ~s) v r, False
+(p & ~q) & ~(r -> (((s -> q) -> p) & s)), False
+p & (q v (((q v (p -> (r & p))) & q) -> s)), False
+~((p -> (~q & r)) -> ((~~s -> q) v q)), False
+p & (q -> (((r & (s & p)) v r) & (p -> r))), False
+(p & (q & (r v r))) v (((s v p) -> r) v q), False
+((~(p v (q v r)) & (~r -> r)) & r) & s, False
+(~p & (q -> q)) & (~r v ((q v s) & r)), False
+~((p & q) & ((~r -> (q v s)) -> p)) & q, False
+~(p v ((q -> (r v (~(q -> s) & p))) & s)), False
+~((p v q) -> (p & r)) -> (s -> (~s & q)), False
+(p v q) & ((r -> q) & ((q v p) v (r v s))), False
+((p -> ((q & ~r) -> q)) v (q -> ~s)) -> p, False
+((p v q) v (r -> ((~p -> s) v ~q))) -> r, False
+((p v (p v p)) v q) & (~(p & r) & ~s), False
+~(p v ((q v ~r) v (s & ((q -> p) v p)))), False
+((~(((p v q) -> p) & r) -> r) v ~q) v s, False
+~(~p & ((q v ((r & (s & q)) -> p)) -> p)), True
+p -> ((q & ((p -> (q v (r -> r))) & s)) v s), False
+((p & (~q -> ((q v r) v ~q))) -> s) v q, False
+p & (~~(q -> r) -> (q & ~(s -> ~s))), False
+(p v (((q -> (r & p)) v (s & p)) & p)) -> p, True
+(~(~((p v (p -> p)) & q) -> p) -> r) -> s, False
+(((p & (q -> ((r v p) v q))) -> s) & r) & p, False
+~((((p & p) & q) & ((p -> ~p) v r)) & s), False
+(p & ~q) v (r v (~(s & (p -> r)) & r)), False
+~((p v (~q & (p & p))) v ((p v r) & s)), False
+(((p -> ~q) & p) -> (q & (r & ~s))) v r, False
+~~(p -> (q & (r & ~(~~~s -> s)))), False
+((~~~p v ~~(~q v p)) & r) & s, False
+((p v ((q -> r) v p)) & (s & q)) -> (s v r), True
+(p & ((q v (q v r)) v (q v (s v q)))) v r, False
+~((~(p v q) -> (r -> p)) & (p & (q v s))), False
+p & (q -> (((r -> ((p & s) & r)) -> s) v s)), False
+(p -> (q v (((r & s) -> s) v ~~p))) v p, True
+(~p -> q) & (r -> (~(s -> (q v q)) & p)), False
+(((((p v q) v ~q) & r) & q) v ~s) & p, False
+~(~p v (q & (p -> (r v ((r v s) v s))))), False
+(p & (q -> ~((p -> r) -> ~(s v p)))) & q, False
+(~(p -> q) & ~q) & (((r & s) v s) & s), False
+~((~p v ~(~(q -> q) -> ~r)) & ~s), False
+~((p v p) & (q & q)) -> ((r v ~p) -> s), False
+(p & (~(p & q) v r)) -> (r -> ~(s & r)), False
+p v ((p v ((p v q) & (r & r))) v (r v s)), False
+(~~p -> (q v ~~r)) v ~(s & ~r), False
+p v ((q & (p v r)) & ((s -> q) -> (s v s))), False
+(((p & q) v (q & ~(r & s))) & ~r) -> p, False
+(p & (q v (~(p -> ~~~r) & s))) & q, False
+~((p -> ((q v ~(p & (p v r))) v r)) v s), False
+(((p & q) v r) -> (r v ((p v q) v s))) v p, True
+~(p -> (~q v p)) -> (r v (p & (p v s))), True
+p v ~(q & ~(q v (((r v r) -> p) -> s))), True
+(p -> q) & (((q v r) v (q v ~~r)) v s), False
+~(~(((p & (q v r)) & (q -> p)) & p) & s), False
+((p v p) & (q v p)) & (((r & s) & s) -> q), False
+p & (~(((q -> ~r) -> p) -> q) & ~~s), False
+(~~p v q) -> (((r & s) v (p & q)) -> r), False
+((p v q) v r) & (s v ~~(r & (s & q))), False
+(p v ((q & ((r & s) v s)) -> (s -> p))) -> p, False
+p v ((q -> (r -> q)) v (s v ~(~p v q))), True
+(p -> ~q) v (p v (((q & r) & q) -> ~s)), True
+(~p -> ((~(q & q) v (r -> q)) v s)) -> s, False
+(((p v (q v ((p -> r) -> q))) & s) -> s) & q, False
+(p & q) v ~((p -> ~q) & (r -> ~~s)), False
+~~p -> ((p v (p v q)) & (~r -> ~s)), False
+p -> (q -> ((r v ((q v s) v (q -> r))) v q)), True
+((p -> ~q) -> (r v s)) v ((~r & p) v q), False
+(~p -> ~(q -> r)) -> (((p -> q) & r) -> s), False
+~(((p & ((p v q) & ~(p v r))) & q) -> s), False
+~((((p v q) -> r) -> ~q) -> ((p -> r) & s)), False
+~(((((p -> ~~q) & r) v p) -> ~s) -> s), False
+(~p -> q) -> ((~r & ~~(q & s)) v p), False
+(~~p & (p & (q -> r))) v ((r v s) -> r), False
+(p -> ~q) v ~((r v ~s) & (~q & r)), True
+(p & (p & p)) -> ((q -> r) v ((p -> r) v s)), False
+~(((p & q) v ~r) v ~~(q -> r)) v s, False
+p -> ((((p -> q) -> r) v (r -> s)) -> (r -> r)), True
+(~~p v ((p -> p) v (q -> (q v r)))) & s, False
+p & ((((q & r) & ~r) & ~(s & p)) & s), False
+((p -> q) -> ((q v r) v r)) & ((s -> r) & q), False
+(~(p & q) v r) v (((p & p) -> r) v ~s), False
+(p & ((~q & (q -> ~r)) v s)) v (s & s), False
+p v (((q -> r) & ((r v s) v r)) -> ~~p), False
+~~(((p & q) -> r) v (r -> (p & q))) v s, True
+~((p v (((q & ~q) v r) & s)) v r) -> q, False
+~p -> ((q & (((r & ~p) & r) -> r)) -> s), False
+(p & ((p & (q & (q -> r))) & q)) -> (r v s), True
+((p v ~(q & (p -> r))) -> r) -> (~s -> p), False
+(p v q) -> (((p v p) v q) -> ((r -> s) v r)), True
+(p -> (q -> (~r & q))) v ~(s v (s v p)), False
+~((~((p v q) -> ~p) -> (r & ~r)) v s), False
+~(p v ((((~p & q) & r) -> s) -> (q v s))), False
+~(~(p -> (q -> ((r & p) & s))) v (r -> r)), False
+~~(p & (q & r)) v ~~(s v (s & r)), False
+~p & (p v (q v (~r -> (s & (s v p))))), False
+(p & q) & (~~((~~r v q) -> p) -> s), False
+p v (~q -> ((r & r) -> ((s -> ~r) & r))), False
+((p & q) v r) -> ((q -> p) -> (s -> (p -> r))), False
+~((p & (((p v ~q) & q) -> r)) v p) -> s, False
+p -> (q v ((r & s) -> ~((~p -> p) -> r))), False
+~(((~p & ((p v q) -> q)) -> q) v (r & s)), False
+~~((p & p) v (q -> ~((r v p) & ~s))), False
+(((p -> (p & q)) -> ~~(r v p)) v q) -> s, False
+((p v ((q & ~r) & ~r)) & r) -> (s -> q), False
+(p v (p v (((p & p) v (q v r)) -> s))) & q, False
+~(((p v q) -> ~(q -> (q v r))) & s) v r, False
+((~(p -> ~q) & r) & p) v (r -> (r v s)), True
+(((p v ~q) v (~(r & r) -> s)) & s) v p, False
+(((p & (q -> ~(~r v r))) v s) v r) v q, False
+~(p & q) -> (p & (q & ~((r -> s) & r))), False
+~((p & ~q) & (r v p)) -> (s & (r -> q)), False
+~(((p v p) -> (q & (p & (~r & s)))) & p), False
+~~(((p -> ~~q) -> r) & (s v s)) v p, False
+(p & (((p -> q) & (r & q)) & p)) v (s v r), False
+p v ((q -> r) & ((s v q) -> (~~s -> r))), False
+((p v (((q v (r -> s)) -> p) & q)) v p) v s, False
+p v ((((p & q) & ~r) -> s) -> (~r -> s)), False
+(p & q) & (r v (p & (p v (s & (r v s))))), False
+((p & p) & q) & (r v (~~(q v s) -> p)), False
+(p -> (p & (q & ((q & p) & p)))) v (r & s), False
+(p -> (q & (p -> q))) -> (r & (r -> (s v q))), False
+~((p & ~(q v p)) v ((r -> q) -> s)) -> s, False
+p v (q v ((q & ~((~p -> r) v s)) & q)), False
+~p & (((~q v p) & (r & (q -> q))) v s), False
+(p & ~(q & (p & r))) -> (s & ~(s & p)), False
+p -> (~(p & (q & (q v r))) -> (p v ~s)), True
+(p v (q v q)) & (p -> (r -> (s & (r v s)))), False

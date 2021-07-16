@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: a703d4bbf39a630ec6a53fdb6469d2745227ead3917f409667e32f75436710b0
+-- hash: 641b0ad1f072d7e5d4a9e8b8d04052ac00609d97ca0c1838dd16928e2f3cad4b
 
 name:           DDS
 version:        0.1.0.0
@@ -36,6 +36,10 @@ library
       PrintingTrees
       TheClassicalLogicRule
       Dual
+      Dual2
+      Dual3
+      Res_Test
+      Res_Test2
       AuxiliaryFormulas
       AuxiliaryFunctions
       Data
@@ -45,16 +49,26 @@ library
       ExamplesSynth
       Generator
       Language
+      Parsing
       Printing
       RandomFor
+      RandomFor2
       Sort
+      Canonical_KE
+      AuxiliaryFormulasMbC
+      LanguageMbC
+      PrintingMbC
+      RandomMbC
   other-modules:
       Paths_DDS
   hs-source-dirs:
-      src/can_specific
-      src/synth_specific
-      src/dual_specific
-      src/general
+      src/CPL/can_specific
+      src/CPL/synth_specific
+      src/CPL/dual_specific
+      src/CPL/general
+      src/CPL/ke_specific
+      src/MBC
+      src/NFL
   build-depends:
       HaTeX
     , QuickCheck
@@ -64,6 +78,7 @@ library
     , pretty
     , random
     , random-shuffle
+    , time
   default-language: Haskell2010
 
 executable DDS-exe
@@ -83,6 +98,7 @@ executable DDS-exe
     , pretty
     , random
     , random-shuffle
+    , time
   default-language: Haskell2010
 
 test-suite DDS-test
@@ -103,4 +119,5 @@ test-suite DDS-test
     , pretty
     , random
     , random-shuffle
+    , time
   default-language: Haskell2010

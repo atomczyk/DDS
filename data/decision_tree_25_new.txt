@@ -1,0 +1,2 @@
+formula, tautology, system, FMI, alpha, beta, can_branches, can_nodes, can_nodes^2, res_branches, res_nodes, res_nodes+num_of_res
+((p -> p) -> ~(~~~(~p -> ~p) -> ~p)) -> ~~(~p -> ~~p), True, Syntetyki, 0.14285715, 2, 8,2, 14, 196, , 8, 16, 17

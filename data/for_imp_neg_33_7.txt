@@ -1,0 +1,1 @@
+formula, is_taut_can

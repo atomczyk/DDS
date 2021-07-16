@@ -1,0 +1,102 @@
+formulais_taut_dual2, branches_dual2
+, is_taut_dual3, branches_dual3
+p v (q -> ~(r & (s & s))), False, False, 5, False, 0
+~(p v (q v (~r & ~s))), False, False, 2, False, 0
+~((p & q) v (r v (s & s))), False, False, 4, False, 4
+p v (~q v (~r & ~s)), False, False, 3, False, 0
+(~p -> (q -> (r v q))) v s, True, True, 6, True, 3
+~(p v ((~~q & r) -> s)), False, False, 1, False, 0
+(p -> q) v (r -> (~q v s)), True, True, 6, True, 3
+~(p & (q -> ((r -> s) -> s))), False, False, 3, False, 0
+((p -> ~(q v r)) v s) -> p, False, False, 3, False, 0
+p v ((~q & (r & q)) -> s), True, True, 6, True, 3
+((p v q) -> r) & ~(s v q), False, False, 2, False, 0
+~((p -> q) -> ~~r) -> s, False, False, 3, False, 0
+(p & ((q -> p) -> r)) -> ~s, False, False, 5, False, 3
+(p -> (q & r)) & ~(p & s), False, False, 4, False, 10
+(p -> q) & ((r v ~p) -> s), False, False, 4, False, 2
+~(p -> p) -> ((q -> r) -> s), True, True, 5, True, 3
+p & (q & ((p v r) -> ~s)), False, False, 3, False, 0
+~(((p -> q) v (r -> s)) v q), False, False, 1, False, 0
+~p v (q v ((r & s) v p)), True, True, 5, True, 3
+p v (p v (q -> (r -> ~s))), False, False, 5, False, 0
+~(p -> (q -> (r -> r))) & s, False, False, 1, False, 0
+p v (((~q -> r) -> s) & p), False, False, 3, False, 0
+p -> (q -> ((p & ~r) v s)), False, False, 5, False, 0
+p -> ~~(~(q & r) & s), False, False, 3, False, 0
+p & ((q v r) & (~s v q)), False, False, 4, False, 10
+(p v q) -> ((~r & s) & p), False, False, 3, False, 0
+~((p -> q) -> (p -> r)) & s, False, False, 3, False, 0
+((p & ~q) & r) v (p -> s), False, False, 4, False, 0
+((p v q) -> ~(r & s)) v p, False, False, 5, False, 0
+~(~((p & ~q) v r) -> s), False, False, 2, False, 0
+((p v (~q & r)) -> s) -> r, False, False, 3, False, 0
+(p & ~q) & (p -> (r & s)), False, False, 3, False, 0
+p & ((~(q -> q) -> r) & s), False, False, 4, False, 3
+~p v (((q & p) & r) v s), False, False, 4, False, 0
+(((p -> ~q) v r) & s) & q, False, False, 4, False, 0
+p v (q & (~r -> (q & s))), False, False, 3, False, 0
+((p -> (~q & r)) v r) -> s, False, False, 3, False, 0
+(p -> ~p) -> ((q & r) v s), False, False, 3, False, 0
+~p & (q & ((r -> s) -> r)), False, False, 2, False, 0
+~((((p & q) v q) & r) & s), False, False, 4, False, 0
+(p & ((q & ~r) -> s)) -> s, False, False, 4, False, 0
+((~p & q) & r) & (s & s), False, False, 1, False, 0
+(~p & ((q v r) v s)) -> r, False, False, 4, False, 0
+p & ((q v ~(r v p)) & s), False, False, 3, False, 0
+p v ~((q -> (r v s)) & p), True, True, 4, True, 3
+p & (q -> (~~~r v s)), False, False, 3, False, 0
+p & ((~q -> r) & (s v p)), False, False, 4, False, 10
+p & ((q v r) -> ~(r & s)), False, False, 3, False, 0
+p & (q v (r -> (~s & r))), False, False, 4, False, 0
+p v ((p v (~q -> r)) v s), False, False, 5, False, 0
+p v (q -> ((r -> ~q) -> s)), False, False, 5, False, 0
+~p & (((q & r) v s) v q), False, False, 3, False, 0
+~(p & (((q -> r) & r) -> s)), False, False, 3, False, 0
+p & (~(q v r) -> (s & p)), False, False, 3, False, 0
+p -> (~(q v r) v ~~s), False, False, 3, False, 0
+((p & q) v ~r) v (s & r), False, False, 4, False, 0
+p & (q v ((p & r) v ~s)), False, False, 3, False, 0
+((p -> q) -> (q v r)) v ~s, False, False, 5, False, 0
+~(p & ((q -> r) & s)) -> p, False, False, 3, False, 0
+p v (~(q -> p) v (r v s)), False, False, 5, False, 0
+p & (q v ((p & ~r) -> s)), False, False, 5, False, 0
+p v (((~q & r) & s) -> r), True, True, 6, True, 3
+((p -> ~p) & (q & r)) & s, False, False, 0, False, 0
+(((p & q) v r) & s) v ~s, False, False, 3, False, 0
+(p & ~(q -> p)) v (r v s), False, False, 3, False, 0
+(p -> (q & p)) v (~r v s), False, False, 5, False, 0
+((~p -> (q -> r)) v q) -> s, False, False, 2, False, 0
+~(p v (q -> p)) & (r & s), False, False, 1, False, 0
+~(((p -> (q v r)) v r) & s), False, False, 2, False, 0
+p & (q & (~(r -> r) & s)), False, False, 1, False, 0
+p -> ((q -> ~(r & p)) v s), False, False, 5, False, 0
+(p v ~(p -> q)) v (r & s), False, False, 3, False, 0
+p -> (q -> (r v (~s v r))), False, False, 5, False, 0
+(p -> ~q) & (r v ~~s), False, False, 4, False, 12
+~(~(p v ~q) & (r v s)), False, False, 3, False, 0
+(((p & ~q) -> r) v p) -> s, False, False, 2, False, 0
+~p -> ((q -> r) -> (r -> s)), False, False, 4, False, 0
+(p & ((q & ~r) & s)) & r, False, False, 1, False, 0
+(~p & ((q v p) v r)) & s, False, False, 4, False, 0
+p & (~((q -> r) -> q) -> s), False, False, 3, False, 0
+~((p -> q) & (r -> (s & s))), False, False, 3, False, 0
+(p v (q -> p)) v (~r -> s), False, False, 5, False, 0
+~p & ((q -> r) v (s & r)), False, False, 3, False, 0
+p v (((q -> ~r) & p) & s), False, False, 3, False, 0
+~(((p & q) -> (r & p)) v s), False, False, 2, False, 0
+((p -> q) & (~r v q)) v s, False, False, 5, False, 10
+~(p & ((q v ~~r) v s)), False, False, 2, False, 0
+~((p -> q) & (r v p)) & s, False, False, 3, False, 0
+(p v (~(q & r) v s)) & r, False, False, 5, False, 0
+p & ~((q & r) v (p -> s)), False, False, 2, False, 0
+p v ((q & r) & ~(s -> p)), False, False, 3, False, 0
+p & (q -> ~((p v r) & s)), False, False, 4, False, 0
+(p & ((q -> ~r) -> r)) & s, False, False, 2, False, 0
+~((((p & q) -> r) v s) & r), False, False, 2, False, 0
+((p & ~(q -> p)) -> r) -> s, False, False, 2, False, 0
+p v (q & (r & (q -> ~s))), False, False, 4, False, 0
+((p -> q) & ~(r & s)) v p, False, False, 6, False, 7
+(~p v q) v (r & (s v q)), False, False, 4, False, 1
+((p -> p) & (~q v r)) v s, False, False, 6, False, 8
+(((p & q) -> r) -> s) v ~s, True, True, 4, True, 3

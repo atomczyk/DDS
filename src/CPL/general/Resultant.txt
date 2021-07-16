@@ -1,0 +1,26 @@
+Folder PATH listing for volume OS
+Volume serial number is 5233-8430
+C:.
+    AuxiliaryFormulas.hs
+    AuxiliaryFunctions.hs
+    Data.hs
+    DecisionTree.hs
+    ExamplesFormulas.hs
+    ExamplesGeneral.hs
+    ExamplesSynth.hs
+    forms10.txt
+    forms12.txt
+    forms6.txt
+    forms7.txt
+    forms7x.txt
+    Generator.hs
+    Language.hs
+    Parsing.hs
+    Printing.hs
+    RandomFor.hs
+    RandomFor2.hs
+    Resultant.txt
+    Sort.hs
+    
+No subfolders exist 
+

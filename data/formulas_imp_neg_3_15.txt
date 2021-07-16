@@ -1,0 +1,1000 @@
+formula, is_taut_can~(((~p -> ~(q -> r)) -> r) -> q) -> ~r, False
+(p -> ~((q -> ((~p -> q) -> q)) -> r)) -> p, False
+(p -> (q -> ~~p)) -> ~(r -> (r -> ~q)), False
+p -> ~(q -> ((r -> p) -> ((p -> p) -> ~p))), False
+~((p -> p) -> (~(((q -> r) -> r) -> q) -> q)), False
+~~p -> ((~q -> ~r) -> (r -> (p -> p))), True
+(p -> ((q -> ((p -> q) -> r)) -> ~q)) -> ~q, False
+p -> (~p -> ~((q -> p) -> (p -> (r -> r)))), True
+(~~((~p -> p) -> q) -> (p -> p)) -> ~r, False
+p -> (~(q -> ((r -> (r -> ~p)) -> r)) -> q), True
+~((~((p -> q) -> r) -> ((p -> r) -> q)) -> q), False
+(p -> q) -> ~~((r -> (r -> r)) -> (r -> r)), True
+~(p -> ((q -> (r -> r)) -> ~p)) -> (r -> p), True
+~(~(p -> p) -> ~q) -> ((r -> ~q) -> r), True
+~~(~p -> (q -> r)) -> ~(q -> ~~q), False
+p -> (q -> (q -> (~~q -> ((q -> r) -> r)))), True
+(p -> (q -> r)) -> ~(~q -> (p -> (r -> q))), False
+~(~(p -> (p -> (~~q -> q))) -> q) -> r, True
+~(~(p -> q) -> ((q -> (q -> p)) -> (r -> q))), False
+(p -> ~~q) -> (q -> (~q -> (~r -> r))), True
+~~(((p -> p) -> (~~q -> (r -> p))) -> p), False
+(~~(((p -> p) -> ~p) -> q) -> p) -> ~r, False
+~(p -> ~((q -> (~r -> p)) -> (~q -> p))), False
+~(~(p -> ((q -> r) -> r)) -> ~~p) -> r, True
+p -> ((q -> p) -> ~~(((r -> q) -> r) -> q)), False
+p -> ~(p -> (((~q -> ~p) -> ~q) -> r)), False
+(p -> ~~~q) -> (~(~~p -> p) -> r), True
+~~(~((~p -> q) -> r) -> (p -> q)) -> q, False
+p -> ~((((p -> q) -> (r -> ~q)) -> p) -> p), False
+p -> ((q -> ((p -> p) -> (~~p -> p))) -> r), False
+~(p -> ~((q -> ~r) -> (q -> (~r -> p)))), False
+((p -> ~(p -> ~q)) -> r) -> (q -> (q -> q)), True
+p -> ~(((q -> (r -> ~p)) -> (q -> q)) -> r), False
+~(((p -> (q -> p)) -> p) -> (~(p -> r) -> p)), False
+(~(~p -> (q -> ~q)) -> (~q -> p)) -> r, False
+(p -> ~q) -> (r -> ~~((r -> q) -> ~r)), False
+((p -> (p -> ~q)) -> q) -> ((r -> ~r) -> r), False
+(p -> ~q) -> (((p -> ~~r) -> r) -> ~r), False
+(p -> ~~(((q -> r) -> r) -> q)) -> ~~r, False
+p -> (p -> ~((~q -> q) -> ((r -> q) -> q))), False
+(~~~p -> p) -> ((q -> p) -> (r -> ~r)), False
+~(~(~p -> ((q -> (p -> q)) -> ~r)) -> r), False
+(((p -> q) -> q) -> r) -> ((r -> ~p) -> ~r), False
+~p -> (~((((q -> r) -> p) -> r) -> p) -> r), False
+(((p -> p) -> ~q) -> ~(~p -> r)) -> ~r, False
+p -> ((q -> (r -> ~((p -> ~q) -> q))) -> r), False
+((p -> ~p) -> (~q -> (p -> (q -> q)))) -> r, False
+~((p -> (p -> ~q)) -> ~q) -> (~r -> p), False
+~((p -> q) -> ((~(r -> r) -> r) -> r)) -> r, False
+(p -> (((q -> q) -> r) -> (~~q -> p))) -> q, False
+~~p -> (~(q -> (r -> r)) -> ~(p -> r)), True
+(p -> q) -> (~~~((r -> q) -> ~q) -> p), False
+p -> ((((q -> ((p -> r) -> q)) -> r) -> p) -> r), False
+~p -> (~(q -> (q -> q)) -> ~(r -> ~q)), True
+p -> (q -> ~(~(r -> (p -> ~q)) -> ~r)), False
+~(p -> (((~q -> q) -> ~r) -> p)) -> ~p, True
+~((~((~~p -> ~p) -> q) -> r) -> ~r), False
+(p -> ((p -> (q -> (~r -> q))) -> ~q)) -> q, False
+p -> (~(q -> ~(p -> p)) -> ~(p -> ~r)), False
+p -> ((~~p -> ((~q -> ~q) -> r)) -> r), True
+((p -> (~~q -> (r -> (r -> p)))) -> r) -> p, False
+p -> ~(((q -> (~r -> (q -> p))) -> r) -> p), False
+((p -> ~p) -> ~p) -> (~(~q -> r) -> p), False
+(p -> ((q -> r) -> ~~~q)) -> ~(r -> r), False
+~(((p -> p) -> (~q -> (r -> (r -> q)))) -> p), False
+((p -> ~~(((p -> q) -> r) -> r)) -> r) -> p, False
+p -> (((q -> (~q -> r)) -> (q -> r)) -> ~r), False
+(p -> p) -> (~(q -> ((q -> ~q) -> r)) -> r), True
+~(((((p -> p) -> (q -> ~p)) -> r) -> p) -> p), False
+~~p -> (q -> ~~(r -> (r -> ~~q))), True
+~((~p -> (p -> q)) -> p) -> (q -> ~~r), False
+~(((p -> p) -> ~p) -> ((q -> p) -> q)) -> r, False
+(p -> q) -> ((r -> ~(~r -> (q -> r))) -> r), False
+(p -> (q -> q)) -> (((r -> r) -> (r -> r)) -> p), False
+~((p -> (p -> ((q -> q) -> ~q))) -> (r -> r)), False
+~(((~~p -> ~q) -> ~(~r -> r)) -> r), False
+p -> (~q -> ~~(((p -> ~r) -> p) -> q)), False
+~~(((p -> ((q -> p) -> p)) -> ~~r) -> r), True
+p -> ~~((~~p -> ~q) -> (r -> ~r)), False
+~((~((p -> (q -> r)) -> q) -> p) -> (p -> p)), False
+p -> (q -> (~q -> (r -> ((~q -> p) -> r)))), True
+~(((~((p -> p) -> ~q) -> ~q) -> r) -> q), False
+~((p -> q) -> ((p -> (q -> (r -> p))) -> ~r)), False
+~((p -> (p -> ((q -> r) -> (~r -> p)))) -> r), False
+((p -> (p -> q)) -> (r -> q)) -> ((p -> r) -> p), False
+(p -> q) -> (((p -> ~(q -> r)) -> ~q) -> r), False
+((p -> q) -> ~~q) -> ((q -> ~r) -> ~q), False
+((p -> q) -> (((p -> ~~p) -> q) -> q)) -> r, False
+(~~p -> ((p -> p) -> ~(~q -> r))) -> q, False
+p -> ((p -> ~(~p -> (q -> ~~r))) -> q), True
+p -> (~q -> ~(r -> ~~((p -> r) -> q))), False
+~(~((p -> q) -> q) -> ((r -> q) -> (p -> p))), False
+(~((~(~p -> ~q) -> q) -> q) -> r) -> p, False
+((~~p -> (p -> q)) -> (r -> q)) -> (p -> p), True
+(~p -> (p -> (~(p -> q) -> ~~r))) -> r, False
+(~p -> ~(~~q -> r)) -> ((r -> q) -> p), False
+~((p -> p) -> ~((q -> ~r) -> (~q -> r))), False
+~(p -> ~p) -> (~q -> ~(p -> (q -> r))), False
+((~~p -> ~q) -> (r -> (q -> p))) -> ~q, False
+~(~~p -> ((~~q -> ~(r -> p)) -> p)), False
+~((p -> ~(p -> ~q)) -> (r -> (q -> ~p))), False
+(~p -> (~~~q -> (q -> (r -> p)))) -> q, False
+~~((~p -> q) -> (~(r -> q) -> (p -> r))), True
+p -> (~(q -> ~(~(r -> q) -> ~p)) -> r), False
+p -> ~(q -> (((r -> p) -> ~q) -> (p -> r))), False
+(p -> ((~q -> q) -> ~(p -> ~r))) -> ~r, False
+~~~(p -> (q -> (p -> ~(~~r -> p)))), False
+~(~~p -> ((q -> ((~p -> r) -> r)) -> r)), False
+(p -> (~((q -> ~~r) -> q) -> r)) -> ~q, False
+(((~((p -> q) -> ~q) -> r) -> p) -> r) -> r, False
+p -> (~(q -> (((~p -> r) -> p) -> q)) -> q), True
+~(~(p -> (q -> (q -> (p -> q)))) -> p) -> r, True
+~~(~(p -> p) -> (((q -> q) -> q) -> ~r)), True
+p -> ~((q -> ((~~r -> ~p) -> r)) -> r), False
+p -> ((q -> q) -> (~((r -> ~p) -> r) -> r)), False
+((~p -> ((q -> (r -> q)) -> q)) -> ~r) -> p, False
+~((((p -> q) -> q) -> (p -> ~p)) -> r) -> p, False
+~((p -> ~~~(~~q -> q)) -> p) -> r, False
+((p -> (p -> ((q -> ~~r) -> r))) -> r) -> r, False
+~(((~~p -> q) -> ((q -> p) -> ~p)) -> r), False
+p -> (((p -> ~q) -> (~q -> q)) -> (r -> r)), True
+p -> ((~(q -> q) -> r) -> ~((p -> p) -> r)), False
+~~~((~p -> q) -> (((r -> r) -> r) -> p)), False
+~~p -> (q -> ~(r -> ~(~p -> ~r))), False
+~~((p -> q) -> ((q -> ~~r) -> (r -> p))), False
+~(p -> q) -> ((p -> ((r -> p) -> ~p)) -> q), True
+~~~((p -> (~(p -> q) -> q)) -> (r -> r)), False
+~(p -> ~(p -> q)) -> ((q -> p) -> (p -> r)), False
+~((p -> q) -> (~(q -> (r -> q)) -> q)) -> r, True
+(p -> q) -> (~(r -> (r -> (r -> p))) -> ~q), False
+p -> (q -> ((q -> r) -> ((p -> ~~q) -> r))), True
+(p -> q) -> ~(r -> ((q -> p) -> (r -> ~q))), False
+(~~(~p -> ~q) -> (r -> p)) -> ~~q, False
+p -> ~~~~(q -> ~((q -> r) -> ~p)), False
+((~(p -> p) -> q) -> r) -> (r -> ~(p -> q)), False
+((p -> (~(q -> r) -> r)) -> ~(p -> q)) -> q, False
+(((p -> p) -> q) -> (p -> ~r)) -> (r -> ~p), False
+~(p -> (((p -> (~q -> r)) -> r) -> (r -> q))), False
+~((p -> ~~((~q -> p) -> q)) -> r) -> q, False
+p -> ~((q -> (p -> p)) -> ~((q -> r) -> p)), True
+~(~((~p -> ~q) -> ~p) -> (~r -> r)), False
+~(p -> (((q -> p) -> ~(r -> (q -> q))) -> p)), False
+((((~p -> ~q) -> p) -> r) -> ~~q) -> q, False
+p -> ~((q -> ~(q -> (~r -> q))) -> ~q), False
+p -> (((~(q -> q) -> p) -> r) -> ~(p -> p)), False
+~((p -> q) -> (q -> (q -> r))) -> (q -> ~p), False
+p -> ((~(~q -> ((q -> q) -> q)) -> p) -> r), False
+~(((p -> p) -> (((p -> q) -> ~p) -> q)) -> r), False
+~~~(~(p -> ((q -> q) -> (p -> r))) -> q), False
+(~((p -> (p -> p)) -> p) -> ~(q -> r)) -> r, False
+(p -> p) -> ~(((~~q -> q) -> p) -> ~r), False
+~~((p -> q) -> ~(((~p -> r) -> r) -> r)), False
+~~((p -> ~q) -> ((r -> q) -> (q -> ~p))), True
+p -> ((q -> ~r) -> (p -> (~~r -> ~q))), True
+p -> (((~q -> ~r) -> q) -> (q -> ~~p)), True
+(p -> (p -> q)) -> ~(q -> ((r -> p) -> ~q)), False
+~(~((p -> q) -> ~(~r -> r)) -> (r -> r)), False
+p -> ((q -> (q -> q)) -> ~~((p -> p) -> r)), False
+(~p -> ((q -> ~q) -> (p -> (r -> r)))) -> r, False
+(p -> q) -> ((~~(p -> ~~p) -> q) -> r), False
+((p -> q) -> ~p) -> (((p -> r) -> p) -> ~q), True
+~(~p -> q) -> (((q -> r) -> ~p) -> ~p), True
+(~p -> ~(q -> (~r -> q))) -> ~(q -> r), False
+p -> (~~(~~(q -> ~~r) -> p) -> q), False
+((p -> ~q) -> ~(p -> (q -> q))) -> (r -> r), True
+~~~(((p -> p) -> (q -> ~r)) -> p) -> q, False
+(((~p -> p) -> p) -> ~~(q -> p)) -> ~r, False
+~~p -> (p -> ((~~q -> ~r) -> ~r)), False
+~(((p -> q) -> ~~(r -> q)) -> ~r) -> p, False
+p -> ((((q -> q) -> p) -> (p -> q)) -> (q -> r)), False
+p -> ~((q -> (q -> q)) -> ~~(~r -> q)), False
+p -> ((q -> (((q -> p) -> ~q) -> r)) -> ~p), False
+~((~~p -> ((~(q -> q) -> q) -> r)) -> p), False
+((((p -> q) -> q) -> ~r) -> ~(q -> q)) -> p, False
+((p -> ((p -> ~q) -> (r -> q))) -> r) -> ~p, False
+~(p -> (p -> ((q -> ~p) -> r))) -> (p -> r), False
+~(p -> ((~(q -> p) -> r) -> ((q -> q) -> q))), False
+p -> (p -> (((~(q -> r) -> q) -> q) -> ~q)), False
+((~p -> ((q -> q) -> (~q -> r))) -> p) -> r, False
+~~~(~p -> (q -> (r -> (p -> p)))) -> r, True
+~~~((~p -> ((q -> r) -> ~p)) -> ~r), False
+p -> ((p -> (p -> q)) -> (~p -> ~~~r)), True
+~(p -> (q -> ~((r -> p) -> ((p -> p) -> p)))), False
+~(~p -> (~(q -> (~r -> ~~r)) -> q)), False
+((p -> (~~p -> ~~~~q)) -> q) -> r, False
+~(p -> ~(~(~q -> q) -> ((q -> q) -> r))), False
+(p -> (p -> ~~~q)) -> (p -> ~(r -> r)), False
+p -> (~(((p -> p) -> ~(q -> r)) -> p) -> r), True
+~(((p -> ~(~~p -> q)) -> (r -> p)) -> q), False
+~((p -> q) -> ((p -> ((p -> ~r) -> r)) -> q)), False
+(p -> (q -> ~((q -> (q -> r)) -> ~q))) -> r, False
+p -> (((~p -> ~(q -> (r -> p))) -> q) -> r), False
+p -> (((~(q -> q) -> r) -> q) -> (~p -> p)), True
+~~((p -> p) -> (q -> (p -> (q -> r)))) -> q, False
+(p -> q) -> (((r -> r) -> ((r -> p) -> q)) -> r), False
+(p -> ~((p -> q) -> ~q)) -> ~(~r -> r), False
+~(~p -> ((q -> p) -> (r -> ((p -> r) -> q)))), False
+(p -> (((~q -> p) -> (~r -> r)) -> p)) -> r, False
+((p -> ~((q -> ~(q -> p)) -> q)) -> q) -> r, False
+~p -> (~(q -> ~p) -> ~((p -> r) -> r)), True
+p -> (~(~q -> (q -> (~q -> ~r))) -> r), True
+~~~~~(p -> ~(q -> (r -> (p -> q)))), False
+p -> ((~q -> (r -> p)) -> ~((p -> p) -> r)), False
+~((p -> ((q -> q) -> (~r -> (r -> p)))) -> p), False
+p -> (((q -> p) -> (~q -> p)) -> ~~~r), False
+~(p -> (q -> ((~(q -> (q -> p)) -> p) -> r))), False
+p -> (((~q -> p) -> ((~r -> r) -> q)) -> p), True
+(p -> ((p -> ~((q -> q) -> ~r)) -> r)) -> p, False
+~p -> (q -> (q -> ~(q -> ((q -> r) -> q)))), False
+~p -> ~((~~p -> ((q -> r) -> p)) -> r), False
+p -> (((~(q -> r) -> r) -> ~~q) -> ~q), False
+(((p -> q) -> (r -> (r -> q))) -> (q -> r)) -> q, False
+~((p -> q) -> (r -> ~(r -> ~(~r -> p)))), False
+(p -> (q -> r)) -> (p -> (~(~r -> p) -> q)), True
+~~~((p -> (q -> r)) -> r) -> (~r -> q), False
+~(((p -> (q -> (q -> r))) -> ~q) -> (r -> q)), False
+((p -> p) -> (p -> (q -> (q -> r)))) -> (p -> q), False
+(~(p -> ((q -> ~p) -> (p -> p))) -> p) -> r, False
+~(p -> (q -> r)) -> (~~~r -> (r -> p)), True
+((~(p -> q) -> p) -> (~q -> r)) -> ~~r, False
+p -> ((p -> (~p -> q)) -> ~~(r -> ~r)), False
+~(~(p -> (~(~(q -> p) -> p) -> q)) -> r), False
+(p -> ((q -> (~~r -> (p -> q))) -> q)) -> q, False
+(~p -> ~~~q) -> ~((~q -> r) -> r), False
+~~((p -> (q -> (~p -> r))) -> ~(q -> q)), False
+~~(p -> (~(p -> ~p) -> (q -> (r -> q)))), True
+((~~(p -> ~q) -> p) -> ~~p) -> ~r, False
+~((p -> ~~~q) -> (~r -> (~p -> p))), False
+(p -> p) -> (~(~q -> r) -> ((p -> r) -> r)), False
+~(((p -> q) -> ((~r -> q) -> (q -> p))) -> q), False
+(p -> ~(q -> ((r -> p) -> p))) -> ~(r -> q), False
+p -> ~~(~p -> (~q -> (p -> (r -> p)))), True
+~(((~p -> (p -> (p -> q))) -> r) -> ~~q), False
+~((~p -> (q -> ~~q)) -> ~~(r -> r)), False
+(~~(~p -> (q -> q)) -> (r -> q)) -> ~r, False
+p -> ((p -> q) -> (r -> ~(~p -> (p -> q)))), False
+~(~p -> ((q -> q) -> (p -> (q -> p)))) -> r, True
+(p -> q) -> (p -> (((r -> r) -> p) -> ~~q)), True
+~(~p -> ~~~~q) -> (r -> (p -> p)), True
+~(p -> (q -> (q -> ~~(~p -> r)))) -> q, True
+~p -> ~(p -> (p -> (((p -> q) -> p) -> r))), False
+~((p -> (~q -> ~r)) -> ~~~(q -> p)), False
+~~(p -> ~~q) -> (((r -> q) -> p) -> p), False
+~(((p -> p) -> ~((~~q -> r) -> q)) -> q), False
+(p -> q) -> (((p -> r) -> (r -> (q -> p))) -> q), False
+~(p -> (q -> ((p -> p) -> (p -> (~q -> r))))), False
+~(~p -> p) -> ((q -> p) -> ((r -> r) -> q)), False
+~((~(((p -> ~~q) -> r) -> p) -> q) -> q), False
+~((p -> p) -> p) -> (~p -> (~q -> ~r)), False
+p -> ((~~(~p -> q) -> r) -> (r -> ~q)), False
+~~p -> ((~(p -> p) -> (q -> ~r)) -> q), False
+(p -> q) -> ((~~(r -> r) -> (r -> q)) -> p), False
+((((~~p -> (q -> r)) -> q) -> r) -> r) -> q, False
+((~(p -> q) -> p) -> r) -> (~~r -> ~q), False
+~((~p -> (q -> (~(~r -> q) -> p))) -> r), False
+~~((p -> ~q) -> (~(p -> r) -> ~~r)), False
+(p -> q) -> ~(q -> (r -> ((r -> p) -> ~r))), False
+p -> (((~q -> (r -> (r -> q))) -> ~q) -> p), True
+(p -> (~((~~p -> p) -> q) -> q)) -> ~r, False
+~~(p -> ((p -> (p -> (~q -> ~p))) -> r)), False
+((~p -> ~(q -> p)) -> r) -> (q -> (p -> q)), True
+~((p -> ~((p -> p) -> (q -> ~q))) -> ~r), False
+(((~p -> (~q -> r)) -> q) -> q) -> (r -> q), False
+((p -> (((q -> ~q) -> r) -> r)) -> ~q) -> p, False
+(p -> p) -> ~(q -> ((~p -> r) -> (p -> r))), False
+~(p -> (q -> ((q -> ((r -> r) -> r)) -> ~p))), False
+((p -> ((p -> ~q) -> p)) -> (r -> ~q)) -> p, False
+~(p -> q) -> ~(~~~r -> (~p -> r)), False
+~(((~p -> q) -> (p -> q)) -> (~r -> ~p)), False
+~(~p -> (p -> p)) -> ~(~(q -> q) -> r), True
+p -> (q -> (((~(p -> ~r) -> q) -> p) -> q)), True
+(p -> (q -> (r -> ((p -> r) -> ~~p)))) -> p, False
+p -> ~((~q -> ((~~q -> p) -> r)) -> p), False
+((p -> (q -> r)) -> q) -> ~~((p -> q) -> r), False
+p -> (((q -> (q -> p)) -> p) -> (~~r -> q)), False
+p -> ((~p -> p) -> ((p -> ~(q -> p)) -> r)), True
+(p -> (q -> p)) -> (q -> (~~~~p -> r)), False
+(p -> ~~(((q -> (q -> q)) -> q) -> r)) -> p, False
+((p -> (q -> (~q -> r))) -> ~p) -> (r -> p), False
+p -> (~(~(q -> p) -> ((p -> r) -> q)) -> r), True
+~(~(p -> ~~((~q -> ~r) -> r)) -> q), False
+p -> ((q -> p) -> ~((~~q -> ~p) -> r)), False
+~((p -> p) -> ~q) -> ~(~~p -> ~r), False
+~(~p -> (q -> (~r -> ~(~~p -> q)))), False
+~p -> (~q -> (~r -> (p -> (q -> ~q)))), True
+~(p -> (~~~((q -> p) -> r) -> (q -> p))), False
+(p -> p) -> (q -> ~(q -> (~p -> (r -> p)))), False
+~~((p -> (q -> ((~q -> r) -> ~p))) -> r), False
+~((p -> q) -> r) -> (~~p -> ~(p -> q)), False
+~p -> (p -> (~((p -> ~q) -> ~r) -> r)), True
+(~p -> (~((~q -> ~p) -> p) -> r)) -> q, False
+~~(p -> q) -> ((r -> (q -> r)) -> (q -> r)), False
+~~p -> (((q -> ~p) -> ~p) -> (r -> q)), True
+~(~(p -> ~(~(~~q -> r) -> q)) -> p), False
+~p -> ((p -> (~~q -> (r -> q))) -> ~p), True
+(p -> (~((q -> ~q) -> q) -> ~~r)) -> r, False
+(p -> q) -> ((p -> r) -> (~p -> (~p -> p))), False
+((((~p -> q) -> (~q -> p)) -> p) -> p) -> r, False
+p -> (((q -> (r -> r)) -> (p -> (r -> r))) -> p), True
+~~(p -> (~~~~(q -> r) -> (r -> r))), True
+(p -> ~p) -> (q -> ((p -> ~q) -> (r -> q))), True
+~(p -> p) -> (~~q -> (~(p -> r) -> p)), True
+((~p -> ~q) -> ~(~r -> r)) -> ~~p, False
+~(~(p -> q) -> (((r -> q) -> p) -> p)) -> p, True
+(p -> (q -> (r -> (r -> ~(p -> r))))) -> ~q, False
+p -> ((~~(~~~q -> q) -> ~q) -> r), False
+((((p -> p) -> (~~q -> r)) -> p) -> q) -> q, False
+(p -> ~q) -> ~(((r -> ~~r) -> r) -> r), False
+p -> ~((((q -> p) -> ~q) -> r) -> (q -> q)), False
+(p -> ~p) -> (~(p -> (p -> q)) -> (r -> p)), True
+~~((((p -> q) -> q) -> p) -> ~r) -> ~p, False
+(~p -> (q -> q)) -> ((r -> ~(q -> p)) -> r), False
+p -> ((~q -> (((q -> ~r) -> q) -> r)) -> p), True
+~~(p -> (~(q -> q) -> (p -> (~q -> r)))), True
+~~(~p -> ~(~(~(q -> r) -> p) -> r)), False
+(p -> q) -> ((q -> (p -> r)) -> ((p -> p) -> q)), False
+p -> ~(~q -> ~(r -> ~~(~p -> r))), False
+(~p -> ~~((q -> ~r) -> p)) -> (q -> p), False
+(p -> (q -> (r -> (r -> (p -> q))))) -> (r -> r), True
+((((p -> q) -> q) -> (q -> (p -> p))) -> p) -> r, False
+(~p -> (((q -> q) -> p) -> (r -> ~p))) -> r, False
+~(~~(p -> ~((p -> p) -> q)) -> (r -> r)), False
+p -> (((p -> q) -> q) -> ~~~~(q -> r)), False
+~(~p -> (q -> (r -> ~q))) -> (r -> ~q), False
+(p -> (p -> (q -> (p -> ~(p -> ~r))))) -> r, False
+((p -> q) -> q) -> ~(q -> ((r -> q) -> ~r)), False
+~(~(p -> ~(q -> ~(~~q -> r))) -> p), False
+(~p -> q) -> (~(r -> (~q -> p)) -> ~q), True
+(~p -> ((q -> p) -> q)) -> (p -> (r -> ~q)), False
+~((p -> ~~((q -> r) -> r)) -> (~q -> p)), False
+(p -> ~(((p -> q) -> ~q) -> (q -> r))) -> p, False
+p -> (p -> ~~~((~q -> p) -> ~~r)), False
+p -> (q -> ((p -> ~p) -> (~r -> ~~r))), True
+(((~(p -> q) -> r) -> (~r -> r)) -> q) -> r, False
+p -> (~(q -> ~~~((r -> r) -> p)) -> q), True
+~(p -> ~~(p -> ((q -> ~r) -> p))) -> r, True
+(p -> p) -> (q -> (((q -> ~r) -> ~r) -> q)), True
+~p -> ~((~~q -> (q -> r)) -> (p -> q)), False
+p -> (~(q -> q) -> (p -> ((r -> ~q) -> p))), True
+~((~p -> ~p) -> (~(q -> p) -> r)) -> q, True
+~(((p -> ~(p -> ~~q)) -> r) -> ~~r), False
+p -> (~((p -> p) -> q) -> ((r -> ~p) -> p)), True
+(p -> (((p -> p) -> (q -> r)) -> r)) -> (r -> r), True
+p -> (~q -> (p -> (((p -> p) -> r) -> ~p))), False
+~(((p -> ~(q -> p)) -> r) -> ~q) -> ~q, False
+p -> (q -> ~(r -> ~~~(r -> (r -> q)))), False
+((~(p -> q) -> p) -> ~~(r -> r)) -> ~r, False
+~~(p -> (((q -> q) -> ~~(r -> p)) -> r)), False
+(p -> ((q -> (r -> p)) -> q)) -> (q -> (r -> p)), False
+~(p -> (q -> ((q -> p) -> (q -> ~r)))) -> p, True
+((p -> ~q) -> (~~(~q -> p) -> r)) -> r, False
+(~(~~p -> (q -> r)) -> ~(q -> p)) -> r, False
+p -> (((q -> (q -> p)) -> ~p) -> (~r -> q)), True
+(~~~p -> q) -> (~(~~p -> r) -> p), True
+~(((p -> p) -> (~~q -> q)) -> ~r) -> r, True
+((p -> (q -> r)) -> (~r -> p)) -> ~(q -> r), False
+(p -> (((p -> p) -> q) -> (~q -> ~r))) -> p, False
+~~(~((~p -> (p -> q)) -> r) -> p) -> p, False
+((~~~((p -> q) -> q) -> q) -> r) -> ~p, False
+~(~(~p -> ~((q -> ~~r) -> q)) -> q), False
+~((~p -> ~q) -> ~(r -> (p -> (q -> p)))), False
+~(((p -> q) -> ~~(r -> q)) -> ~(p -> p)), False
+(~(p -> q) -> (q -> ((r -> q) -> p))) -> ~p, False
+p -> ~(~p -> (((q -> (r -> p)) -> r) -> r)), False
+~(((p -> (~p -> (~~p -> q))) -> r) -> p), False
+~~(p -> (q -> ((r -> p) -> (p -> r)))) -> q, False
+~(p -> ~((((~q -> ~q) -> r) -> r) -> p)), False
+(~~p -> q) -> ((r -> (p -> p)) -> (q -> r)), False
+p -> (~(q -> (p -> (q -> (~p -> p)))) -> r), True
+~((~p -> ((~q -> p) -> p)) -> (~q -> r)), False
+(((~(p -> q) -> (q -> q)) -> q) -> ~q) -> r, False
+~p -> (q -> (q -> (~(r -> (r -> p)) -> q))), True
+(~(p -> q) -> (~(~p -> ~r) -> p)) -> r, False
+((~(p -> (~p -> p)) -> q) -> r) -> (q -> p), False
+(((~~(p -> q) -> r) -> r) -> (q -> p)) -> q, False
+((~p -> ((~q -> r) -> q)) -> ~~r) -> q, False
+(p -> p) -> ~((~q -> ~(p -> ~r)) -> q), False
+((~(p -> ~(p -> ~q)) -> q) -> ~q) -> r, False
+p -> (~(q -> (~(r -> q) -> p)) -> (r -> q)), True
+(~((p -> ~q) -> ((r -> q) -> r)) -> p) -> p, False
+~~p -> (~(q -> p) -> ~(~r -> ~r)), True
+p -> ~~~(q -> (~p -> ~(q -> ~r))), False
+~(~p -> (~q -> (~~r -> (q -> ~p)))), False
+((~p -> (((~q -> p) -> p) -> p)) -> r) -> r, False
+(p -> ~(q -> ~q)) -> (((q -> p) -> r) -> p), False
+((p -> q) -> (p -> ((p -> r) -> ~q))) -> ~p, False
+~(((p -> ((p -> (p -> q)) -> ~r)) -> p) -> q), False
+(p -> ((q -> r) -> (p -> q))) -> (~p -> ~r), False
+p -> ~(~((q -> ~~~~r) -> q) -> p), False
+~p -> (((~q -> ~r) -> ~(p -> q)) -> p), False
+(p -> ~(q -> ~~(r -> p))) -> ~(r -> r), False
+~((p -> (~~p -> (~p -> (q -> q)))) -> r), False
+(p -> (~(p -> ~~~q) -> (r -> r))) -> p, False
+p -> ~(~q -> ((~~q -> p) -> ~~r)), False
+(~p -> p) -> ~(q -> ~~~~(r -> r)), False
+(((~p -> ~q) -> ~~(p -> r)) -> r) -> r, False
+(p -> q) -> (r -> ((r -> (p -> q)) -> (q -> p))), False
+(p -> ((q -> (~~q -> q)) -> ~~q)) -> r, False
+~~((~p -> ((q -> r) -> r)) -> ~(r -> q)), False
+(p -> ~(~~(q -> ~q) -> ~~r)) -> r, False
+~(p -> ~((~(~~q -> r) -> p) -> ~r)), False
+(~p -> q) -> (~p -> (((p -> r) -> r) -> q)), True
+~((~p -> (q -> ~~r)) -> (p -> (r -> q))), False
+~(p -> ~q) -> ~((r -> (q -> ~q)) -> p), False
+(p -> ~(q -> ((~r -> q) -> (r -> q)))) -> r, False
+~p -> (p -> (((q -> p) -> r) -> ~(r -> p))), True
+(p -> (q -> q)) -> ((p -> ((q -> q) -> r)) -> r), False
+((~(p -> ~(~q -> p)) -> ~r) -> r) -> p, False
+~p -> ~((~~q -> q) -> ((r -> r) -> q)), False
+~(p -> ~~((q -> ~(~p -> ~q)) -> r)), False
+(p -> ((p -> (q -> ~(r -> p))) -> q)) -> ~p, False
+p -> ((~~q -> (r -> r)) -> ~(p -> ~r)), False
+~(p -> (~~~(q -> (~p -> r)) -> ~q)), False
+(~(p -> (~~q -> ~~~r)) -> q) -> r, False
+p -> (p -> (((p -> q) -> q) -> ~(~q -> r))), False
+~p -> (~((p -> q) -> ((p -> q) -> r)) -> p), False
+~(((~(p -> ~q) -> p) -> (r -> r)) -> ~q), False
+p -> ((q -> ~(~r -> ~r)) -> (~p -> p)), True
+(~p -> (q -> r)) -> (~(q -> p) -> (p -> p)), True
+~(((p -> (p -> ~~q)) -> p) -> r) -> ~p, False
+((p -> q) -> ~(p -> (q -> q))) -> ~(r -> q), False
+(p -> ((q -> r) -> r)) -> (~(q -> ~r) -> q), True
+(p -> p) -> ((((q -> q) -> r) -> ~q) -> ~q), False
+((~p -> ~(q -> ~~(p -> q))) -> r) -> r, False
+~~((p -> (~q -> q)) -> ((~r -> r) -> q)), False
+(~p -> ((((p -> ~q) -> r) -> p) -> r)) -> q, False
+(~(p -> (~(p -> (p -> q)) -> q)) -> r) -> r, False
+p -> ((~q -> (r -> (~r -> ~p))) -> ~p), False
+~(~p -> (p -> p)) -> ~((q -> r) -> ~q), True
+~(p -> (((q -> (q -> ~r)) -> (q -> r)) -> r)), False
+~~((~(p -> ~~q) -> p) -> ~(r -> p)), False
+~(~(p -> ~(~(q -> ~r) -> q)) -> ~r), False
+(p -> q) -> (r -> (p -> ~((r -> ~q) -> r))), False
+~~p -> (~(q -> ~r) -> ((r -> q) -> p)), True
+~~~((p -> ~(p -> q)) -> (q -> r)) -> p, False
+~~(p -> (~(p -> q) -> (r -> (~r -> p)))), True
+p -> (~q -> ((r -> p) -> ~(r -> (p -> r)))), False
+p -> (p -> ~(q -> (~(q -> (r -> p)) -> r))), False
+~p -> ((p -> ((q -> (~p -> q)) -> p)) -> r), False
+~((~~p -> (~(~q -> ~r) -> q)) -> q), False
+((p -> (p -> q)) -> ~(p -> ~(p -> p))) -> r, False
+(p -> (~(q -> p) -> ~~~~~p)) -> r, False
+((p -> q) -> ((r -> ~r) -> (r -> q))) -> ~p, False
+p -> ((~q -> ~((q -> r) -> p)) -> ~~r), False
+(~(~p -> (p -> q)) -> (q -> r)) -> (p -> q), False
+~~(((p -> q) -> q) -> ((~r -> q) -> ~q)), False
+(((p -> ((q -> r) -> p)) -> (r -> p)) -> r) -> p, False
+~(~(p -> (q -> (~~r -> ~q))) -> ~r), False
+(p -> (~(q -> ~(~p -> q)) -> ~p)) -> r, False
+~~(p -> ((q -> p) -> (p -> p))) -> (q -> r), False
+p -> (((~(q -> q) -> ~r) -> (r -> r)) -> r), False
+((p -> ~~q) -> (q -> ~p)) -> ~(r -> r), False
+(p -> q) -> (p -> (~~r -> ~(p -> ~p))), True
+(~~p -> (~~~~q -> (r -> p))) -> q, False
+p -> (q -> ~(((r -> p) -> (q -> ~p)) -> q)), False
+~(p -> ~(q -> ~q)) -> (~(r -> q) -> r), True
+(p -> ~~(~(q -> p) -> (r -> ~q))) -> q, False
+(p -> ~((q -> ~~(~r -> r)) -> r)) -> r, False
+(p -> (~~q -> r)) -> (((r -> r) -> q) -> r), False
+p -> ((p -> (q -> (~(q -> ~r) -> p))) -> p), True
+p -> ~(p -> ((p -> (~~q -> p)) -> ~r)), False
+(~(~p -> q) -> r) -> ((~~p -> p) -> r), False
+(p -> (q -> (p -> (r -> ~~q)))) -> (q -> r), False
+((((~p -> ~q) -> p) -> r) -> r) -> (r -> q), False
+~(p -> (q -> (q -> ((r -> p) -> ~(p -> q))))), False
+(p -> (~(q -> (q -> q)) -> (p -> ~r))) -> r, False
+(~((p -> q) -> ~r) -> p) -> ~~(q -> p), False
+~((~p -> ((~(q -> q) -> q) -> ~q)) -> r), False
+~(((p -> q) -> q) -> ~(~r -> ~(q -> q))), False
+p -> (((p -> q) -> (~q -> ~~q)) -> ~r), False
+p -> ~(((q -> r) -> ~p) -> (r -> (p -> p))), False
+(((p -> q) -> (~(~r -> p) -> r)) -> p) -> r, False
+p -> ((~(p -> (p -> (p -> q))) -> q) -> ~r), False
+((~~(p -> q) -> r) -> p) -> ~(~q -> r), False
+(~p -> ((q -> ~~q) -> (~r -> p))) -> p, False
+p -> ~((~q -> (~r -> ~(p -> p))) -> p), False
+~p -> ~(q -> (p -> (((q -> r) -> q) -> q))), False
+(((p -> q) -> q) -> ~~~~q) -> (r -> q), False
+(~(~p -> ~~q) -> ~(q -> ~q)) -> r, False
+((p -> q) -> ((q -> ~~q) -> p)) -> ~~r, False
+p -> ((((p -> p) -> ~q) -> (r -> r)) -> ~p), False
+~((p -> (q -> (~p -> (q -> p)))) -> q) -> r, False
+((((p -> q) -> (~~q -> r)) -> q) -> r) -> q, False
+~((p -> q) -> (((~r -> p) -> ~p) -> ~p)), False
+~(((p -> (q -> ~(r -> p))) -> p) -> r) -> p, True
+~~~(~~p -> ((~~q -> p) -> ~r)), False
+((p -> q) -> ~~r) -> ~((q -> p) -> ~p), False
+~~((~(~~p -> p) -> (~p -> q)) -> r), False
+((~p -> ~q) -> p) -> ~((r -> ~q) -> q), False
+(~p -> (q -> (q -> r))) -> (r -> (r -> ~r)), False
+p -> ((p -> (q -> ~((r -> p) -> ~q))) -> r), False
+(p -> (p -> ~~q)) -> ~(~p -> (r -> p)), False
+((p -> ((p -> ~q) -> (p -> q))) -> r) -> ~p, False
+~(((~~p -> p) -> (q -> (p -> ~p))) -> r), False
+(~((~p -> p) -> (q -> r)) -> (r -> q)) -> r, False
+~(p -> (p -> ((q -> ~(r -> ~q)) -> ~q))), False
+~(~p -> (q -> (q -> (r -> r)))) -> (p -> r), True
+(~~((p -> q) -> r) -> ~(~r -> p)) -> p, False
+~(p -> ((q -> (((r -> ~r) -> q) -> r)) -> q)), False
+~(~p -> (~~~~(q -> (q -> r)) -> r)), False
+(p -> ~~~(q -> (~~q -> ~r))) -> p, False
+~(p -> (~p -> ((~p -> q) -> (r -> ~q)))), False
+~(p -> ((q -> ~q) -> r)) -> (~~r -> q), True
+~(p -> ((~~((~q -> q) -> r) -> p) -> r)), False
+(p -> q) -> ((~(p -> q) -> r) -> (~p -> r)), False
+~(p -> ~(~(~(q -> p) -> (p -> r)) -> p)), False
+p -> ~(p -> ~(p -> (~p -> (~q -> r)))), True
+~(~~~(~p -> (q -> (q -> ~r))) -> q), False
+((~~p -> ~q) -> ~p) -> (~r -> ~p), False
+~((~p -> q) -> (~r -> (~~r -> ~p))), False
+p -> ((~(~p -> ~q) -> (r -> ~p)) -> r), False
+~p -> (~(~~(q -> ~r) -> q) -> ~p), True
+p -> (q -> ~((~r -> ~(p -> ~r)) -> p)), False
+~(p -> (p -> (q -> (r -> (~(q -> r) -> p))))), False
+(~p -> ((~(q -> r) -> q) -> (q -> q))) -> q, False
+~(((~p -> q) -> ~(p -> (p -> p))) -> ~r), False
+~((~(p -> q) -> ~r) -> (p -> ~q)) -> q, True
+(p -> ((q -> ((q -> (r -> r)) -> q)) -> q)) -> q, False
+~~((~((p -> q) -> (q -> ~q)) -> p) -> r), False
+~(~(p -> ~(q -> q)) -> ~(r -> p)) -> r, False
+((~~p -> q) -> q) -> (r -> ~(q -> ~r)), False
+(((p -> (q -> (r -> ~p))) -> q) -> r) -> ~r, False
+((p -> (q -> (q -> r))) -> ~q) -> (~r -> r), False
+~~((((p -> (q -> r)) -> (q -> p)) -> r) -> r), False
+~(((~(p -> p) -> q) -> (~r -> ~p)) -> r), False
+(p -> q) -> (q -> (((~r -> p) -> q) -> ~q)), False
+(p -> q) -> (~p -> ~((~q -> ~r) -> p)), False
+((((p -> p) -> p) -> ~~p) -> q) -> ~~r, False
+p -> ((p -> q) -> (~r -> ~~(~p -> q))), True
+((p -> q) -> ~q) -> ~(p -> (r -> (q -> q))), False
+~((p -> ~((((p -> q) -> r) -> p) -> q)) -> q), False
+~((p -> (p -> q)) -> r) -> ((r -> ~p) -> q), False
+p -> ((q -> ~q) -> ((p -> (p -> r)) -> ~r)), False
+~p -> ((p -> (~q -> r)) -> ((q -> q) -> r)), False
+~(p -> (~~(q -> ((p -> r) -> ~p)) -> r)), False
+p -> (((p -> q) -> ((p -> q) -> p)) -> (p -> r)), False
+~(~((p -> ~~~q) -> q) -> (~r -> r)), False
+(~p -> (~~((p -> ~q) -> p) -> q)) -> r, False
+~~(~(p -> q) -> r) -> (p -> ~(q -> p)), False
+~p -> (~(~q -> (~~r -> ~r)) -> r), True
+(p -> ((~~~q -> (~r -> q)) -> r)) -> r, False
+~((~p -> ~~~~q) -> r) -> (q -> r), False
+~p -> ((q -> (((q -> p) -> r) -> q)) -> ~q), False
+p -> ((q -> (p -> p)) -> ((r -> p) -> (r -> r))), True
+~(~p -> q) -> (q -> (p -> (r -> ~~q))), True
+(p -> ~p) -> ~(((~q -> p) -> ~r) -> p), False
+~(((~p -> (q -> ~r)) -> q) -> (q -> ~q)), False
+p -> (((q -> ~((q -> ~p) -> q)) -> r) -> r), False
+p -> (~~(p -> p) -> (((p -> p) -> q) -> r)), False
+~~(~p -> p) -> ((~q -> q) -> (r -> q)), True
+~(p -> ~(q -> (r -> (q -> (q -> (r -> r)))))), False
+(~((p -> ~q) -> r) -> (r -> ~~q)) -> q, False
+(~(p -> ~(~p -> ~~~q)) -> r) -> r, False
+~(~(p -> q) -> (r -> q)) -> ((q -> q) -> p), True
+((p -> (p -> q)) -> ~~~q) -> ~~~r, False
+((p -> p) -> (q -> ~(r -> (r -> ~q)))) -> r, False
+p -> ~(q -> (((r -> p) -> ~r) -> (p -> p))), False
+((p -> q) -> (((q -> (q -> r)) -> q) -> q)) -> r, False
+~~(p -> (~~((p -> q) -> q) -> (r -> p))), True
+(~~(p -> ~q) -> (q -> r)) -> ~~~q, False
+~(~(p -> (p -> (q -> ((r -> r) -> q)))) -> p), False
+p -> ((q -> (r -> ~(p -> (q -> q)))) -> ~p), False
+((~~~(p -> q) -> ~(r -> q)) -> q) -> r, False
+(~~p -> q) -> ((((q -> r) -> p) -> p) -> q), False
+(((p -> p) -> (~~q -> r)) -> r) -> (p -> q), False
+~~(p -> (q -> (q -> q))) -> ((q -> r) -> r), False
+(p -> ~((q -> ~~(~q -> q)) -> r)) -> r, False
+(~p -> ~q) -> (q -> (~r -> ~(r -> p))), False
+~~(~(p -> ~q) -> ~((~p -> p) -> r)), False
+~p -> ((~q -> ((r -> (r -> r)) -> p)) -> r), False
+~(~((p -> q) -> ((p -> r) -> r)) -> p) -> q, False
+~((p -> (p -> (p -> q))) -> (p -> (r -> ~p))), False
+p -> (~(p -> ~(p -> q)) -> ((q -> p) -> r)), False
+(p -> ~~((~(p -> p) -> q) -> r)) -> ~p, False
+((p -> ~~q) -> ~~((r -> p) -> q)) -> p, False
+~((p -> (p -> q)) -> ~((q -> p) -> r)) -> p, False
+p -> ~~~((q -> ~p) -> ~(~q -> r)), False
+((p -> (~p -> p)) -> ~q) -> ~(r -> ~p), False
+p -> (((~(q -> (q -> r)) -> ~r) -> r) -> p), True
+p -> ((q -> ~((q -> q) -> (r -> ~r))) -> p), True
+p -> (~~((~q -> p) -> ~q) -> (r -> q)), False
+~p -> ~(q -> (((p -> (p -> q)) -> q) -> r)), False
+p -> ((q -> ((~r -> p) -> r)) -> (q -> ~p)), False
+(p -> ~(p -> p)) -> (((q -> q) -> q) -> ~r), False
+(~p -> ~(p -> q)) -> (p -> (~q -> ~r)), False
+~(p -> (q -> r)) -> ~((r -> (r -> q)) -> q), False
+~~p -> ~~(q -> ((~p -> ~r) -> q)), True
+~((~~p -> (~q -> (p -> q))) -> p) -> r, False
+~(p -> ((p -> q) -> ((~p -> q) -> r))) -> r, False
+((~p -> q) -> ~q) -> ~((~q -> r) -> q), False
+(p -> p) -> ((~(q -> r) -> (r -> ~q)) -> r), False
+(~p -> ((q -> q) -> ((~p -> p) -> p))) -> r, False
+p -> (~~~p -> (p -> ~(p -> (q -> r)))), True
+~(~~~~~p -> (q -> r)) -> ~~q, True
+(~((p -> q) -> ~((q -> r) -> p)) -> r) -> r, False
+((~(p -> q) -> q) -> p) -> ((r -> ~r) -> q), False
+~(p -> ((q -> ~p) -> ((r -> p) -> p))) -> p, True
+~((p -> q) -> (((q -> q) -> r) -> ~(q -> q))), False
+~((~(((p -> ~q) -> p) -> r) -> p) -> ~p), False
+((~p -> q) -> ~q) -> (r -> (~~q -> p)), True
+~(p -> (((((q -> q) -> r) -> r) -> r) -> ~q)), False
+~(~~((~(~~p -> p) -> p) -> q) -> r), False
+p -> (((q -> (~~(r -> q) -> q)) -> q) -> p), True
+(~~p -> p) -> (((p -> p) -> (q -> q)) -> r), False
+~((~p -> q) -> ((~p -> (q -> r)) -> ~p)), False
+~(((~p -> ((p -> ~q) -> q)) -> ~p) -> r), False
+((~~p -> p) -> (q -> r)) -> (r -> ~~p), False
+~~(~~(((p -> (q -> p)) -> r) -> p) -> r), False
+~((p -> q) -> (~r -> ~((r -> p) -> ~q))), False
+p -> ~(((q -> p) -> ~r) -> ((r -> p) -> r)), False
+~((~(p -> q) -> (~p -> (~q -> q))) -> r), False
+~p -> (~((~q -> q) -> ~p) -> (r -> r)), True
+(p -> ((p -> q) -> (((p -> r) -> q) -> r))) -> r, False
+(p -> ~q) -> ~(((r -> q) -> r) -> (r -> p)), False
+(p -> ((q -> ~~r) -> q)) -> (r -> (q -> q)), True
+~(((p -> q) -> p) -> (r -> q)) -> (~q -> r), True
+(p -> ~((~~~~p -> q) -> q)) -> ~r, False
+(p -> (((~p -> q) -> ~p) -> (r -> r))) -> r, False
+~((p -> ~(p -> p)) -> q) -> ((q -> p) -> r), False
+~(~((p -> ~q) -> q) -> r) -> (p -> ~r), True
+((p -> ((q -> r) -> r)) -> q) -> ~(~r -> q), False
+~~~(~~((~(p -> p) -> q) -> r) -> r), False
+~~((p -> p) -> p) -> (~(~q -> r) -> r), False
+p -> (((p -> q) -> ~~~(~p -> q)) -> r), False
+((p -> (~~q -> ~(r -> p))) -> p) -> ~q, False
+((p -> ~(q -> ~~(p -> r))) -> q) -> ~p, False
+~~(p -> q) -> ~((~r -> p) -> ~~q), False
+(p -> (~(q -> ((r -> p) -> r)) -> ~q)) -> p, False
+((p -> (~~q -> ~(p -> ~p))) -> q) -> r, False
+p -> (~q -> ~~~~(r -> ~(p -> p))), False
+p -> (q -> (q -> ~(r -> (q -> ~(r -> r))))), False
+p -> (((q -> (p -> ~q)) -> (r -> ~p)) -> r), False
+(p -> ~(((p -> p) -> q) -> r)) -> (r -> ~p), True
+(~(p -> q) -> (r -> r)) -> (q -> ~~~p), False
+((~~p -> ~q) -> (p -> q)) -> (~r -> r), False
+((((p -> q) -> r) -> r) -> (r -> (p -> r))) -> q, False
+~(((p -> (~~q -> p)) -> ~(r -> r)) -> p), False
+~~(~(p -> ~((p -> (q -> r)) -> p)) -> q), False
+(p -> (p -> q)) -> (~p -> (r -> ~~~q)), False
+~p -> (p -> (q -> ~((p -> (p -> r)) -> r))), True
+~~(p -> (p -> (q -> (p -> (p -> ~~r))))), False
+(~~p -> (q -> (~q -> p))) -> ~(r -> q), False
+p -> (p -> ~(q -> ((~q -> r) -> ~~q))), False
+~~~p -> ((~p -> (q -> p)) -> (r -> p)), False
+~p -> ~~((q -> (r -> p)) -> ~~~p), True
+p -> (q -> (~(r -> ~(p -> p)) -> (q -> p))), True
+(~p -> q) -> ((q -> ((p -> ~r) -> p)) -> q), False
+p -> (p -> (((q -> ~q) -> (q -> ~p)) -> r)), False
+~~(~~(~p -> q) -> q) -> (r -> ~p), False
+p -> (q -> (((p -> p) -> r) -> (q -> (r -> q)))), True
+(~((p -> (~q -> ~p)) -> r) -> ~q) -> p, False
+~(p -> (((~~p -> (q -> r)) -> r) -> ~p)), False
+~(((~p -> p) -> ((q -> p) -> (r -> r))) -> q), False
+~(p -> ~~q) -> (((r -> q) -> ~q) -> p), True
+~((~p -> q) -> (r -> (~~r -> (p -> r)))), False
+(p -> ~(~((q -> (q -> r)) -> r) -> q)) -> p, False
+((~~p -> q) -> (p -> r)) -> ~(~r -> r), False
+~p -> (p -> (~(~p -> (q -> p)) -> ~r)), True
+(((p -> q) -> (r -> ~~~p)) -> ~q) -> r, False
+~((~((p -> q) -> q) -> (r -> (r -> p))) -> p), False
+~(p -> ~(q -> ~((r -> (~r -> q)) -> q))), False
+p -> ~~((p -> p) -> (~q -> (r -> ~r))), False
+~((p -> (p -> (p -> ~q))) -> r) -> ~~q, False
+~~(~p -> ~q) -> ~((q -> r) -> ~p), False
+p -> (~~(q -> ((p -> p) -> r)) -> (p -> q)), False
+((p -> (q -> ~((r -> ~q) -> p))) -> q) -> r, False
+(~(p -> p) -> p) -> (~q -> (~~p -> r)), False
+(~~(p -> ~~(~q -> ~p)) -> r) -> q, False
+(~p -> (((~q -> r) -> (p -> p)) -> q)) -> p, False
+p -> (p -> (~~(q -> p) -> (~~p -> r))), False
+p -> ~(q -> ~((q -> (p -> r)) -> (q -> p))), False
+~(p -> (~p -> ~(~((q -> r) -> q) -> r))), False
+(p -> (~((p -> q) -> (r -> q)) -> q)) -> ~p, False
+~((p -> q) -> (q -> ~((r -> q) -> (r -> r)))), False
+p -> ~((q -> (r -> ((r -> r) -> ~r))) -> r), False
+~p -> (q -> ~(p -> ((q -> (p -> q)) -> r))), False
+~(~(((p -> p) -> q) -> r) -> (~r -> ~p)), False
+~(p -> ~~q) -> ~(~(r -> p) -> ~r), False
+~~((~(p -> (q -> ~r)) -> r) -> (q -> r)), False
+~(~(((p -> q) -> r) -> (q -> (p -> q))) -> r), False
+~~(~(p -> ~q) -> (r -> (r -> (q -> q)))), True
+~~~(p -> (~q -> (~r -> ~(r -> p)))), False
+~((p -> ~((q -> ~~~~r) -> p)) -> p), False
+(~~(~p -> q) -> (~q -> ~q)) -> ~r, False
+(p -> ~(((q -> r) -> r) -> ~(q -> r))) -> q, False
+~p -> ((~(q -> ~(~r -> r)) -> r) -> q), False
+~(((~p -> ((q -> p) -> p)) -> r) -> ~~p), False
+(p -> (~q -> (r -> ((~p -> q) -> r)))) -> r, False
+((p -> ((~q -> ~p) -> ~r)) -> ~r) -> r, False
+~(p -> (~p -> (q -> ~~((r -> p) -> q)))), False
+((~((~p -> q) -> r) -> (p -> r)) -> r) -> p, False
+~(~(((p -> ~q) -> p) -> q) -> (r -> ~q)), False
+~((p -> ~~(~~~p -> q)) -> ~~r), False
+~~(p -> (((~q -> (~r -> q)) -> q) -> r)), False
+p -> (~(q -> ~p) -> (~(q -> ~p) -> r)), False
+(~p -> q) -> (q -> ((~p -> (p -> q)) -> r)), False
+~((p -> ~((~p -> ~q) -> q)) -> ~~r), False
+p -> ~(~p -> (q -> ((r -> (q -> p)) -> p))), False
+p -> ~(q -> (~p -> (~(~r -> p) -> q))), False
+~~p -> ((~q -> ~(p -> p)) -> (r -> p)), True
+p -> (~((((q -> r) -> ~r) -> q) -> q) -> q), False
+(((~p -> ~~q) -> (r -> q)) -> p) -> ~p, False
+((p -> q) -> (~~(p -> q) -> q)) -> (r -> q), False
+((~((p -> ~~p) -> ~q) -> p) -> p) -> r, False
+p -> ~((((q -> ~~p) -> ~q) -> r) -> r), False
+~~(~((p -> q) -> (r -> (~p -> p))) -> q), False
+~p -> ((q -> r) -> (~r -> ((q -> q) -> r))), False
+~p -> (q -> ((~~p -> (~p -> r)) -> p)), False
+p -> ~(~q -> (~~(~r -> ~r) -> p)), False
+((p -> ~~(~~(p -> q) -> p)) -> r) -> p, False
+~((p -> ~((q -> p) -> r)) -> ~~(r -> p)), False
+(~(~p -> (~p -> ~p)) -> q) -> (r -> p), False
+(p -> (q -> ~~r)) -> ~~~(q -> ~q), False
+(p -> ~~(q -> ~(~q -> (r -> r)))) -> q, False
+((~p -> ~~(p -> ~~p)) -> q) -> ~r, False
+~(p -> (~~((~~q -> ~q) -> q) -> r)), False
+(~p -> ((q -> r) -> ~~q)) -> (~r -> p), False
+~(p -> (~((p -> q) -> (p -> r)) -> (p -> q))), False
+~~(((p -> p) -> (q -> (p -> r))) -> r) -> q, False
+p -> ~(~(~q -> r) -> ~~~~~p), False
+~p -> ~(p -> (((q -> r) -> (p -> q)) -> p)), False
+~(~((p -> (q -> (p -> r))) -> q) -> (p -> q)), False
+~(~p -> ((p -> ((p -> q) -> (p -> r))) -> p)), False
+~p -> (q -> ((p -> (p -> ~(r -> q))) -> p)), False
+~~p -> ((q -> ((q -> r) -> (p -> q))) -> r), False
+~((p -> (~(~(~q -> p) -> r) -> r)) -> q), False
+p -> ~~(((~q -> q) -> r) -> ~(p -> p)), False
+(p -> ((p -> (q -> r)) -> (~~r -> r))) -> q, False
+~~~~p -> (q -> (r -> (q -> ~~r))), True
+(p -> (~p -> (q -> (r -> (r -> ~p))))) -> q, False
+(p -> p) -> ((q -> r) -> ((q -> ~~r) -> q)), False
+p -> (((p -> (q -> r)) -> ~(p -> r)) -> ~r), True
+((((p -> ~q) -> r) -> r) -> (r -> p)) -> ~q, False
+~(~p -> ~q) -> (~r -> (r -> (q -> q))), True
+p -> (~~~p -> ((q -> (r -> p)) -> ~r)), True
+~((p -> q) -> (r -> ((q -> ~r) -> (p -> r)))), False
+((p -> q) -> (r -> ((p -> p) -> ~r))) -> ~p, False
+((p -> ((~p -> ~q) -> (r -> p))) -> q) -> r, False
+((p -> ~(q -> p)) -> ~p) -> (q -> (p -> r)), False
+~((((p -> p) -> q) -> r) -> ((~r -> q) -> r)), False
+p -> ((q -> r) -> (q -> (p -> ((q -> r) -> q)))), True
+(p -> (((q -> r) -> q) -> ~(p -> q))) -> ~q, False
+(~(p -> p) -> (q -> (~r -> ~q))) -> ~q, False
+~((((~p -> (p -> (p -> q))) -> p) -> r) -> q), False
+(~(p -> q) -> ~(r -> ~~~~p)) -> q, False
+p -> (((p -> (q -> q)) -> ~(~q -> r)) -> p), True
+p -> (p -> (~q -> ((p -> p) -> (r -> ~p)))), False
+~(~(p -> q) -> ~(r -> (p -> p))) -> ~p, False
+(((~~p -> (~q -> ~q)) -> r) -> q) -> q, False
+~(p -> ((p -> q) -> (~r -> p))) -> (p -> q), True
+(((p -> (~q -> r)) -> ~q) -> p) -> (p -> p), True
+~~(p -> (q -> ((q -> ~r) -> (r -> ~q)))), True
+~(p -> ~(~p -> (~~p -> ~(q -> r)))), False
+~p -> (~~q -> (~~~r -> (r -> p))), True
+(((~~p -> q) -> r) -> (r -> r)) -> ~~p, False
+~((((~p -> (~q -> p)) -> ~r) -> q) -> r), False
+p -> ~(~~~(((q -> r) -> q) -> p) -> r), False
+((~p -> ~~~(p -> p)) -> ~~q) -> r, False
+p -> (((~(p -> p) -> q) -> r) -> (~r -> q)), True
+~(~p -> ~(q -> ~((q -> p) -> p))) -> r, False
+p -> ~~(~~(p -> (q -> (r -> q))) -> q), False
+((p -> (q -> (~~(p -> q) -> r))) -> p) -> p, True
+p -> (p -> ~(((p -> ~q) -> r) -> (q -> p))), False
+~~(~~~p -> ~~q) -> ~(q -> r), False
+~(((~p -> (~~q -> q)) -> p) -> p) -> r, True
+~~(~~(p -> (q -> ((r -> p) -> r))) -> p), False
+p -> (q -> (q -> (r -> (((q -> r) -> r) -> q)))), True
+((p -> (p -> q)) -> ~r) -> ((~q -> p) -> r), False
+(p -> ((q -> ~q) -> ((q -> p) -> ~r))) -> q, False
+p -> ((((q -> ~q) -> r) -> r) -> ~(p -> r)), False
+p -> (~~(q -> r) -> ~~~(q -> ~q)), False
+(p -> (((q -> (q -> p)) -> p) -> q)) -> (q -> r), False
+(~p -> (p -> ((~p -> (q -> q)) -> q))) -> r, False
+(p -> q) -> (~((q -> r) -> r) -> ~(p -> q)), False
+p -> ((~q -> q) -> ((q -> p) -> (q -> ~r))), False
+~((~~p -> (q -> (r -> q))) -> (~p -> p)), False
+~(p -> q) -> (q -> ((q -> (r -> ~q)) -> r)), True
+p -> ~((~(q -> r) -> (r -> ~r)) -> ~q), False
+~(((p -> p) -> (p -> q)) -> (p -> ~q)) -> r, False
+~(p -> ((~~q -> (~r -> (p -> q))) -> r)), False
+(p -> ~q) -> ~((q -> (q -> (p -> r))) -> q), False
+(~((((p -> q) -> q) -> p) -> r) -> ~p) -> q, False
+p -> (q -> (r -> ((q -> p) -> (p -> ~~r)))), True
+~((p -> q) -> ~~~p) -> ~(r -> ~q), False
+~((p -> (q -> (((r -> r) -> ~q) -> q))) -> p), False
+(p -> q) -> ~(~r -> ~(~r -> (r -> r))), False
+~(~p -> ~(q -> r)) -> (~(p -> q) -> p), True
+((~~p -> q) -> (q -> ((r -> p) -> q))) -> r, False
+~(~~p -> (q -> (~(r -> ~~q) -> q))), False
+~((p -> (q -> ~(~q -> (~r -> p)))) -> p), False
+(~p -> ~q) -> (~(r -> q) -> ~(p -> p)), False
+(~~p -> (~(~q -> p) -> (r -> p))) -> q, False
+~~~(p -> ~~((q -> r) -> ~r)) -> p, True
+(p -> ((q -> r) -> ~~(~~p -> r))) -> p, False
+~((~(p -> (~(p -> q) -> ~r)) -> r) -> q), False
+~(p -> (~(q -> ((q -> (r -> q)) -> q)) -> q)), False
+~(~(~p -> q) -> ~(~~r -> ~~r)), False
+(p -> ~((~~q -> (q -> ~q)) -> r)) -> p, False
+(~~p -> ~(q -> (r -> p))) -> (~p -> p), False
+p -> (~~~q -> (p -> (~(q -> r) -> q))), True
+p -> (q -> ((r -> q) -> ((q -> (p -> q)) -> r))), False
+~~~(~(p -> (q -> p)) -> p) -> (p -> r), True
+~p -> ((p -> ~(~(q -> ~q) -> p)) -> r), False
+~(((~p -> (q -> q)) -> ~(~r -> p)) -> r), False
+~p -> ((((~q -> r) -> q) -> (r -> r)) -> p), False
+(((p -> (q -> p)) -> ~r) -> (p -> p)) -> ~p, False
+~~(p -> (p -> (q -> r))) -> ((q -> q) -> r), False
+(~(p -> ~q) -> (r -> ((p -> r) -> p))) -> p, False
+((p -> (q -> q)) -> ~((r -> p) -> p)) -> ~q, False
+p -> ~((q -> ~~((r -> r) -> q)) -> ~p), True
+p -> (((((p -> p) -> p) -> q) -> (p -> r)) -> p), True
+~((((p -> q) -> ~~~r) -> (r -> r)) -> r), False
+(p -> q) -> ~((p -> (q -> r)) -> (p -> ~r)), False
+p -> (q -> ((~((q -> ~q) -> r) -> q) -> r)), False
+~(~~(p -> ~q) -> (q -> q)) -> (r -> q), True
+~p -> (~~(~(q -> (p -> r)) -> q) -> r), False
+p -> ~(((q -> (r -> q)) -> q) -> (r -> ~r)), False
+~(p -> ~q) -> (p -> (~r -> (r -> ~p))), True
+(p -> ~(~(~q -> r) -> q)) -> ~~~p, False
+(p -> q) -> ~(((r -> (~p -> r)) -> p) -> q), False
+(~((p -> ~~~q) -> (q -> q)) -> p) -> r, False
+p -> ~((p -> (~~q -> ~(q -> r))) -> r), False
+p -> ~((~(q -> r) -> (r -> (p -> r))) -> p), False
+~(p -> q) -> (q -> ((~(p -> r) -> q) -> r)), True
+~(p -> ((~~p -> (q -> r)) -> ~~~r)), False
+~(p -> q) -> ~((q -> q) -> ((p -> r) -> r)), False
+(~(p -> q) -> ~(r -> q)) -> ((p -> q) -> q), False
+~p -> ((q -> (((q -> q) -> ~q) -> r)) -> q), False
+~((~p -> (((~q -> r) -> r) -> ~r)) -> p), False
+~~(p -> ((~q -> p) -> p)) -> ~~~r, False
+p -> ~((((p -> p) -> ~q) -> (q -> p)) -> r), False
+~((((p -> ~q) -> p) -> (~r -> ~q)) -> p), False
+p -> (q -> (((~p -> q) -> p) -> (~q -> r))), True
+~p -> ~(~~~~~(q -> r) -> ~r), False
+p -> ((~(~q -> q) -> (~q -> p)) -> ~r), False
+(~~~p -> (q -> (r -> p))) -> (p -> ~q), False
+p -> (q -> ((q -> (((r -> r) -> q) -> r)) -> q)), True
+~((p -> q) -> q) -> (~~(r -> q) -> ~r), True
+((~~(~~~p -> q) -> ~q) -> p) -> r, False
+p -> (~(p -> (q -> (r -> ~~p))) -> ~q), True
+p -> ((p -> q) -> (((p -> ~r) -> ~q) -> q)), True
+((p -> ~~((p -> p) -> q)) -> (p -> r)) -> p, False
+(p -> p) -> ~~~(p -> ~((p -> q) -> r)), False
+((p -> q) -> q) -> ((q -> ~(~r -> q)) -> q), False
+p -> ((~q -> (q -> (p -> p))) -> (~r -> r)), False
+~(~~p -> (~(~q -> p) -> (r -> ~q))), False
+p -> ((((p -> p) -> q) -> ~~r) -> (q -> r)), True
+~(~~~(p -> q) -> (r -> (~~p -> r))), False
+(p -> (~~q -> ~(~(r -> r) -> q))) -> r, False
+~(~(p -> (p -> ~q)) -> ~q) -> (q -> r), False
+(p -> ~(~(p -> (p -> q)) -> ~p)) -> ~r, False
+((~((p -> (q -> ~p)) -> r) -> q) -> r) -> q, False
+p -> (~~~~(q -> (r -> (r -> r))) -> r), False
+(p -> (~(q -> p) -> (r -> ~(p -> r)))) -> p, False
+(p -> (q -> (q -> ((~q -> ~r) -> p)))) -> q, False
+(p -> q) -> (~(r -> (~(r -> r) -> p)) -> q), True
+((p -> p) -> p) -> (~q -> (~r -> (p -> q))), False
+~(~p -> (~((q -> ~p) -> r) -> (r -> p))), False
+p -> (~(p -> (q -> ~~r)) -> (r -> ~p)), True
+~(p -> ~(~~((q -> r) -> r) -> q)) -> q, False
+~(p -> ((p -> q) -> ~~~q)) -> ~~r, False
+((p -> p) -> (q -> r)) -> (r -> (~~r -> q)), False
+~((~(((p -> q) -> p) -> q) -> (r -> p)) -> r), False
+~(p -> q) -> (q -> ((r -> ~~r) -> ~p)), True
+~(p -> p) -> (q -> (q -> ~((r -> p) -> q))), True
+p -> (q -> (p -> ~~~~(p -> (r -> p)))), True
+~(p -> (~((~q -> (q -> ~r)) -> r) -> q)), False
+~(~~p -> (p -> (q -> (q -> r)))) -> ~r, True
+~(~((~p -> (p -> q)) -> ~r) -> ~~q), False
+p -> ((q -> (q -> (r -> (q -> p)))) -> (r -> p)), True
+p -> ((~q -> q) -> ((~p -> r) -> (q -> q))), True
+p -> (~((p -> (q -> r)) -> (~p -> r)) -> p), True
+(~(p -> (q -> r)) -> ~(~~r -> p)) -> p, False
+~((((~p -> q) -> ~r) -> p) -> (q -> ~q)), False
+p -> ~((q -> ~(q -> (q -> ~~r))) -> p), False
+(p -> ~q) -> (r -> ((q -> r) -> (~p -> p))), False
+((~~~p -> q) -> ~(p -> ~~q)) -> r, False
+p -> (q -> (~~(((r -> q) -> r) -> p) -> r)), False
+(~(p -> ~q) -> ~q) -> (r -> ~(p -> p)), False
+~((p -> ~(q -> ~~q)) -> (r -> r)) -> r, True
+~(p -> (q -> ~(p -> (((p -> q) -> r) -> p)))), False
+p -> (~q -> (~q -> (p -> ((r -> r) -> q)))), False
+~~((~(p -> (~q -> q)) -> r) -> (r -> q)), False
+((~~(p -> q) -> (q -> q)) -> (p -> r)) -> q, False
+((p -> q) -> r) -> (r -> ((r -> r) -> ~~r)), True
+(((((p -> ~~p) -> q) -> p) -> p) -> r) -> p, False
+p -> ((p -> ~~p) -> (((q -> q) -> r) -> q)), False
+~(p -> (~~q -> r)) -> ((p -> q) -> ~p), False
+((~p -> ~q) -> r) -> ((p -> r) -> (q -> q)), True
+~~~(p -> ~(q -> q)) -> (q -> ~~r), False
+~p -> (~(q -> p) -> ((r -> p) -> ~~q)), True
+((~p -> ((~q -> r) -> r)) -> (r -> p)) -> p, False
+~(~~p -> (~(~(q -> r) -> q) -> ~q)), False
+~~((p -> ~(~p -> q)) -> ((q -> r) -> q)), False
+p -> ((~~(q -> ~r) -> ~p) -> ~~q), True
+((p -> q) -> (r -> r)) -> ((~r -> p) -> ~r), False
+p -> ~~((~q -> ((r -> p) -> r)) -> ~r), False
+p -> (~(q -> ~((~q -> r) -> r)) -> ~p), False
+~((p -> ~~((p -> q) -> q)) -> (~r -> q)), False
+(p -> q) -> (~~(q -> q) -> (p -> (r -> p))), True
+p -> ((p -> (q -> (~r -> q))) -> ~(p -> r)), False
+p -> ~~(~~p -> (q -> (q -> ~~r))), False
+(p -> ~(q -> ((q -> (q -> q)) -> ~r))) -> r, False
+((p -> q) -> (r -> r)) -> ~(r -> (p -> ~r)), False
+(p -> p) -> ~(q -> (~~~(p -> q) -> r)), False
+(~~~p -> (q -> ((r -> q) -> ~p))) -> r, False
+p -> ~(q -> (r -> (~(~~p -> r) -> p))), False
+p -> (((~q -> (r -> ~~~q)) -> p) -> q), False
+(~~(p -> (q -> r)) -> q) -> ((p -> r) -> q), True
+(((~(p -> ~(q -> r)) -> p) -> p) -> r) -> p, False
+p -> ((p -> (p -> (q -> q))) -> (r -> (q -> q))), True
+p -> (q -> (~(~p -> q) -> ~~(r -> q))), True
+(((~p -> q) -> ((r -> ~q) -> q)) -> q) -> p, False
+~(~p -> ((q -> (~r -> p)) -> (p -> ~p))), False
+(p -> (~(p -> q) -> ~~~r)) -> ~~q, False
+(p -> (~(q -> ~~p) -> (~p -> r))) -> r, False
+p -> ((((((q -> q) -> p) -> p) -> r) -> p) -> q), False
+(((p -> ~q) -> r) -> ~~~q) -> (p -> r), False
+~(((~p -> (q -> q)) -> p) -> ~~p) -> r, True
+~~(((p -> q) -> (~q -> q)) -> (r -> ~p)), False
+(p -> (q -> q)) -> (r -> ((q -> ~p) -> ~r)), False
+((p -> (q -> ~r)) -> q) -> (~(r -> r) -> q), True
+p -> ~(q -> (((~q -> r) -> q) -> (q -> p))), False
+p -> ~~~(~q -> ~(q -> (p -> ~r))), False
+(p -> ~(q -> (~p -> (p -> ~p)))) -> ~r, False
+p -> (p -> ~(~p -> ((q -> r) -> (r -> q)))), False
+~((p -> ((q -> ~~~r) -> r)) -> ~~p), False
+((p -> q) -> ~(r -> (~r -> p))) -> (p -> p), True
+(p -> p) -> (((q -> ~~q) -> (p -> r)) -> r), False
+~~(p -> ~q) -> (p -> (q -> ~(r -> p))), True
+(p -> (~~~q -> r)) -> (~~~r -> r), False
+(~~p -> (q -> (r -> (r -> (p -> p))))) -> p, False
+(p -> ((p -> ~(p -> q)) -> r)) -> (~q -> r), False
+((p -> q) -> ((r -> r) -> r)) -> ((r -> q) -> r), False
+~((p -> q) -> ((r -> (r -> ~r)) -> (p -> r))), False
+((((p -> (p -> (p -> q))) -> r) -> q) -> q) -> r, False
+~(p -> (p -> ~q)) -> ((p -> p) -> (p -> r)), False
+(~~((p -> q) -> ~~p) -> (q -> r)) -> p, False
+~(~((p -> q) -> q) -> (~r -> ~(q -> r))), False
+p -> (~q -> ~((~~(r -> q) -> q) -> p)), False
+(p -> (q -> (r -> p))) -> (~~~q -> ~q), True
+(~p -> q) -> ~~(((p -> r) -> ~p) -> r), False
+p -> (q -> ((r -> ~(q -> (~p -> q))) -> q)), True
+~(((((p -> p) -> p) -> (~q -> p)) -> p) -> r), False
+(p -> ~q) -> (~~(~(p -> r) -> p) -> q), False
+p -> ~(((q -> ~p) -> ~(q -> ~r)) -> q), False
+~((~~p -> (q -> ~p)) -> (r -> q)) -> q, False
+(p -> ((q -> ~p) -> ~(q -> r))) -> (q -> r), False
+~p -> (~(p -> ~(q -> (q -> p))) -> ~r), True
+(p -> q) -> (r -> (~p -> ~(p -> ~~p))), False
+p -> (~((~~p -> p) -> q) -> ~(q -> r)), False
+((~(p -> (q -> ~q)) -> (q -> r)) -> q) -> q, True
+p -> (q -> ((r -> ~(~~~p -> p)) -> p)), True
+~p -> ~(~(p -> (q -> ~~~q)) -> r), False
+p -> ((q -> (~((~p -> p) -> p) -> p)) -> r), False
+p -> ((q -> r) -> (((~r -> ~q) -> r) -> r)), True
+((p -> q) -> ~~~p) -> ((r -> ~q) -> p), False
+~((p -> p) -> ((q -> (r -> p)) -> (p -> ~r))), False
+~(p -> (~(q -> r) -> (q -> ~(~r -> p)))), False
+((p -> (~~q -> ~~r)) -> r) -> ~~q, False
+~(((p -> p) -> q) -> ~(~r -> (p -> ~p))), False
+~((p -> ((q -> q) -> (r -> q))) -> ~p) -> r, False
+~((((p -> q) -> r) -> r) -> (~p -> (p -> p))), False
+p -> (~p -> ((~~~q -> (r -> r)) -> q)), True
+~(p -> ~~((~(q -> r) -> ~p) -> ~r)), False
+(p -> q) -> (r -> ((q -> (p -> (r -> q))) -> p)), False
+~~((p -> ~~~q) -> ~((q -> r) -> r)), False
+~(p -> (p -> ~~q)) -> ((r -> ~p) -> p), True
+p -> ((~p -> p) -> ((q -> ~r) -> (q -> p))), True
+(p -> ~~(q -> (~q -> (~r -> r)))) -> q, False
+~(p -> (((q -> (~r -> p)) -> (r -> q)) -> r)), False
+~((~((p -> q) -> (q -> r)) -> q) -> p) -> q, False
+~p -> (~(q -> (r -> ~~(p -> p))) -> p), True
+(~(~(p -> q) -> r) -> ~~(q -> p)) -> q, False
+((p -> q) -> (~p -> (~r -> q))) -> (q -> q), True
+(p -> (~(q -> r) -> ~(q -> ~r))) -> ~p, False
+(p -> p) -> ((p -> ~((q -> r) -> r)) -> ~q), False
+~((p -> q) -> p) -> (r -> (~(r -> p) -> q)), False
+~((p -> (q -> ~(~p -> r))) -> ~r) -> q, False
+~~((((p -> q) -> p) -> r) -> (q -> q)) -> r, False
+((~p -> q) -> ~(q -> (r -> (q -> q)))) -> r, False
+((p -> q) -> p) -> (~(p -> ~~p) -> ~r), True
+(p -> (~~q -> q)) -> (q -> (q -> (r -> p))), False
+(p -> ((~(q -> r) -> p) -> p)) -> (~r -> p), False
+(~((~(p -> p) -> q) -> (p -> p)) -> p) -> r, False
+p -> (p -> (q -> (((r -> r) -> (p -> p)) -> p))), True
+~~~(p -> (~q -> ~(r -> ~(p -> q)))), False
+~(~p -> ~(((~q -> q) -> p) -> r)) -> p, False
+~(~p -> ~(~(p -> q) -> (r -> p))) -> r, False
+~p -> ((q -> ~(p -> ~(r -> p))) -> ~q), True
+~~(((p -> (q -> q)) -> r) -> (r -> p)) -> p, False
+~(~((p -> ((~~q -> q) -> p)) -> r) -> q), False
+(p -> (~(~(q -> r) -> (q -> r)) -> p)) -> r, False
+(~(p -> ~(q -> ~~r)) -> q) -> (r -> p), False
+p -> (q -> ((~(p -> ~~~q) -> r) -> p)), True
+p -> ((~p -> ~(q -> (r -> ~~p))) -> q), False
+~((p -> (q -> ~q)) -> (((r -> q) -> q) -> p)), False
+p -> ((p -> ~q) -> (~q -> (r -> (p -> q)))), False
+~p -> (((q -> q) -> ((~r -> r) -> r)) -> r), False
+~p -> ~(~(p -> q) -> ((~p -> r) -> r)), False

@@ -1,0 +1,1 @@
+formula,instruction,branches,depth,nodes,b-depth,c-branches,c-depth,c-nodes,F-synth,~F-synth,is tautology
