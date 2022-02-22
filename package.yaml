@@ -29,6 +29,7 @@ dependencies:
 - random
 - random-shuffle
 - time
+- split
 
 library:
   source-dirs:
@@ -39,6 +40,7 @@ library:
     - src/CPL/ke_specific
     - src/MBC
     - src/NFL
+    - src/GEN
 executables:
   DDS-exe:
     main:                Main.hs

@@ -1,19 +1,19 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.33.0.
+-- This file has been generated from package.yaml by hpack version 0.34.4.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 641b0ad1f072d7e5d4a9e8b8d04052ac00609d97ca0c1838dd16928e2f3cad4b
+-- hash: 8712aa25129767f13a652f7772fa8ee116d81db20e5cac4971e33f216f34dace
 
 name:           DDS
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/DDS#readme>
-homepage:       https://github.com/githubuser/DDS#readme
-bug-reports:    https://github.com/githubuser/DDS/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2020 Author name here
+description:    Please see the README on GitHub at <https://github.com/atomczyk/DDS#readme>
+homepage:       https://github.com/atomczyk/DDS#readme
+bug-reports:    https://github.com/atomczyk/DDS/issues
+author:         Szymon Chlebowski, Agata Tomczyk, Aleksander Kiryk, Aleksandra Czyż, Andrzej Gajda
+maintainer:     szymon.chlebowski@amu.edu.com
+copyright:      2022 Szymon Chlebowski
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -23,7 +23,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/DDS
+  location: https://github.com/atomczyk/DDS
 
 library
   exposed-modules:
@@ -59,6 +59,11 @@ library
       LanguageMbC
       PrintingMbC
       RandomMbC
+      GenDecision
+      GenSynth
+      GenSynth4
+      GenSynth5
+      Pigeon
   other-modules:
       Paths_DDS
   hs-source-dirs:
@@ -68,7 +73,8 @@ library
       src/CPL/general
       src/CPL/ke_specific
       src/MBC
-      src/NFL
+      src/SCI
+      src/GEN
   build-depends:
       HaTeX
     , QuickCheck
@@ -78,6 +84,7 @@ library
     , pretty
     , random
     , random-shuffle
+    , split
     , time
   default-language: Haskell2010
 
@@ -98,6 +105,7 @@ executable DDS-exe
     , pretty
     , random
     , random-shuffle
+    , split
     , time
   default-language: Haskell2010
 
@@ -119,5 +127,6 @@ test-suite DDS-test
     , pretty
     , random
     , random-shuffle
+    , split
     , time
   default-language: Haskell2010
