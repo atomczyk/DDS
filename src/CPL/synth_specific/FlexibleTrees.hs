@@ -5,6 +5,7 @@ module FlexibleTrees
   , allRules
   , filterRules
   , filterHelper
+  , maxVariable 
   , adjustFormulaIns
   , subset
   , preCanonicalTreeFlex
@@ -53,21 +54,27 @@ allRules xs = map (filter (/= [])) $
 filterRules :: [For] -> [[For]] -> [[[For]]]
 filterRules x y = [ins | ins <- (allRules x), filterHelper y ins]
 
+-- The first argument is Michal's heuristic
 filterHelper :: [[For]] -> [[For]] -> Bool
 filterHelper ys []         = True
 filterHelper [] ys         = True
 filterHelper (x:xs) (y:ys) = (subset y x) && filterHelper xs ys
+--filterHelper (x:xs) (y:ys) = (subset x y) && filterHelper xs ys
 
 subset a b = null [x | x<-a ,elem x b == False]
 
+
+
+
 maxVariable :: For -> Int
-maxVariable x = case x of
-  (V i)  -> i+1
-  (N p)  -> maxVariable p
-  (I p q)  -> maximum (maxVariable p, maxVariable q)
+maxVariable x = (maximum (map (exportIndex) (atoms x))) -- + 1
+--case x of
+--  (V i)  -> i+1
+--  (N p)  -> maxVariable p
+--  (I p q)  -> maximum (maxVariable p, maxVariable q)
 
 adjustFormulaIns :: For -> [[For]] -> [[For]]
-adjustFormulaIns for xs = take (maxVariable for) xs
+adjustFormulaIns for xs = take ((maxVariable for)) xs
 
 {-
 helper :: [For] -> [For] -> Bool

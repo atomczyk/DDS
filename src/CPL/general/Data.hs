@@ -84,13 +84,19 @@ info for = [(for, x, synthFlex x for, synth for) | x <- ins]
     where
       ins = allRules (noRepAtoms for)
 -}
+--init added
+--showInstruction :: [Int] -> String
+--showInstruction xs  = "{" ++ show (joiner xs) ++ "}"
+
+
 showInstruction :: [Int] -> String
-showInstruction xs  = "{" ++ show (joiner xs) ++ "}"
+showInstruction []	= " "
+showInstruction (x:xs) = (show x) ++ showInstruction xs
 
 showInstructions :: [[Int]] -> String
 showInstructions xs = "{" ++ concat (map showInstruction xs) ++ "}"
 
-joiner :: [Int] -> Int
+joiner :: [Int] -> Int 
 joiner = read . concatMap show
 
 

@@ -34,7 +34,7 @@ for3 = "(((((p->q)&r)&s)&p)v(tvp))"
 parseIns :: String -> [Char]
 parseIns []    = [']']
 parseIns (x:xs) = case x of
-  '"'     -> if (xs == [] || head xs == ',' ) then ']': parseIns xs else '[':parseIns xs
+  '"'     -> if (tail xs == [] || head xs == ',' ) then ']': parseIns xs else '[':parseIns xs
 --  'b'     -> "(V 0)" ++ parseIns xs
 --  '"'     -> if (head xs == ',' || tail xs == []) then ']': parseIns xs else if (head xs == 'b') then [']'] else '[':parseIns xs
   'p'     -> "(V 0)" ++ parseIns xs
