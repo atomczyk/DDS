@@ -1,1 +1,0 @@
-formula, good_instruction, is_taut, num_of_nodes, num_of_branches, b_depth

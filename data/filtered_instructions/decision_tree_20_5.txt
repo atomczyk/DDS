@@ -1,3 +1,0 @@
-formula, tautology, system, FMI, alpha, beta, can_branches, can_nodes, can_nodes^2, KEcan_branches, KEcan_nodes, KEcan_nodes^2, res_branches, res_nodes, res_nodes+num_of_res, res_op_branches, res_op_nodes, res_op_nodes+num_of_res
-p v ~((q & (q -> ~r)) -> (((s & t) v ~q) v (t & p))), False, Kanoniczny, 0.5555556, 5, 9,5, 10, 100, 12, 26, 676, 9, 14, 105, 9, 14, 16
-(p -> ~q) -> ((~((~(q -> r) -> (p & s)) -> t) v r) & q), False, Dualny, 0.5555556, 8, 5,8, 19, 361, 26, 62, 3844, 5, 11, 14, 5, 11, 11
