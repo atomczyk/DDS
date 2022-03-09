@@ -10,7 +10,7 @@ Location */src* contains four subdirectories. Three of them, CPL, MBC, SCI conta
 ## Synthetic tableaux
 The implementation of synthetic tabelaux (*ST*) is located in */src/CPL/synth_specific*, where the most important module is that of *FlexibleTrees*. It enables the user to build a synthetic tableaux proof given a certain instruction which specify the order of atoms introduced by the cut rule. It is also possible to consider all possible instructions (both regular and not). Another *ST* related modules are located in *src/GEN*. Module *GenSynth5* for example generates a set of random formulas of some fixed length having exactly 5 different propositional variables. For each formula all possible synthetic tress are build and some basic feature of those are generated in a .txt file. Module *Pigeon* enables the user to check the complexity of synthetic trees (generated according to a random regular instruction) for various formulas falling under the scheme of pigeonhole principle. All files form this drectory are able to produce *IO()* result and thus can be called from the */app/Main* by means of a stack command: *stack exec DDS-exe*. 
 
-## Data concerning experiments with ST for IJCAR 2022
+## Data used in experiments with ST for IJCAR 2022
 
 File "/data/results_per_formula.txt" contains the following data:
 
